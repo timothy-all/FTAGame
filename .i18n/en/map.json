@@ -1,0 +1,12 @@
+{
+  "worlds": [
+    {
+      "id": "RingWorld",
+      "visual": { "x": 100, "y": 100 }
+    },
+    {
+      "id": "OrderWorld",
+      "visual": { "x": 300, "y": 100 }
+    }
+  ]
+}

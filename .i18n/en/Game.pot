@@ -1,0 +1,6053 @@
+msgid ""
+msgstr "Project-Id-Version: Game v4.23.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-09\n"
+"Last-Translator: \n"
+"Language-Team: none\n"
+"Language: en\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit"
+
+#. §0: `constructor`
+#. §1: `refine`
+#. §2: `refine`
+#. §3: `exact`
+#. §4: `constructor`
+#. §5: `refine`
+#. §6: ```
+#. refine ⟨?_,hr,?_⟩
+#. ```
+#. §7: `«{hr}»`
+#: Game.Levels.DivisionWorld.L05_division
+msgid "Our goal is a three-part conjunction. So we could use the §0 tactic but we'd have to use it twice (eventually). Instead, we could use...\n"
+"### ❯ The §1 tactic\n"
+"The §2 tactic behaves as a sort of mix between §3 and §4 (at least, in this case). 🔍 Check out the entry for §5 in the **Tactics** tab. 👉 In this specific situation, try:\n"
+"§6\n"
+"This will split our main goal into just two since we already know the middle part of the conjuntion is true (by the hypothesis §7).\n"
+""
+msgstr ""
+
+#. §0: ```
+#. prime_singleton :
+#.   ∀ p : Z, Prime p →
+#.   ∃ P : List Z, P.prime ∧ P.prod = p
+#. ```
+#. §1: $p ∈ ℤ$
+#. §2: $P$
+#. §3: $P$
+#. §4: $p$
+#: Game.Levels.PrimeWorld.L06_prime
+msgid "As stated:\n"
+"§0\n"
+"If §1 is prime, then there is a list of primes §2 for which the product of all primes in §3 is §4."
+msgstr ""
+
+#: Game.Levels.GCDWorld
+msgid "GCD World"
+msgstr ""
+
+#. §0: `constructor`
+#. §1: `refine`
+#. §2: `refine`
+#. §3: `exact`
+#. §4: `constructor`
+#. §5: `refine`
+#. §6: ```
+#. refine ⟨?_,«{ndm}»,?_⟩
+#. ```
+#. §7: `«{ndm}»`
+#: Game.Levels.PrimeWorld.L04_prime
+msgid "Our goal is a three-part conjunction. So we could use the §0 tactic but we'd have to use it twice (eventually). Instead, we could use...\n"
+"### ❯ The §1 tactic\n"
+"The §2 tactic behaves as a sort of mix between §3 and §4 (at least, in this case). 🔍 Check out the entry for §5 in the **Tactics** tab. 👉 In this specific situation, try:\n"
+"§6\n"
+"This will split our main goal into just two since we already know the middle part of the conjuntion is true (by the hypothesis §7)."
+msgstr ""
+
+#. §0: `dvd_def`
+#. §1: `∣`
+#. §2: `\\mid`
+#. §3: `U+007C`
+#. §4: `|`
+#. §5: `U+2223`
+#. §6: `\\mid`
+#: Game.Levels.TestWorld.L12_test
+msgid "# **Level 12**\n"
+"The **divides** relation is codified by §0. 🔍 Check out this new unlocked definition in the **Definitions** tab.\n"
+"### **⌨ Important typesetting tip**\n"
+"The divides relation is written with §1 typeset with §2. ***This is different than the vertical bar character found on your keyboard!*** You may not see a difference between the unicode characters §3 (§4) and §5 (§6), but Lean does."
+msgstr ""
+
+#: Game.Levels.OrderWorld.L13_order
+msgid "This facts separates ℤ from other rings like ℤ/6ℤ."
+msgstr ""
+
+#. §0: ```
+#. div_alg
+#.   (a b : Z)
+#.   (hb : b ≠ 0) :
+#.   ∃ q r : Z, a = b * q + r ∧ 0 ≤ r ∧ r < abs b
+#. ```
+#. §1: $a, b ∈ ℤ$
+#. §2: $b$
+#. §3: $q,r ∈ ℤ$
+#. §4: $a = bq + r$
+#. §5: $0 ≤ r < |b|$
+#: Game.Levels.DivisionWorld.L06_division
+msgid "As stated:\n"
+"§0\n"
+"For all §1, if §2 is nonzero, then there exists §3 such that §4 and §5."
+msgstr ""
+
+#: Game.Levels.absWorld.L02_abs
+msgid "Integers are divisible by their absolute values"
+msgstr ""
+
+#. §0: ```
+#. prime_dvd_prod
+#.   (p : Z)
+#.   (l : List Z)
+#.   (hl : List.prime l)
+#.   (hp : Prime p)
+#.   (hd : p ∣ List.prod l) :
+#.   p ∈ l
+#. ```
+#. §1: $p ∈ ℤ$
+#. §2: $p$
+#: Game.Levels.FTAWorld.L05_FTA
+msgid "As stated:\n"
+"§0\n"
+"If §1 is a prime that divides the product of all members of a list of primes, then §2 is a member of that list."
+msgstr ""
+
+#. §0: ```
+#. by_cases h : P
+#. ```
+#. §1: `h : P`
+#. §2: `h : ¬ P`
+#: Game.Levels.OrderWorld.L12_order
+msgid "The tactic\n"
+"§0\n"
+"will split the goal into two cases. The first case will have the assumption §1. The second case will have the assumption §2."
+msgstr ""
+
+#: Game.Levels.DivisionWorld.L03_division
+msgid "Divisors and remainders"
+msgstr ""
+
+#: Game.Levels.WOPWorld.L03_WOP
+msgid "# **Level 3**\n"
+"This level relates minimums to maximums of *flipped* sets."
+msgstr ""
+
+#. §0: `Perm`
+#. §1: `Perm`
+#: Game.Levels.FTAWorld.L07_FTA
+msgid "# **Level 7**\n"
+"This will be our first look at **permutations** of lists.\n"
+"### 🕮 §0\n"
+"Typically, we think of one list as being a permutation of another using the language of *bijective functions*. Alternatively, we could take a more **inductive** approach. 🔍 Check out the entry for §1 in the **Definitions** tab for more details."
+msgstr ""
+
+#. §0: ```
+#. prime_prod_one_imp_empty :
+#.   ∀ l : List Z, l.prime → l.prod = 1 → l = []
+#. ```
+#. §1: $1$
+#: Game.Levels.PrimeWorld.L07_prime
+msgid "As stated:\n"
+"§0\n"
+"If the product of a list of primes is §1, then the list is empty."
+msgstr ""
+
+#. §0: `α`
+#. §1: ```
+#. Perm.symm (h : l₁ ~ l₂) : l₂ ~ l₁
+#. ```
+#: Game.Levels.FTAWorld.L09_FTA
+msgid "The permutation relation is symmetric on lists. Here's what it looks like in Lean (where §0 is a generic Type):\n"
+"§1"
+msgstr ""
+
+#. §0: ```
+#. «{t3}»: -(b + -a) ∈ Z⁺
+#. ```
+#: Game.Levels.OrderWorld.L05_order
+msgid "Great! We've made it to the case where\n"
+"§0\n"
+"Accordingly, we want to target the right-hand side of the disjunction in our goal. ***🔍 Which tactic is helpful here?***"
+msgstr ""
+
+#. §0: ```
+#. one_dvd : ∀ a : Z, 1 ∣ a
+#. ```
+#. §1: $a ∈ ℤ$
+#. §2: $1$
+#. §3: $a$
+#: Game.Levels.TestWorld.L13_test
+#: Game.Levels.absWorld.L01_abs
+#: Game.Levels.absWorld.L02_abs
+msgid "As stated:\n"
+"§0\n"
+"For all §1, §2 divides §3."
+msgstr ""
+
+#: Game.Levels.TestWorld.L10_test
+msgid "Negatives of Products"
+msgstr ""
+
+#: Game.Levels.GCDWorld.L01_GCD
+msgid "Common divisors are bounded"
+msgstr ""
+
+#. §0: `«{h}»`
+#. §1: `⊢`
+#: Game.Levels.OrderWorld.L07_order
+msgid "We now need to manually simplify either §0 or the goal §1."
+msgstr ""
+
+#. §0: $d$
+#. §1: $a$
+#. §2: $b$
+#. §3: $d$
+#. §4: $a$
+#. §5: $b$
+#: Game.Levels.TestWorld.L16_test
+msgid "If an integer §0 divides a pair of integers, say §1 and §2, then §3 divides any linear combination of §4 and §5."
+msgstr ""
+
+#. §0: `List.tail`
+#. §1: `head`
+#. §2: `List`
+#. §3: `[x,y,z].tail`
+#. §4: `[y,z]`
+#: Game.Levels.PrimeWorld.L07_prime
+msgid "§0 returns the list formed by dropping the §1 of §2 (e.g. §3 returns §4)."
+msgstr ""
+
+#. §0: `L₁`
+#. §1: `L₂`
+#. §2: `L₁ ~ L₂`
+#. §3: `~`
+#. §4: `[] ~ []`
+#. §5: `L₁ ~ L₂`
+#. §6: `x`
+#. §7: `(x :: L₁) ~ (x :: L₂)`
+#. §8: `L`
+#. §9: `x y`
+#. §10: `(y :: x :: L) ~ (x :: y :: L)`
+#. §11: `L₁ L₂ L₃`
+#. §12: `L₁ ~ L₂`
+#. §13: `L₂ ~ L₃`
+#. §14: `L₁ ~ L₃`
+#. §15: `List.Perm`
+#: Game.Levels.FTAWorld.L07_FTA
+msgid "Two lists §0 and §1 are permutations of each other, denoted §2 (where §3 is the *tilde* symbol) if they contains the same elements, each occurring the same number of times but not necessarily in the same order. To make things more precise, we define permutations in an **inductive** way. Specifically, by definition we say:\n"
+"* **nil** : the empty list is a permutation of the empty list: §4.\n"
+"* **cons** : if §5, then for all §6 we have §7\n"
+"* **swap** : if §8 is a list, then for all §9 we have §10\n"
+"* **trans** : if §11 are lists such that §12 and §13, then §14.\n"
+"\n"
+"These are the constructors for the inductive predicate §15."
+msgstr ""
+
+#: Game.Levels.FTAWorld.L13_FTA
+msgid "🙌 You've beaten the FTA game! Congrats!"
+msgstr ""
+
+#: Game.Levels.OrderWorld.L13_order
+msgid "If a product of integers is zero, then at least one of those integers is zero."
+msgstr ""
+
+#: Game.Levels.OrderWorld
+msgid "Order World"
+msgstr ""
+
+#. §0: `add_comm`
+#. §1: `add_neg_self`
+#. §2: `b + a + -a = 0`
+#. §3: `add_comm`
+#. §4: ```
+#. neg_add_self : ∀ x : Z, -x + x = 0
+#. ```
+#. §5: `add_comm`
+#. §6: `add_neg_self`
+#: Game.Levels.TestWorld.L06_test
+msgid "### **No more secrets**\n"
+"*Why did we apply §0 in the beginning?* This moment of foresight allowed the definition §1 to be eventually applied to §2. If not for §3 in the beginning, we would probably need to know a *theorem* like\n"
+"§4\n"
+"This theorem is definitely true (in fact, it follows immediately from applying §5 to §6), but we haven't proven it yet! Don't worry though, we shouldn't need to be so secretive going forward."
+msgstr ""
+
+#: Game.Levels.TestWorld.L06_test
+msgid "Let's clear the goal with ... ?"
+msgstr ""
+
+#. §0: `List.tail`
+#. §1: `head`
+#. §2: `[x,y,z].tail`
+#. §3: `[y,z]`
+#: Game.Levels.FTAWorld.L04_FTA
+msgid "§0 returns the list created after dropping the §1 (e.g.§2 returns §3)."
+msgstr ""
+
+#. §0: `rewrite[← h]`
+#. §1: `rw[← h]`
+#. §2: `h : a = b`
+#. §3: `rw[h]`
+#. §4: `b`
+#. §5: `a`
+#. §6: `rw[← h]`
+#. §7: `a`
+#. §8: `b`
+#. §9: `h : p ↔ q`
+#. §10: `rw[h]`
+#. §11: `q`
+#. §12: `p`
+#: Game.Levels.TestWorld.L03_test
+msgid "### **💡 Pro-tip**\n"
+"\n"
+"The backwards rewrite §0 and its variant §1 are very useful. If §2 then...\n"
+"* §3 is a *forward* substitution (substituting §4 for §5) while...\n"
+"* §6 is a backward substitution (substituting §7 for §8).\n"
+"\n"
+"Rewrites are commonly applied to equalities but they can also be applied hypotheses like §9. So §10, in this case, would substitute the proposition §11 for the proposition §12."
+msgstr ""
+
+#. §0: $1$
+#. §1: $0$
+#: Game.Levels.OrderWorld.L03_order
+msgid "The multiplicative identity §0 is not equal to the additive identity §1."
+msgstr ""
+
+#. §0: $a$
+#. §1: $b$
+#. §2: $a$
+#. §3: $b$
+#: Game.Levels.GCDWorld.L02_GCD
+msgid "As long as one of §0 or §1 is non-zero, then a greatest common divisor of §2 and §3 exists."
+msgstr ""
+
+#: Game.Levels.PrimeWorld.L04_prime
+msgid "Now our current **Active Goal** is the right-hand side of our original conjunction."
+msgstr ""
+
+#. §0: `«{h}»`
+#: Game.Levels.TestWorld.L15_test
+msgid "💡 **Note:** we still have the hypothesis §0! This isn't needed here but it can be handy in the future. Now, supply a witness to the existential goal."
+msgstr ""
+
+#. §0: `List`
+#. §1: `List`
+#. §2: `nil`
+#. §3: `cons`
+#. §4: ```
+#. cases l
+#. ```
+#: Game.Levels.PrimeWorld.L07_prime
+msgid "# **Level 7**\n"
+"🔍 Check out the entry for §0 in the **Definitions** tab. §1s are inductive types as well. The constructors are §2 and §3; the former assumes the list is empty while the latter assumes the list is constructed from a head and a tail. 👉 Let's try\n"
+"§4\n"
+"to break down into these cases."
+msgstr ""
+
+#. §0: $$∀ a ∈ ℤ, a + 0 = a.$$
+#. §1: ```
+#. add_zero : ∀ a : Z, a + 0 = a
+#. ```
+#: Game.Levels.TestWorld.L04_test
+msgid "There exist an additive (right) identity in ℤ, namely 0. In particular, there is an element 0 ∈ ℤ with the following property:\n"
+"\n"
+"§0\n"
+"This is an **axiom**. Here's what it looks like in Lean:\n"
+"§1"
+msgstr ""
+
+#. §0: `rw`
+#. §1: `rfl`
+#: Game.Levels.TestWorld.L01_test
+msgid "Same as §0, but this version tries to immediately prove the goal by applying §1 automatically."
+msgstr ""
+
+#: Game.Levels.OrderWorld.L09_order
+msgid "Addition across an inequality"
+msgstr ""
+
+#. §0: ```
+#. instance {α : Type} : Membership α (Set α) where
+#.   mem S x := S.mem x
+#. ```
+#. §1: `x ∈ S`
+#. §2: `S.mem x`
+#. §3: `mem`
+#: Game.Levels.WOPWorld.L01_WOP
+msgid "Set membership is handled via the following *instance*\n"
+"§0\n"
+"In summary, §1 means §2 -- in other words, sets are really just defined by the propositions that specify their membership rules in the §3 field of their structure."
+msgstr ""
+
+#. §0: `Bez`
+#: Game.Levels.GCDWorld.L05_GCD
+msgid "# **Level 2**\n"
+"Before we go on a wild goose chase, it would be good to know that §0 is non-empty."
+msgstr ""
+
+#. §0: `simp`
+#. §1: ```
+#. simp at «{h}»
+#. ```
+#. §2: `lt_def`
+#. §3: `@[simp]`
+#. §4: `simp`
+#. §5: `lt_def`
+#. §6: ```
+#. simp[lt_def] at «{h}»
+#. ```
+#: Game.Levels.OrderWorld.L04_order
+msgid "### ❯ More on §0\n"
+"We might be tempted to try\n"
+"§1\n"
+"But lean will complain *simp made no progress*. This is because §2 is **not** tagged with §3. That being said, we can instruct the §4 tactic to use §5. 👉 Try:\n"
+"§6\n"
+""
+msgstr ""
+
+#. §0: ```
+#. rw[add_comm]
+#. ```
+#. §1: `add_comm`
+#. §2: `rw[add_comm]`
+#. §3: `x + y`
+#. §4: `y + x`
+#: Game.Levels.TestWorld.L04_test
+msgid "🔍 Check the freshly unlocked **Definitions** in the right-pane. There are two highlighed axioms. 👉 Let's try\n"
+"§0\n"
+"💡 Although §1 is a universally quantified statement, §2 will attempt some **pattern-matching**. Explicitly, it will find the first expression in our goal of the form §3 and replace it with §4."
+msgstr ""
+
+#. §0: `obtain`
+#. §1: `exact`
+#. §2: `zero_add`
+#. §3: `zero_add`
+#. §4: `Rng : zero_add`
+#. §5: `Rng`
+#: Game.Levels.TestWorld.L05_test
+msgid "# **Level 5**\n"
+"In this level, we'll learn about two new tactics: §0 and §1. We'll see how these tactics can be used to prove the given statement about the uniqueness of the additive identity.\n"
+"### **Navigating the theorems tab**\n"
+"This will be the first level where we might want to use a theorem from a previous level, specifically §2. 🔍 Notice how the entry for §3 in the **Theorems** tab is listed as §4? The three letter prefix §5 is there simply to help group together all theorems proven in **R**i**ng** World. When using this theorem (or any other theorem proven in this game), you should **not** include this three letter prefix."
+msgstr ""
+
+#: Game.Levels.OrderWorld.L01_order
+msgid "Less-than is transitive"
+msgstr ""
+
+#: Game.Levels.OrderWorld.L06_order
+msgid "Positive iff greater than zero"
+msgstr ""
+
+#. §0: ```
+#. bdd_imp_strict_bdd
+#.   (S : Set Z)
+#.   (u : Z)
+#.   (umax : ∀ x ∈ S, x ≤ u) :
+#.     (∃ U : Z, ∀ x ∈ S, x < U)
+#. ```
+#. §1: $S$
+#. §2: $u ∈ ℤ$
+#. §3: $x ∈ S$
+#. §4: $x ≤ u$
+#. §5: $u' ∈ ℤ$
+#. §6: $x ∈ S$
+#. §7: $x < u'$
+#: Game.Levels.WOPWorld.L05_WOP
+msgid "As stated:\n"
+"§0\n"
+"If §1 is a set and §2 such that for all §3, we have §4, then there exists §5 such that for all §6, we have §7."
+msgstr ""
+
+#: Game.Levels.OrderWorld.L01_order
+msgid "The *less-than* relation is transitive."
+msgstr ""
+
+#. §0: ```
+#. not_dvd_pos
+#.   (a b : Z) :
+#.     ¬ b ∣ a → Rem a b ⊆ Zplus
+#. ```
+#. §1: $a,b$
+#. §2: $b$
+#. §3: $a$
+#. §4: $$ \\{s ∈ ℤ ∣ 0 ≤ s ∧ ∃ q ∈ ℤ, s = a - bq \\} ⊆ ℤ⁺ $$
+#: Game.Levels.DivisionWorld.L02_division
+msgid "As stated:\n"
+"§0\n"
+"For all integers §1, if §2 does not divide §3, then\n"
+"\n"
+"§4"
+msgstr ""
+
+#. §0: `P ∼ Q`
+#. §1: `h`
+#. §2: ```
+#. induction h
+#. ```
+#: Game.Levels.FTAWorld.L08_FTA
+msgid "# **Level 8**\n"
+"We now that §0 as a hypothesis. Given that permutations are inductively defined, we might want to attempt **structural induction** on the hypothesis §1. 👉 Specifically, try\n"
+"§2\n"
+"This ought to produce four goals..."
+msgstr ""
+
+#. §0: `rcases`
+#. §1: `«{h}»`
+#: Game.Levels.OrderWorld.L03_order
+msgid "👉 Try to use §0 to destructure the assumption §1."
+msgstr ""
+
+#. §0: $p,n ∈ ℤ$
+#. §1: $n$
+#. §2: $p$
+#. §3: $n < pn$
+#: Game.Levels.PrimeWorld.L08_prime
+msgid "For all §0, if §1 is positive and §2 is prime, then §3."
+msgstr ""
+
+#. §0: $ℤ$
+#. §1: `by_pow`
+#. §2: `POW`
+#. §3: `by_pow`
+#. §4: `by_wop`
+#. §5: `by_pow`
+#: Game.Levels.WOPWorld.L10_WOP
+msgid "# **Level 10**\n"
+"Boss fight! This is sometimes called the **Archimedean Property** of §0.\n"
+"### ❯ The §1 tactic\n"
+"  This is a good opportunity to use §2. You can use that theorem directly, or we've unlocked a new custom tactic §3 (similar to §4). 🔍 Check out the entry for §5 in the **Tactics** tab."
+msgstr ""
+
+#: Game.Levels.PrimeWorld.L09_prime
+msgid "Cofactors of primes for composites are proper"
+msgstr ""
+
+#: Game.Levels.TestWorld.L15_test
+msgid "Dividing a factor implies dividing the product"
+msgstr ""
+
+#: Game.Levels.FTAWorld.L08_FTA
+msgid "Finally, the **trans** constructor."
+msgstr ""
+
+#: Game.Levels.TestWorld.L15_test
+msgid "If an integer divides a factor of a product, then that integer divides the product as well."
+msgstr ""
+
+#. §0: `dvd_def`
+#. §1: `rw[le_def]`
+#. §2: `a ≤ b`
+#. §3: `rcases`
+#. §4: `rw`
+#: Game.Levels.OrderWorld.L02_order
+msgid "### **💡 Pro-tip**\n"
+"Like with §0, we do **not** need §1. Lean knows that §2 is a disjunction. In the future, we can immediately destructure that disjunction with §3 and skip the §4 step.\n"
+"\n"
+"At any rate, notice how we now have an **Active Goal** *and* a **Goal 2**?"
+msgstr ""
+
+#. §0: `rcases`
+#. §1: `rw[dvd_def]`
+#. §2: ```
+#. rcases hpf : «{h}» with ⟨ d,hd ⟩
+#. ```
+#. §3: `«{h}»`
+#: Game.Levels.TestWorld.L15_test
+msgid "### **💡 §0 tip**\n"
+"First, let's destructure «{h}» **without** using §1. 👉 Specifically, try:\n"
+"§2\n"
+"Using this syntax **keeps** the hypothesis §3 in addition to adding the destructured content to the proof state."
+msgstr ""
+
+#. §0: ```
+#. prime_pos : ∀ p : Z, Prime p → 0 < p
+#. ```
+#. §1: $p ∈ ℤ$
+#. §2: $p$
+#. §3: $0 < p$
+#: Game.Levels.PrimeWorld.L02_prime
+msgid "As stated:\n"
+"§0\n"
+"For all §1, if §2 is prime, then §3."
+msgstr ""
+
+#. §0: `simp`
+#: Game.Levels.OrderWorld.L07_order
+msgid "# **Level 7**\n"
+"This level will give us more practice with §0."
+msgstr ""
+
+#. §0: `zero_add`
+#. §1: `add_comm`
+#. §2: `add_zero`
+#: Game.Levels.TestWorld.L04_test
+msgid "# **Level 4**\n"
+"Here we'll prove §0. We'll need some freshly unlocked ...\n"
+"### **Definitions**\n"
+"🔍 Check out the **Definitions** tab in the right-pane. These are the axioms and definitions that *define* ℤ, the integers and other mathematical objects of relevance. They will unlock as we need them. New **Definitions** (or rather **axioms**) have 🔓unlocked to help out in this level, namely §1 and §2."
+msgstr ""
+
+#. §0: $a$
+#. §1: $a$
+#. §2: $a = |a|$
+#: Game.Levels.absWorld.L05_abs
+msgid "For every integer §0, if §1 is positive, then §2."
+msgstr ""
+
+#. §0: ```
+#. pos_mul_prime : ∀ p n : Z,
+#.   0 < n → Prime p → n < p * n
+#. ```
+#. §1: $p,n ∈ ℤ$
+#. §2: $n$
+#. §3: $p$
+#. §4: $n < pn$
+#: Game.Levels.PrimeWorld.L08_prime
+msgid "As stated:\n"
+"§0\n"
+"For all §1, if §2 is positive and §3 is prime, then §4."
+msgstr ""
+
+#. §0: $a$
+#. §1: $b$
+#. §2: $b$
+#. §3: $a$
+#: Game.Levels.GCDWorld.L04_GCD
+msgid "The set of positive linear combinations of §0 and §1 is equal to the set of positive linear combinations of §2 and §3."
+msgstr ""
+
+#. §0: `mul_on_left`
+#. §1: `add_on_right`
+#: Game.Levels.TestWorld.L03_test
+msgid "# **Level 3**\n"
+"Now try to apply what you've learned to prove §0 This should also be *very* similar to how we proved §1."
+msgstr ""
+
+#: Game.Levels.TestWorld.L14_test
+msgid "The divides relation is transitive."
+msgstr ""
+
+#. §0: `Prime`
+#: Game.Levels.PrimeWorld.L01_prime
+msgid "# **Level 1**\n"
+"The fact that primes aren't zero isn't hard to prove and will be useful later on, so we start there. 🔍 Check out the entry for §0 in the **Definitions** tab."
+msgstr ""
+
+#. §0: ```
+#. simp[abs,ha]
+#. ```
+#: Game.Levels.absWorld.L01_abs
+msgid "### **💡 Pro-tip**\n"
+"We also could have used:\n"
+"§0\n"
+"to get this all done in one go. ⏮ You can go back and give this a try."
+msgstr ""
+
+#. §0: `contradiction`
+#. §1: ```
+#. h₁ :   P
+#. h₂ : ¬ P
+#. ```
+#: Game.Levels.OrderWorld.L05_order
+msgid "The §0 tactic closes the main goal if its hypotheses are \"trivially contradictory\". Typically one will use this when there are two hypotheses in play like:\n"
+"§1"
+msgstr ""
+
+#. §0: ```
+#. prime_prod_pos : ∀ l : List Z, l.prime → 0 < l.prod
+#. ```
+#: Game.Levels.FTAWorld.L06_FTA
+msgid "As stated:\n"
+"§0\n"
+"A product of primes is positive."
+msgstr ""
+
+#. §0: $p,q ∈ ℤ$
+#. §1: $p ∣ q$
+#. §2: $p = q$
+#: Game.Levels.FTAWorld.L03_FTA
+msgid "If §0 are primes such that §1, then §2."
+msgstr ""
+
+#: Game.Levels.GCDWorld.L04_GCD
+msgid "Symmetry of linear combinations"
+msgstr ""
+
+#: Game.Levels.FTAWorld.L12_FTA
+msgid "# **Level 12**\n"
+"This one is tough."
+msgstr ""
+
+#. §0: $p ∈ ℤ$
+#. §1: $P$
+#. §2: $P$
+#. §3: $p$
+#: Game.Levels.PrimeWorld.L06_prime
+msgid "If §0 is prime, then there is a list of primes §1 for which the product of all primes in §2 is §3."
+msgstr ""
+
+#. §0: `∀`
+#. §1: `\\forall`
+#. §2: `∃`
+#. §3: `\\exists`
+#. §4: `p → q`
+#. §5: `p`
+#. §6: `q`
+#. §7: `\\to`
+#. §8: `p ↔ q`
+#. §9: `p`
+#. §10: `q`
+#. §11: `\\iff`
+#. §12: `p ∧ q`
+#. §13: `p`
+#. §14: `q`
+#. §15: `\\wedge`
+#. §16: `p ∨ q`
+#. §17: `p`
+#. §18: `q`
+#. §19: `\\vee`
+#. §20: `¬`
+#. §21: `\\neg`
+#: Game.Levels.TestWorld
+msgid "# **Welcome to Ring World!**\n"
+"In this world we'll familiarize ourselves with Lean by proving some well-known facts about (Ring) arithmetic. First, let's explore the interface a bit.\n"
+"### **Tactics**\n"
+"🔍 Check out the **Tactics** tab in the right-pane. Tactics are used to prove theorems in Lean. Think of them as codified *proof strategies*. We'll learn more about tactics as we move forward. Most of these are 🔒*locked*🔒 at this time, they will unlock as we need them going forward.\n"
+"### **⌨ Typesetting**\n"
+"Lean uses the standard logical notations (typesetting in parantheses):\n"
+"* §0 : for all (§1)\n"
+"* §2 : there exists (§3)\n"
+"* §4 : if §5, then §6 (§7)\n"
+"* §8 : §9 if and only if §10 (§11)\n"
+"* §12 : §13 and §14 (§15)\n"
+"* §16 : §17 or §18 (§19)\n"
+"* §20 : *not*/negation (§21)"
+msgstr ""
+
+#. §0: ```
+#. ∃ x : Z, x ∈ Zplus
+#. ```
+#: Game.Levels.OrderWorld.L03_order
+msgid "The set ℤ⁺ is a non-empty subset of ℤ. This is an **axiom**. Here's what it looks like in Lean:\n"
+"§0"
+msgstr ""
+
+#. §0: ```
+#. nibzo : ∀ a : Z, 0 < a → a < 1 → False
+#. ```
+#. §1: $x$
+#. §2: $0 < x$
+#. §3: $x < 1$
+#: Game.Levels.WOPWorld.L07_WOP
+msgid "As stated:\n"
+"§0\n"
+"There does not exist an integer §1 such that §2 and §3."
+msgstr ""
+
+#. §0: `A`
+#. §1: `p`
+#. §2: `a ∈ A`
+#. §3: `p a`
+#. §4: `p a`
+#: Game.Levels.WOPWorld.L01_WOP
+msgid "### **💡 Pro-tip**\n"
+"If §0 is a set whose membership proposition is §1 then §2 means §3 (or rather the proposition §4 is true)."
+msgstr ""
+
+#: Game.Levels.PrimeWorld.L11_prime
+msgid "# **Level 11**\n"
+"***Big boss fight!*** This one will test your mettle -- it's the first half of **FTA**."
+msgstr ""
+
+#. §0: ```
+#. Bezout_min_dvd (a b m: Z)
+#.   (hmB : m ∈ Bez a b)
+#.   (hmin: ∀ s ∈ Bez a b, m ≤ s) :
+#.   m ∣ a
+#. ```
+#. §1: $a,b ∈ ℤ$
+#. §2: $m$
+#. §3: $a$
+#. §4: $b$
+#. §5: $m$
+#. §6: $a$
+#: Game.Levels.GCDWorld.L08_GCD
+msgid "As stated:\n"
+"§0\n"
+"For all §1, if §2 is a minimal positive linear combination of §3 and §4, then §5 divides §6."
+msgstr ""
+
+#. §0: ```
+#. «{aplus}» : ¬«{a}» ∈ Z⁺
+#. ```
+#: Game.Levels.OrderWorld.L12_order
+msgid "Now we're in the second case. Note that now we have\n"
+"§0\n"
+""
+msgstr ""
+
+#. §0: $m$
+#. §1: `NUF`
+#. §2: $p$
+#. §3: $n$
+#. §4: $m = pn$
+#. §5: $n$
+#. §6: `NUF`
+#: Game.Levels.FTAWorld.L12_FTA
+msgid "If §0 is an element of §1, then there exists a prime §2 and an integer §3 such that §4, and §5 is also an element of §6."
+msgstr ""
+
+#. §0: `simp`
+#. §1: `exact`
+#. §2: `simpa`
+#: Game.Levels.OrderWorld.L09_order
+msgid "### **💡 Pro-tip**\n"
+"If you find yourself using §0, applying a definition, then using §1 to close a goal, then this might have been a good opportunity to use §2."
+msgstr ""
+
+#. §0: `by_wop!`
+#. §1: `by_wop!`
+#. §2: `by_wop!`
+#: Game.Levels.DivisionWorld.L05_division
+msgid "# **Level 5**\n"
+"This one is important, it's the linchpin for a lot of arguments involving division.\n"
+"### ❯ The §0 tactic\n"
+"We might find it helpful to use the newly unlocked §1 tactic in this level. 🔍 Check out the entry for §2 in the **Tactics** tab."
+msgstr ""
+
+#: Game.Levels.absWorld.L03_abs
+msgid "# **Level 3**\n"
+"Let's show that absolute values are non-negative."
+msgstr ""
+
+#: Game.Levels.OrderWorld.L05_order
+msgid "The **Active Goal** is now the forward implication."
+msgstr ""
+
+#: Game.Levels.DivisionWorld.L02_division
+msgid "Positive remainders"
+msgstr ""
+
+#. §0: $S ⊆ ℤ$
+#. §1: $u ∈ ℤ$
+#. §2: $x ∈ S$
+#. §3: $u + -x$
+#. §4: $ \\{y ∈ Z ∣ ∃ s ∈ S, y = u + -s\\}. $
+#: Game.Levels.WOPWorld.L01_WOP
+msgid "Suppose §0, §1, and §2. Then §3 belongs to the flipped set §4"
+msgstr ""
+
+#: Game.Levels.WOPWorld.L04_WOP
+#: Game.Levels.WOPWorld.L06_WOP
+msgid "POW"
+msgstr ""
+
+#: Game.Levels.WOPWorld.L04_WOP
+msgid "Notice our **Active Goal** is existential. We need a witness..."
+msgstr ""
+
+#. §0: `NUF`
+#. §1: ```
+#. def NUF : Set Z :=
+#.   {s : Z | ∃ P Q : List Z,
+#.   P.prime ∧ Q.prime ∧ s = P.prod ∧ s = Q.prod ∧ ¬ P ~ Q}
+#. ```
+#: Game.Levels.FTAWorld.L11_FTA
+msgid "The set §0 represents the set of integers that do **N**ot **U**uniquely **F**factor into a product of primes. Here's how it's defined in Lean:\n"
+"§1"
+msgstr ""
+
+#: Game.Levels.WOPWorld.L08_WOP
+msgid "Divides implies less-than-or-equal-to"
+msgstr ""
+
+#. §0: $a$
+#. §1: $b$
+#. §2: $a$
+#. §3: $b$
+#. §4: $a$
+#. §5: $b$
+#: Game.Levels.GCDWorld.L02_GCD
+msgid "# **Level 2**\n"
+"Boss fight! In this level we prove that given two integers §0 and §1, as long as they are not both zero, the **g**reatest **c**ommon **d**ivisor exists. The greatest common divisor is exactly as it sounds -- it is the largest integer that simultaneously divides §2 and §3 (assuming §4 and §5 are not both zero)."
+msgstr ""
+
+#. §0: `exact h`
+#. §1: `⊢ h`
+#: Game.Levels.TestWorld.L05_test
+msgid "This is a finishing move -- §0 will clear the goal if the goal is §1."
+msgstr ""
+
+#: Game.Levels.FTAWorld.L06_FTA
+msgid "# **Level 6**\n"
+"This exercise is intuitively clear but it ought to give us some easy practice with induction."
+msgstr ""
+
+#: Game.Levels.OrderWorld.L05_order
+msgid "Excellent, we've proven the forward-implication. We're now trying to prove the backward implication. 💪 **Challenge:** You can finish this with no more than three tactic calls."
+msgstr ""
+
+#. §0: ```
+#. mul_on_right : ∀ a b c : Z, a = b → a * c = b *c
+#. ```
+#. §1: $$ ∀ a,b,c ∈ ℤ, if a = b, then ca = cb.$$
+#: Game.Levels.TestWorld.L03_test
+msgid "As stated:\n"
+"§0\n"
+"Multiplication on the left of an equality:\n"
+"§1"
+msgstr ""
+
+#. §0: `by_wop`
+#. §1: `m ∈ S`
+#. §2: ```
+#. by_wop S with m hmS hmin
+#. ```
+#. §3: `hmS : m ∈ S`
+#: Game.Levels.WOPWorld.L04_WOP
+msgid "Let's work on strengthening this result.\n"
+"### **💡 Pro-tip**\n"
+"The §0 tactic is quite handy especially given the pattern-matching capabilities to destructure the statement §1. On the other hand, we don't **need** to do this. In other words, the usage:\n"
+"§2\n"
+"is perfectly valid -- to be precise, we'll end up with §3."
+msgstr ""
+
+#: Game.Levels.TestWorld.L09_test
+msgid "Multiplication by Zero"
+msgstr ""
+
+#: Game.Levels.OrderWorld.L11_order
+msgid "A positive factor of a positive product"
+msgstr ""
+
+#: Game.Levels.GCDWorld.L02_GCD
+msgid "The next level shows how we will use greatest common divisors going forward."
+msgstr ""
+
+#. §0: `ℤ⁺`
+#. §1: `lt_def`
+#: Game.Levels.OrderWorld
+msgid "# **Welcome to Order World!**\n"
+"We'll now start using the **Order axioms** of ℤ. The *less than* relation is defined in a funny way... now would be a good time to check out the definitions of §0 and §1 (*less than* definition) in the **Definitions** tab."
+msgstr ""
+
+#. §0: $P$
+#. §1: $¬ P$
+#. §2: $Q ∧ ¬ Q$
+#. §3: $Q$
+#. §4: $Q$
+#. §5: `by_contra`
+#. §6: `False`
+#. §7: `by_contra`
+#. §8: ```
+#. by_contra F
+#. ```
+#: Game.Levels.OrderWorld.L03_order
+msgid "# **Level 3**\n"
+"We'll need some more order axioms to complete this one. And we'll encounter our first proof-by-contradiction! Let's get started.\n"
+"\n"
+"## Proof by contradiction\n"
+"In order to prove a statement, say §0, it can often be beneficial to assume §1 and try to prove a **contradiction**. A contradiction is a compound statement that is always False regardless of the True/False values of its component parts. A prototypical example would be a statement like §2:\n"
+"* if §3 is True, then the conjunction is False;\n"
+"* if §4 is False, then the conjunction is still False.\n"
+"\n"
+"### ❯ The §5 tactic\n"
+"In Lean, contradictions are merely abbreviated with §6. The tactic that allows us to attempt a proof-by-contradiction is §7. 🔍 See the new entry in the **Tactics** tab. 👉 Specifically, try\n"
+"§8"
+msgstr ""
+
+#: Game.Levels.GCDWorld.L04_GCD
+msgid "🔧 This exercise will keep us from redundantly, superfluously, and repeatedly repeating ourselves over and over and over again."
+msgstr ""
+
+#. §0: `h : 0 ∈ Z⁺`
+#. §1: ```
+#. exact non_trivial h
+#. ```
+#. §2: `hnp : ¬ P`
+#. §3: `hp : P`
+#. §4: `hnp hp`
+#. §5: `False`
+#. §6: `by_contra`
+#: Game.Levels.OrderWorld.L03_order
+msgid "### **💡 Pro-tip**\n"
+"Once we have the hypothesis §0, we could have cleared the goal with one line:\n"
+"§1\n"
+"In general, if §2 is a known theorem or hypothesis and §3 is a known theorem or hypothesis, then §4 is a proof of §5.\n"
+"\n"
+"🔧 The §6 tactic will be very handy going forward."
+msgstr ""
+
+#. §0: ```
+#. add_neg_lt_swap : ∀ a b c : Z,
+#.   a + -b < c → a + -c < b
+#. ```
+#. §1: $a,b c ∈ ℤ$
+#. §2: $a - b < c$
+#. §3: $a - c < b$
+#: Game.Levels.OrderWorld.L07_order
+#: Game.Levels.GCDWorld.L03_GCD
+msgid "As stated:\n"
+"§0\n"
+"For all §1, if §2, then §3."
+msgstr ""
+
+#. §0: ```
+#. ne_zero_dichotomy
+#.   (a : Z)
+#.   (ha : a ≠ 0) :
+#.     (a ∈ Zplus ∨ -a ∈ Zplus)
+#. ```
+#. §1: $a ∈ ℤ$
+#. §2: $a ≠ 0$
+#. §3: $a ∈ Z⁺$
+#. §4: $-a ∈ Z⁺$
+#: Game.Levels.OrderWorld.L12_order
+#: Game.Levels.OrderWorld.L13_order
+msgid "As stated:\n"
+"§0\n"
+"For all §1, if §2, then §3 or §4."
+msgstr ""
+
+#. §0: $a,b ∈ ℤ$
+#. §1: $b$
+#. §2: $a$
+#. §3: $\\{s ∈ ℤ ∣ 0 ≤ s ∧ ∃ q ∈ ℤ, s = a - bq \\} ⊆ ℤ⁺$
+#: Game.Levels.DivisionWorld.L02_division
+msgid "For all §0, if §1 does not divide §2, then\n"
+"§3."
+msgstr ""
+
+#: Game.Levels.TestWorld.L16_test
+msgid "🙌 ***Congrats!*** You've beaten Ring World!"
+msgstr ""
+
+#. §0: ```
+#. not_lt (a b : Z) : ¬(a < b) ↔ b ≤ a
+#. ```
+#. §1: $a < b$
+#. §2: $b ≤ a$
+#: Game.Levels.OrderWorld.L05_order
+msgid "As stated:\n"
+"§0\n"
+"The negation of §1 is §2."
+msgstr ""
+
+#: Game.Levels.PrimeWorld.L07_prime
+msgid "The empty list is a prime list"
+msgstr ""
+
+#: Game.Levels.TestWorld.L03_test
+msgid "We can also multiply on the right across an equality of integers."
+msgstr ""
+
+#. §0: ```
+#. mul_on_left_lt : ∀ a b c : Z,
+#.   0 < a → b < c → a * b < a * c
+#. ```
+#. §1: $a,b,c ∈ ℤ$
+#. §2: $a$
+#. §3: $b < c$
+#. §4: $ab < ac$
+#: Game.Levels.OrderWorld.L10_order
+msgid "As stated:\n"
+"§0\n"
+"For all §1, if §2 is positive and §3, then §4"
+msgstr ""
+
+#: Game.Levels.FTAWorld.L09_FTA
+msgid "Tails of non-permutative lists"
+msgstr ""
+
+#: Game.Levels.TestWorld.L08_test
+msgid "Negatives of sums"
+msgstr ""
+
+#. §0: `rcases`
+#. §1: `«{F}»`
+#. §2: `a ≠ 0`
+#. §3: `«{F}»`
+#. §4: `«{F}».left`
+#. §5: `«{F}».right`
+#. §6: `b ≠ 0`
+#: Game.Levels.OrderWorld.L13_order
+msgid "### **💡 Pro-tip**\n"
+"You might be tempted to use §0 to destructure §1. We can skip this here though. If we want to refer to the §2 part of §3 we could use §4. Similarly, §5 is the assumption §6."
+msgstr ""
+
+#. §0: `-«{a}»`
+#. §1: `«{h}»`
+#: Game.Levels.TestWorld.L07_test
+msgid "We'd like to add §0 on the right of the equality stored in the hypothesis §1."
+msgstr ""
+
+#: Game.Levels.PrimeWorld.L05_prime
+msgid "Divisble by a prime"
+msgstr ""
+
+#: Game.Levels.TestWorld.L12_test
+msgid "The divides relation is reflexive."
+msgstr ""
+
+#. §0: `mul_comm`
+#: Game.Levels.TestWorld.L11_test
+msgid "# **Level 11**\n"
+"Don't work too hard ... if you're economical, you can get this done using no more than three tactic calls (🔍 Check out the entry for §0 in the **Definitions** tab)."
+msgstr ""
+
+#: Game.Levels.OrderWorld.L12_order
+msgid "If an integer is non-zero, then either it is positive or its negative is positive."
+msgstr ""
+
+#. §0: `hb : 0 < b`
+#. §1: `b ≠ 0`
+#. §2: `div_alg_pos`
+#: Game.Levels.DivisionWorld.L05_division
+msgid "The hypothesis §0 was overkill; we really only need §1. The next level will have you generalize §2 to this weaker hypothesis."
+msgstr ""
+
+#. §0: $1 ∈ ℤ$
+#. §1: $a ∈ ℤ$
+#. §2: $a · 1 = a$
+#. §3: ```
+#. mul_one : ∀ a : Z, a * 1 = a
+#. ```
+#: Game.Levels.TestWorld.L12_test
+msgid "There exists a multiplicative identity in the integers. Specifically, there exists an element §0 such that for all §1, we have §2. This is an **axiom**. Here's what it looks like in Lean:\n"
+"§3"
+msgstr ""
+
+#. §0: `obtain`
+#. §1: `exact`
+#. §2: `add_neg_self`
+#. §3: `add_assoc`
+#: Game.Levels.TestWorld.L06_test
+msgid "# **Level 6**\n"
+"Try to use the §0 and §1 tactics to prove the following exercise. We've also unlocked the **axioms** §2 and §3. **These will be important in this level.** 🔍 Check these out in the **Definitions** tab."
+msgstr ""
+
+#. §0: ```
+#. add_le_lt : ∀ a b c d : Z,
+#.   a ≤ b → c < d → a + c < b + d
+#. ```
+#. §1: $a,b,c,d ∈ ℤ$
+#. §2: $a$
+#. §3: $b$
+#. §4: $c$
+#. §5: $d$
+#. §6: $a + c$
+#. §7: $b + d$
+#: Game.Levels.OrderWorld.L09_order
+msgid "As stated:\n"
+"§0\n"
+"For all §1, if §2 is less than or equal to §3 and §4 is less than §5, then §6 is less than §7."
+msgstr ""
+
+#. §0: `define`
+#. §1: `define`
+#. §2: ```
+#. define T := {y : Z | ∃ s ∈ S, y = u + -s }
+#. ```
+#. §3: `shift + ` in *set-builder* notation ***is different*** than `
+#: Game.Levels.WOPWorld.L04_WOP
+msgid "### ❯ The §0 tactic\n"
+"In order to apply the well ordering principle, we'll need a relevant set of positive integers to call it upon. In order to introduce such a set, we'll use the §1 tactic. 🔍 Check out the entry in the **Tactics** tab. 👉 In our case, try:\n"
+"§2\n"
+"### **⌨ Typesetting-tip**\n"
+"The vertical bar §3\\\\mid` in *divides* notation.\n"
+""
+msgstr ""
+
+#. §0: `dvd_def`
+#. §1: ```
+#. rw[dvd_def] at «{hab}» «{hbc}» ⊢
+#. ```
+#. §2: `⊢`
+#. §3: `\\vdash`
+#: Game.Levels.TestWorld.L14_test
+msgid "👉 For the sake of visibility, let's rewrite the hypotheses and goal using §0. We can apply a single rewrite to multiple sources with syntax like\n"
+"§1\n"
+"### **⌨ Typesetting-tip**\n"
+"The goal is §2 is typeset with §3 -- this is the so-called *turnstile* symbol."
+msgstr ""
+
+#: Game.Levels.OrderWorld.L05_order
+msgid "Not less-than"
+msgstr ""
+
+#. §0: `«{h'}»`
+#: Game.Levels.TestWorld.L07_test
+msgid "Now let's see about using what we know to simplify the hypothesis §0."
+msgstr ""
+
+#: Game.Levels.GCDWorld.L08_GCD
+msgid "# **Level 8**\n"
+"This is a crucial step towards proving Bezout's Theorem."
+msgstr ""
+
+#. §0: $a,b,c$
+#. §1: $a ≠ 0$
+#. §2: $ab = ac$
+#. §3: $b =c$
+#: Game.Levels.OrderWorld.L14_order
+msgid "For integers §0, if §1 and §2, then it must be that §3."
+msgstr ""
+
+#: Game.Levels.TestWorld.L03_test
+msgid "Multiplication on the left"
+msgstr ""
+
+#. §0: ```
+#. prime_dvd_mul (a b p : Z) : Prime p → p ∣ a * b → (p ∣ a ∨ p ∣ b)
+#. ```
+#. §1: $a,b,p ∈ ℤ$
+#. §2: $p$
+#. §3: $p ∣ ab$
+#. §4: $p ∣ a$
+#. §5: $p ∣ b$
+#: Game.Levels.FTAWorld.L02_FTA
+msgid "As stated:\n"
+"§0\n"
+"For all §1, if §2 is prime and §3, then §4 or §5."
+msgstr ""
+
+#. §0: $a$
+#. §1: $b$
+#. §2: `Bez a b`
+#. §3: `a b : Z`
+#. §4: `Bez a b`
+#. §5: `a`
+#. §6: `b`
+#. §7: `Bez`
+#: Game.Levels.GCDWorld.L04_GCD
+msgid "# **Level 4**\n"
+"We want to know more about the set of positive linear combinations of two given integers §0 and §1. Accordingly we've defined ...\n"
+"### 🕮 The set §2\n"
+"For §3 we define §4 to be the set of all positive linear combinations of §5 and §6. 🔍 Check out the definition of the set §7 in the **Definitions** tab."
+msgstr ""
+
+#. §0: `simp`
+#. §1: `@[simp]`
+#. §2: $a + 0$
+#. §3: $0 + a$
+#. §4: ```
+#. ⊢ P ∧ True
+#. ```
+#. §5: `simp`
+#. §6: `⊢ P`
+#. §7: `True`
+#. §8: `a = a`
+#. §9: ```
+#. h : ¬ (P ∧ Q)
+#. ```
+#. §10: `simp at h`
+#. §11: `P → ¬ Q`
+#. §12: `simp [h₁, h₂, ..., hₙ]`
+#. §13: `@[simp]`
+#. §14: `hᵢ`
+#. §15: `hᵢ`
+#. §16: `hᵢ`
+#. §17: `simp at h₁ h₂ ... hₙ`
+#. §18: `h₁ : T₁ ... hₙ : Tₙ`
+#. §19: `@[simp]`
+#. §20: `zero_add : ∀ a : Z, 0 + a = a`
+#. §21: `mul_zero : ∀ a : Z, a * 0 = 0`
+#. §22: `add_zero : ∀ a : Z, a + 0 = a`
+#. §23: `mul_one : ∀ a : Z, a * 1 = a`
+#. §24: `add_neg_self : ∀ a : Z, a + -a = 0`
+#. §25: `neg_self_add : ∀ a : Z, -a + a = 0`
+#. §26: `one_mul : ∀ a : Z, 1 * a = a`
+#. §27: `zero_mul : ∀ a : Z, 0 * a = 0`
+#: Game.Levels.OrderWorld.L01_order
+msgid "The §0 tactic will try to simplify the target expression using statements tagged with the attribute §1. This is **not** a full on auto-simplifier -- but it can simplify expressions like §2, §3, and so on. It can also be helpful in unfolding/applying definitions and basic logical structure. For example, we have\n"
+"§4\n"
+"Then §5 will turn the goal into §6 (where §7 is any trivially true statement, like §8). Similarly, if we have a hypothesis of the form\n"
+"§9\n"
+"Then §10 will turn the hypothesis into §11. More generally:\n"
+"* §12 simplifies the main goal target using the lemmas tagged with the attribute §13 and the given §14's, where the §15's are expressions.-\n"
+"If an §16 is a definition, then it is unfolded.\n"
+"* §17 simplifies the hypotheses §18.\n"
+"\n"
+"## **Statements tagged with simp**\n"
+"The following describes a complete list of statements from this game that up to now have been tagged with §19.\n"
+"\n"
+"### **Player proven**\n"
+"* §20\n"
+"* §21\n"
+"\n"
+"### **Definitions**\n"
+"* §22\n"
+"* §23\n"
+"* §24\n"
+"\n"
+"### **Other**\n"
+"These theorems have been included behind the scenes for ease of use.\n"
+"* §25\n"
+"* §26\n"
+"* §27"
+msgstr ""
+
+#. §0: ```
+#. dvd_iff (a b : Z) : b ∣ a ↔ 0 ∈ Rem a b
+#. ```
+#. §1: $a,b$
+#. §2: $b$
+#. §3: $a$
+#. §4: $0$
+#. §5: $$ \\{ s ∈ Z ∣ 0 ≤ s ∧ ∃ q ∈ ℤ, s = a - bq \\} $$
+#: Game.Levels.DivisionWorld.L01_division
+msgid "As stated:\n"
+"§0\n"
+"For all integers §1, if §2 divides §3, then §4 is an element of the set\n"
+"\n"
+"§5"
+msgstr ""
+
+#. §0: `add_neg_self`
+#: Game.Levels.TestWorld.L06_test
+msgid "Negatives that are codified in §0 are also unique."
+msgstr ""
+
+#. §0: ```
+#. rewrite[e]
+#. ```
+#. §1: `e`
+#. §2: `rfl`
+#. §3: `e`
+#. §4: `x = y`
+#. §5: `P ↔ Q`
+#. §6: `e`
+#. §7: `←`
+#. §8: `<-`
+#. §9: ```
+#. rewrite[← e]
+#. ```
+#. §10: `e`
+#. §11: `rewrite`
+#. §12: `rewrite[e] at h`
+#: Game.Levels.TestWorld.L01_test
+msgid "The tactic\n"
+"§0\n"
+"applies identity §1 as a rewrite rule to the target of the main goal (and then attempts to clear the current goal with §2). The identity §3 is often an equality, like §4, but it can also be a logical equivalence, like §5.\n"
+"\n"
+"If §6 is preceded by left arrow (§7 or §8), like\n"
+"§9\n"
+"the rewrite is applied in the reverse direction. This perhaps explains why the tactic is logically allowed -- all identities §10 are symmetric (i.e. reversible).\n"
+"\n"
+"You can apply a §11 to a hypothesis with the syntax §12."
+msgstr ""
+
+#. §0: `«{h}» : b + -a ∉ Z⁺`
+#. §1: `trichotomy`
+#: Game.Levels.OrderWorld.L05_order
+msgid "We now have that §0. Now seems like a good time to bring the newly unlocked **trichotomy** axiom in play. 🔍 Check out the entry for §1 in the **Definitions** tab."
+msgstr ""
+
+#. §0: $a,b ∈ ℤ$
+#. §1: $m$
+#. §2: $a$
+#. §3: $b$
+#. §4: $m$
+#. §5: $a$
+#: Game.Levels.GCDWorld.L08_GCD
+msgid "For all §0, if §1 is a minimal positive linear combination of §2 and §3, then §4 divides §5."
+msgstr ""
+
+#. §0: $0$
+#. §1: $0$
+#: Game.Levels.TestWorld.L09_test
+msgid "The product of any integer and §0 is §1."
+msgstr ""
+
+#. §0: `abs a ∣ a`
+#: Game.Levels.absWorld.L01_abs
+msgid "We'll prove that §0 in the next level for more practice."
+msgstr ""
+
+#: Game.Levels.DivisionWorld.L06_division
+msgid "🙌 You've beaten Division World!"
+msgstr ""
+
+#. §0: `a b : Z`
+#. §1: `Bez a b`
+#. §2: ```
+#. def Bez (a b : Z) : Set Z :=
+#.   {d : Z | 0 < d ∧ ∃ x y : Z, a * x + b * y = d}
+#. ```
+#. §3: `Bez a b`
+#. §4: `a`
+#. §5: `b`
+#: Game.Levels.GCDWorld.L04_GCD
+msgid "For §0, the set §1 is defined as follows:\n"
+"§2\n"
+"In other words, §3 represents the set of positive linear combinations of §4 and §5."
+msgstr ""
+
+#: Game.Levels.DivisionWorld.L05_division
+msgid "The positive division algorithm"
+msgstr ""
+
+#: Game.Levels.TestWorld.L10_test
+msgid "The product of an integer and the negative of another integer is equal to the negative product of those integers."
+msgstr ""
+
+#: Game.Levels.DivisionWorld
+msgid "# **Welcome to Division World!**\n"
+"The boss at the end of this world is the **division algorithm**. This will play a very important role in future worlds."
+msgstr ""
+
+#. §0: `rcases`
+#. §1: ```
+#. «{a_le_b}» : «{a}» = «{b}» ∨ «{a}» < «{b}»
+#. ```
+#. §2: `rcases`
+#. §3: `rcases`
+#. §4: ```
+#. rcases «{a_le_b}» with aeqb | altb
+#. ```
+#: Game.Levels.OrderWorld.L02_order
+msgid "### ❯ §0 : Disjunctions as hypotheses\n"
+"Notice the form of our hypothesis\n"
+"§1\n"
+"At this point, we would break down into *cases*. The tactic §2 is also useful in this regard. The *r* stands for *recursive* meaning that we can destructure current hypotheses with some pattern matching. 🔍 Check out the §3 entry in the **Tactics**. 👉 Let's try\n"
+"§4\n"
+""
+msgstr ""
+
+#. §0: ```
+#. lt_trans : ∀ a b c : Z, a < b → b < c → a < c
+#. ```
+#. §1: $$ ∀ a,b,c ∈ ℤ, a < b → b < c → a < c.$$
+#: Game.Levels.OrderWorld.L01_order
+msgid "As stated:\n"
+"§0\n"
+"The relation *less than* is transitive. This means\n"
+"§1"
+msgstr ""
+
+#. §0: ```
+#. simp[«{ha}»]
+#. ```
+#. §1: `simp`
+#. §2: `ha`
+#. §3: `@[simp]`
+#: Game.Levels.absWorld.L01_abs
+msgid "👉 Now try\n"
+"§0\n"
+"This tells the §1 tactic to try to use §2 (along with all other statements tagged with §3) to try to simplify the target.\n"
+""
+msgstr ""
+
+#. §0: `obtain`
+#: Game.Levels.absWorld.L05_abs
+msgid "# **Level 5**\n"
+"We'll use the §0 tactic to open subgoals in this exercise."
+msgstr ""
+
+#: Game.Levels.TestWorld.L06_test
+msgid "Uniqueness of Negatives"
+msgstr ""
+
+#. §0: `lt_def`
+#. §1: ```
+#. rw[lt_def] at «{h1}» «{h2}» ⊢
+#. ```
+#. §2: `⊢`
+#. §3: `\\vdash`
+#: Game.Levels.OrderWorld.L01_order
+msgid "👉 Now would be a good time to rewrite the hypotheses and goal using §0. **Remember:** we can apply a single rewrite to multiple sources with syntax like\n"
+"§1\n"
+"The goal is §2 (typeset with §3 -- this is the so-called *turnstile* symbol)."
+msgstr ""
+
+#: Game.Levels.FTAWorld.L08_FTA
+msgid "Now we're reckoning the **cons** constructor."
+msgstr ""
+
+#: Game.Levels.OrderWorld.L15_order
+msgid "🙌 ***Congrats!*** You've beaten OrderWorld!"
+msgstr ""
+
+#. §0: `abs a`
+#. §1: $|a|$
+#. §2: `simp`
+#: Game.Levels.absWorld
+msgid "# **Welcome to Absolute Value World!**\n"
+"In this smallish world, we'll collect some useful facts about the **absolute value**. In Lean, we write §0 for §1. We'll learn how to use §2 to unfold this definition in proof states."
+msgstr ""
+
+#. §0: `simp`
+#. §1: `simp`
+#. §2: `simp`
+#. §3: ```
+#. @[simp] neg_neg : ∀ a : Z, - -a = a
+#. @[simp] neg_eq : ∀ a b : Z, -a = -b ↔ a = b
+#. ```
+#: Game.Levels.OrderWorld.L05_order
+msgid "### **⟳ §0 updated**\n"
+"We've added some functionality to §1. The tactic §2 now knows the following\n"
+"§3\n"
+"This might be helpful going forward.\n"
+""
+msgstr ""
+
+#. §0: `Perm`
+#. §1: `Perm.cons`
+#. §2: `Perm.swap`
+#. §3: `Perm.trans`
+#. §4: ```
+#. h1 : head :: l :: «{lt}» ~ l :: head :: «{lt}»
+#. ```
+#: Game.Levels.FTAWorld.L07_FTA
+msgid "We'll need to use the specific constructors of §0 to prove our goal. 🔍 Check out the entries for §1, §2, and §3. We might start by trying to obtain the hypothesis:\n"
+"§4\n"
+""
+msgstr ""
+
+#. §0: ```
+#. mem_Zplus : ∀ a : Z, a ∈ Zplus ↔ 0 < a
+#. ```
+#. §1: $a ∈ ℤ$
+#. §2: $a ∈ ℤ⁺$
+#. §3: $0 < a$
+#: Game.Levels.OrderWorld.L06_order
+msgid "As stated:\n"
+"§0\n"
+"For all §1, §2 if and only if §3."
+msgstr ""
+
+#: Game.Levels.absWorld.L04_abs
+msgid "Positive absolute values"
+msgstr ""
+
+#. §0: `«{S}» ⊆ Z⁺`
+#: Game.Levels.WOPWorld.L07_WOP
+#: Game.Levels.WOPWorld.L07_WOP
+msgid "We now must prove §0."
+msgstr ""
+
+#: Game.Levels.FTAWorld.L11_FTA
+msgid "We're getting ready for the big kahuna. This was pretty much the **base case**."
+msgstr ""
+
+#: GameServer.RpcHandlers
+msgid "level completed with warnings… 🎭"
+msgstr ""
+
+#. §0: ```
+#. mem_FTA_gt_one
+#.   (m : Z)
+#.   (hm : m ∈ FTA) :
+#.   1 < m
+#. ```
+#. §1: `NUF`
+#: Game.Levels.FTAWorld.L11_FTA
+msgid "As stated:\n"
+"§0\n"
+"A member of the set §1 must be greater than one."
+msgstr ""
+
+#. §0: $$∀ a, b ∈ ℤ, a + b = b + a.$$
+#. §1: ```
+#. add_comm : ∀ a b : Z, a + b = b + a
+#. ```
+#: Game.Levels.TestWorld.L04_test
+msgid "Commutativity of addition. In particular,\n"
+"\n"
+"§0\n"
+"\n"
+"This is an **axiom**. Here's what it looks like in Lean\n"
+"§1"
+msgstr ""
+
+#: Game
+msgid "The FTA Game"
+msgstr ""
+
+#: Game.Levels.GCDWorld.L06_GCD
+msgid "# **Level 6**\n"
+"Don't work too hard here."
+msgstr ""
+
+#. §0: `simp`
+#. §1: `@[simp]`
+#. §2: `simp`
+#. §3: `a < a`
+#. §4: `False`
+#: Game.Levels.OrderWorld.L04_order
+msgid "### **⟳ §0 updated**\n"
+"This theorem is tagged with §1 so henceforth the tactic §2 will replace targets like §3 with §4."
+msgstr ""
+
+#. §0: ```
+#. POW_strict
+#.   (S : Set Z)
+#.   (S_ne : S ≠∅)
+#.   (u : Z)
+#.   (umax : ∀ x ∈ S, x < u) :
+#.     (∃ M ∈ S, ∀ x ∈ S, x ≤ M)
+#. ```
+#. §1: $S$
+#. §2: $S$
+#. §3: $S ⊆ ℤ$
+#. §4: $S ≠ ∅$
+#. §5: $u ∈ ℤ$
+#. §6: $x ∈ S$
+#. §7: $x < u$
+#. §8: $M ∈ S$
+#. §9: $x ∈ S$
+#. §10: $x ≤ M$
+#: Game.Levels.WOPWorld.L04_WOP
+msgid "As stated:\n"
+"§0\n"
+"If §1 is a non-empty subset of positive integers that is **strictly** bounded above, then §2 contains a largest element. More precisely, for every §3, if §4 and there exists §5 such that for all §6, §7, then there exists §8, such that for all §9, §10."
+msgstr ""
+
+#. §0: ```
+#. obtain h := neg_unique («{a}» + «{b}») (-«{a}» + -«{b}»)
+#. ```
+#. §1: `apply h`
+#. §2: ```
+#. apply neg_unique
+#. ```
+#. §3: `apply`
+#. §4: `rw[add_comm]`
+#: Game.Levels.TestWorld.L08_test
+msgid "### **💡 Pro-tip**\n"
+"You might have introduced a new hypothesis like\n"
+"§0\n"
+"and then used §1 to get here. But you could have cut out the middle step with\n"
+"§2\n"
+"Without explicit guidance, §3 will try to unify with the goal like §4. ⏮ Go back and give this a shot. **We now just need to be purposeful about simplifying the goal...**"
+msgstr ""
+
+#. §0: $a,b ∈ ℤ$
+#. §1: `Rem a b`
+#. §2: $s$
+#. §3: $0 ≤ s$
+#. §4: $q ∈ ℤ$
+#. §5: $s = a - bq$
+#. §6: `Rem a b`
+#. §7: $a/b$
+#. §8: ```
+#. def Rem (a b : Z) : Set Z :=
+#.   {s : Z | 0 ≤ s ∧ ∃ q : Z, s = a + -(b * q)}
+#. ```
+#: Game.Levels.DivisionWorld.L01_division
+msgid "For §0, the set §1 represents the set of all integers §2 such that §3 and there exists §4 such that §5. In other words, §6 represents all possible remainders for §7.\n"
+"\n"
+"Here's what it looks like in Lean:\n"
+"§8"
+msgstr ""
+
+#: Game.Levels.OrderWorld.L15_order
+msgid "Simple left cancellation across an inequality"
+msgstr ""
+
+#: Game
+msgid "This game was made by me."
+msgstr ""
+
+#: Game.Levels.GCDWorld.L10_GCD
+msgid "Bezout's Theorem"
+msgstr ""
+
+#. §0: $ℤ$
+#. §1: ```
+#. obtain h := ...
+#. rcases h with ⟨patt⟩
+#. ```
+#. §2: `obtain`
+#. §3: ```
+#. obtain ⟨patt⟩ := ...
+#. ```
+#. §4: ```
+#. by_contra! F
+#. ```
+#: Game.Levels.OrderWorld.L13_order
+msgid "# **Level 13**\n"
+"Boss fight! This is an important property of §0.\n"
+"### **💡 Pro-tip**\n"
+"In order to reduce the number of steps, focus on being economical here. For example, instead of\n"
+"§1\n"
+"just use the pattern matching functionality built-in to §2:\n"
+"§3\n"
+"This is **⚠important⚠**, if anything, to keep the UI from feeling too *laggy*.\n"
+"\n"
+"👉 We might start this level with\n"
+"§4"
+msgstr ""
+
+#. §0: ```
+#. h : a * 0 + a * 0 = a * 0
+#. ```
+#. §1: `obtain`
+#. §2: `add_eq_self`
+#. §3: ```
+#. h' : a * 0 = 0
+#. ```
+#. §4: `exact h'`
+#. §5: ```
+#. exact add_eq_self (a * 0) (a * 0) h
+#. ```
+#: Game.Levels.TestWorld.L09_test
+msgid "### **💡 Pro-tip**\n"
+"Once you have\n"
+"§0\n"
+"you might have used the §1 tactic along with the theorem §2 to get\n"
+"§3\n"
+"At that point, §4 clears the goal. But you could (or rather **should**) have cut out the middle step! ⏮ Go back and try:\n"
+"§5"
+msgstr ""
+
+#: Game.Levels.TestWorld.L01_test
+msgid "This tactic applies to a goal whose target has the form x ~ x, where ~ is equality, heterogeneous equality or any relation that has a reflexivity lemma tagged with the attribute @[refl]."
+msgstr ""
+
+#. §0: $S ⊆ ℤ$
+#. §1: $u ∈ ℤ$
+#. §2: $\\{ y ∈ ℤ | ∃ s ∈ S, y = u + -s \\}$
+#. §3: $ℤ⁺$
+#: Game.Levels.WOPWorld.L02_WOP
+msgid "Suppose §0 is nonempty and strictly bounded above by §1. Then the flipped set §2 is nonempty and contained in §3."
+msgstr ""
+
+#. §0: ```
+#. neg_unique : ∀ a b : Z, a + b = 0 → b = -a
+#. ```
+#. §1: $∀ a ∈ Z$
+#. §2: $a + b = 0$
+#. §3: $b = -a$
+#: Game.Levels.TestWorld.L06_test
+msgid "As stated:\n"
+"§0\n"
+"Negatives are unique. In particular, §1, if §2, then it must be that §3."
+msgstr ""
+
+#. §0: `⊢ a = a * 1`
+#. §1: `mul_one`
+#: Game.Levels.TestWorld.L12_test
+msgid "**Note:** our goal is now §0. 🔍 Check out the newly unlocked §1 axiom in the **Definitions** tab."
+msgstr ""
+
+#. §0: $a ∈ ℤ$
+#. §1: $1$
+#. §2: $a$
+#: Game.Levels.TestWorld.L13_test
+msgid "For all §0, §1 divides §2."
+msgstr ""
+
+#. §0: $l$
+#. §1: $l$
+#: Game.Levels.FTAWorld.L04_FTA
+msgid "If §0 is a list of primes, then the **tail** of §1 is also a list of primes."
+msgstr ""
+
+#: Game.Levels.GCDWorld.L10_GCD
+msgid "🙌 You've beaten Bezout World! ***Congrats!***"
+msgstr ""
+
+#. §0: `
+#. `
+#. §1: ``
+#. «{h'}» : «{b}» + «{a}» + -«{a}» = 0 + -«{a}»
+#. ``
+#. §2: `
+#. You might start with the now-proven theorem `
+#: Game.Levels.TestWorld.L06_test
+msgid "We now need to simplify the hypothesis §0§1§2zero_add`."
+msgstr ""
+
+#: Game.Levels.WOPWorld
+msgid "WOP World"
+msgstr ""
+
+#. §0: ```
+#. neg_mul_right : ∀ a b : Z, - (a * b) = a * (-b)
+#. ```
+#. §1: $a,b ∈ ℤ$
+#. §2: $-(ab) = a(-b)$
+#: Game.Levels.TestWorld.L10_test
+msgid "As stated:\n"
+"§0\n"
+"Negatives can distribute to the right-member of a product. In particular, for all §1, we have §2."
+msgstr ""
+
+#. §0: $a ≤ b$
+#. §1: $b < a$
+#: Game.Levels.OrderWorld.L08_order
+msgid "The negation of §0 is §1."
+msgstr ""
+
+#. §0: `Set`
+#. §1: `Set`
+#. §2: `Set.mem`
+#. §3: `mem_def`
+#: Game.Levels.WOPWorld.L01_WOP
+msgid "# **Level 1**\n"
+"We'll need to know how to reckon with sets in this world (and future worlds).\n"
+"### 🕮 §0\n"
+"The main purpose of this level is to introduce how sets are codified in Lean. 🔍 Check out the entries for the following in the **Definitions** tab:\n"
+"* §1\n"
+"* §2\n"
+"* §3"
+msgstr ""
+
+#: Game.Levels.WOPWorld.L07_WOP
+msgid "There does not exist an integer strictly greater than zero but strictly less than one."
+msgstr ""
+
+#: Game.Levels.PrimeWorld.L05_prime
+msgid "# **Level 5**\n"
+"***Boss fight!*** This is a crucial step towards FTA!"
+msgstr ""
+
+#. §0: $a,b,c,d ∈ ℤ$
+#. §1: $a$
+#. §2: $b$
+#. §3: $c$
+#. §4: $d$
+#. §5: $a + c$
+#. §6: $b + d$
+#: Game.Levels.OrderWorld.L09_order
+msgid "For all §0, if §1 is less than or equal to §2 and §3 is less than §4, then §5 is less than §6."
+msgstr ""
+
+#. §0: `min_flip_max`
+#: Game.Levels.WOPWorld.L04_WOP
+msgid "👉 The theorem §0 should be helpful here."
+msgstr ""
+
+#: Game.Levels.FTAWorld
+msgid "# **Welcome to FTA World!**\n"
+"This is the final world. We're almost there!"
+msgstr ""
+
+#. §0: ```
+#. rewrite[← «{h}»]
+#. ```
+#. §1: `\\left`
+#. §2: `←`
+#. §3: `<-`
+#: Game.Levels.TestWorld.L03_test
+msgid "### **← Backwards substitution**\n"
+"👉 Try\n"
+"§0\n"
+"### **⌨ Typesetting-tip**\n"
+"We use §1 to produce the pretty printed left-arrow §2. You can also use §3."
+msgstr ""
+
+#. §0: $∀ a,b ∈ ℤ, ab = ba$
+#. §1: ```
+#. mul_comm : ∀ a b : Z, a * b = b * a
+#. ```
+#: Game.Levels.TestWorld.L11_test
+msgid "Multiplication is commutative. In particular, §0. Here's how it looks in Lean\n"
+"§1"
+msgstr ""
+
+#: Game.Levels.WOPWorld.L08_WOP
+msgid "🔧 This theorem will be particularly important in **Prime World**."
+msgstr ""
+
+#: Game.Levels.GCDWorld.L01_GCD
+msgid "# **Level 1**\n"
+"This exercise will be crucial for the next boss fight."
+msgstr ""
+
+#. §0: $a ≤ b$
+#. §1: $a < b$
+#. §2: $a = b$
+#. §3: ```
+#. instance : LE Z :=
+#.   ⟨fun a b => a = b ∨ a < b⟩
+#. 
+#. theorem le_def (a b : Z) : a ≤ b ↔ (a = b ∨ a < b)
+#. ```
+#: Game.Levels.OrderWorld.L02_order
+msgid "The relation §0 means that §1 or §2. Here's how it looks in Lean:\n"
+"§3"
+msgstr ""
+
+#: Game.Levels.TestWorld.L06_test
+msgid "Right on target. And now...?"
+msgstr ""
+
+#. §0: `List`
+#. §1: `List`
+#. §2: `List.prod`
+#. §3: `List.Mem`
+#. §4: `List.prime`
+#: Game.Levels.PrimeWorld.L06_prime
+msgid "# **Level 6**\n"
+"The statement of FTA requires us to codify long products of primes. In order to do so, we'll use Lean's ...\n"
+"### 🕮 §0 type\n"
+"🔍 Check out the entries for the following in the **Definitions** tab:\n"
+"* §1\n"
+"* §2\n"
+"* §3\n"
+"* §4"
+msgstr ""
+
+#: Game.Levels.WOPWorld.L03_WOP
+msgid "👉 You might try a proof by contradiction."
+msgstr ""
+
+#. §0: ```
+#. dvd_trans : ∀ a b c : Z, a ∣ b → b ∣ c → a ∣ c
+#. ```
+#. §1: $a,b,c ∈ ℤ$
+#. §2: $a ∣ b$
+#. §3: $b ∣ a$
+#. §4: $a ∣ c$
+#: Game.Levels.TestWorld.L14_test
+msgid "As stated:\n"
+"§0\n"
+"The divides relation is transitive. In particular, for all §1, if §2 and §3, then §4."
+msgstr ""
+
+#. §0: `obtain`
+#. §1: ```
+#. obtain ⟨t1,_,_⟩ | ⟨_,t2,_⟩ | ⟨_,_,t3⟩ := trichotomy (b + -a)
+#. ```
+#. §2: `contradiction`
+#. §3: ```
+#. «{t1}» : b + -a ∈ Z⁺
+#. «{h}» : ¬ b + -a ∈ Z⁺
+#. ```
+#. §4: `contradiction`
+#. §5: `contradiction`
+#. §6: `(P ∧ ¬ P) → Q`
+#. §7: ```
+#. contradiction
+#. ```
+#: Game.Levels.OrderWorld.L05_order
+msgid "### 💡 Pro-tip\n"
+"Even better, we could have done this in one line using the pattern matching ability of §0:\n"
+"§1\n"
+"⏮ Go back and give this a try. **Note:** the *underscores* utilize Lean's automatic naming conventions. These hypotheses are irrelevant in the present context, so we didn't feel the need to give them a special name. This took a little malice aforethought -- there's no harm in manually naming them all.\n"
+"\n"
+"### ❯ The §2 tactic\n"
+"We have contradictory hypotheses, namely\n"
+"§3\n"
+"In situations like this, we can clear the goal with the tactic §4. 🔍 Check out this new tactic in the **Tactics** tab. Logically speaking, the §5 tactic uses the fact that a statement like §6 is tautological. 👉 In our present situation, try\n"
+"§7\n"
+""
+msgstr ""
+
+#. §0: ```
+#. fta_unique
+#.   (P Q : List Z)
+#.   (hP : List.prime P)
+#.   (hQ : List.prime Q)
+#.   (h : List.prod P = List.prod Q) :
+#.   P ~ Q
+#. ```
+#. §1: $P$
+#. §2: $Q$
+#. §3: $P$
+#. §4: $Q$
+#. §5: $P$
+#. §6: $Q$
+#: Game.Levels.FTAWorld.L13_FTA
+msgid "As stated:\n"
+"§0\n"
+"If §1 and §2 are lists of primes such that the product of all primes in the list §3 is equal to the product of all primes in the list §4, then it must be that §5 and §6 are permutations of each other."
+msgstr ""
+
+#. §0: `mul_assoc`
+#: Game.Levels.TestWorld.L15_test
+msgid "# **Level 15**\n"
+"This will give us a little more practice with §0."
+msgstr ""
+
+#. §0: ```
+#. Archimedean
+#.   (a b : Z)
+#.   (hb : 0 < b) :
+#.     ∃ q : Z, 0 ≤ a + -(b * q)
+#. ```
+#. §1: $a, b ∈ ℤ$
+#. §2: $b$
+#. §3: $q ∈ ℤ$
+#. §4: $0 ≤ a - bq$
+#: Game.Levels.WOPWorld.L10_WOP
+msgid "As stated:\n"
+"§0\n"
+"For all §1, if §2 is non-zero, then there exists §3 such that §4."
+msgstr ""
+
+#. §0: ```
+#. add_on_right : ∀ a b c : Z, a = b → a + c = b + c
+#. ```
+#. §1: $∀ a,b,c ∈ ℤ$
+#. §2: $a + c = b + c$
+#: Game.Levels.TestWorld.L01_test
+msgid "As stated:\n"
+"§0\n"
+"Addition on the right of an equality: §1, if a = b, then §2."
+msgstr ""
+
+#: Game.Levels.WOPWorld.L02_WOP
+msgid "Subsets and nonempty"
+msgstr ""
+
+#. §0: $a,b$
+#. §1: $0 < b$
+#. §2: $q,r ∈ ℤ$
+#. §3: $a = bq + r$
+#. §4: $0 ≤ r < b$
+#: Game.Levels.DivisionWorld.L05_division
+msgid "For all integers §0, if §1, then there exists §2 such that §3 and §4."
+msgstr ""
+
+#: Game.Levels.FTAWorld.L03_FTA
+msgid "Now this is what it's like when primes divide"
+msgstr ""
+
+#. §0: `A : Set Z`
+#. §1: `A.nonempty`
+#. §2: `Set.nonempty A`
+#. §3: `A ≠∅`
+#. §4: `∃ x : Z, x ∈ A`
+#. §5: ```
+#. def Set.nonempty {α : Type} (A : Set α) : Prop :=
+#.   ∃ x, x ∈ A
+#. ```
+#: Game.Levels.WOPWorld.L02_WOP
+#: Game.Levels.WOPWorld.L02_WOP
+#: Game.Levels.WOPWorld.L02_WOP
+#: Game.Levels.WOPWorld.L02_WOP
+msgid "Let §0. The definitional proposition §1 or §2, denoted §3, means §4. Here's what it looks like in Lean:\n"
+"§5"
+msgstr ""
+
+#. §0: `lt_def`
+#: Game.Levels.OrderWorld.L05_order
+msgid "👉 Let's unpack §0."
+msgstr ""
+
+#. §0: ```
+#. abs_eq : ∀ a : Z, 0 < a → a = abs a
+#. ```
+#. §1: $a$
+#. §2: $a$
+#. §3: $a = |a|$
+#: Game.Levels.absWorld.L05_abs
+msgid "As stated:\n"
+"§0\n"
+"FFor every integer §1, if §2 is positive, then §3."
+msgstr ""
+
+#. §0: `add_eq_self`
+#. §1: ```
+#. add_eq_self : x + y = x → y = 0
+#. ```
+#. §2: `«{h}»`
+#. §3: ```
+#. «{a}» * 0 = «{a}» * 0 + «{a}» * 0
+#. ```
+#. §4: `symm`
+#. §5: `symm`
+#. §6: `h : x = y`
+#. §7: `symm at h`
+#. §8: `h : y = x`
+#. §9: `symm`
+#. §10: ```
+#. symm at «{h}»
+#. ```
+#: Game.Levels.TestWorld.L09_test
+msgid "***Lean can be picky!*** We might be tempted to use the §0 theorem at this point. The form of this theorem is:\n"
+"§1\n"
+"The hypothesis §2 seems to be backwards though:\n"
+"§3\n"
+"### ❯ The §4 tactic\n"
+"The §5 tactic is helpful here. If §6 is a hypothesis, then §7 will produce §8. 🔍 Check out the entry to §9 in the **Tactics** tab for more details. 👉 Try\n"
+"§10\n"
+""
+msgstr ""
+
+#: Game.Levels.FTAWorld.L13_FTA
+msgid "Uniqueness of prime factorizations"
+msgstr ""
+
+#: Game.Levels.OrderWorld.L01_order
+msgid "# **Level 1**\n"
+"Welcome to Level 1! First, we'll show that the *less than* relation is transitive."
+msgstr ""
+
+#: Game.Levels.OrderWorld.L11_order
+msgid "# **Level 11**\n"
+"Another relatively straightforward but useful theorem to have in the inventory."
+msgstr ""
+
+#: Game.Levels.GCDWorld.L07_GCD
+msgid "# **Level 7**\n"
+"This one takes a bit of patience."
+msgstr ""
+
+#. §0: ```
+#. min_flip_max
+#.   (S : Set Z)
+#.   (u m: Z)
+#.   (hmin : ∀ x :Z, x ∈ {y : Z | ∃ s ∈ S, y = u + -s} → m ≤ x) :
+#.     ∀ x : Z, x ∈ S → x ≤ u + -m
+#. ```
+#. §1: $S$
+#. §2: $u ∈ ℤ$
+#. §3: $m$
+#. §4: $\\{ y ∈ ℤ ∣ ∃ s ∈ S, y = u + -s \\}$
+#. §5: $u + -m$
+#. §6: $S$
+#: Game.Levels.WOPWorld.L03_WOP
+msgid "As stated:\n"
+"§0\n"
+"Let §1 be a non-empty set of integers, and let §2. Suppose §3 is a minimum of the set §4. Then §5 is maximum of §6."
+msgstr ""
+
+#. §0: `⊢ «{p}» * [].prod = «{p}»`
+#. §1: `rw[List.prod]`
+#. §2: ```
+#. ⊢ p * 1 = p
+#. ```
+#. §3: `rw[List.prod]`
+#. §4: ```
+#. simp[List.prod]
+#. ```
+#. §5: `List.prod`
+#. §6: `@[simp]`
+#: Game.Levels.PrimeWorld.L06_prime
+msgid "Now our goal is §0. Applying §1 again will produce the goal\n"
+"§2\n"
+"Alternatively, ⏮ we could go back to the first §3 and simply use\n"
+"§4\n"
+"This will apply §5 and statements tagged with §6 until either nothing happens or the goal is cleared (the latter of which happens in this case).\n"
+""
+msgstr ""
+
+#. §0: $$∀ a, b, c ∈ ℤ, (a + b) + c = a + (b + c).$$
+#. §1: ```
+#. add_assoc : ∀ a b c : Z, a + b + c = a + (b + c)
+#. ```
+#: Game.Levels.TestWorld.L06_test
+msgid "Addition is associative. In particular,\n"
+"\n"
+"§0\n"
+"\n"
+"This is an **axiom**. Here's what it looks like in Lean:\n"
+"§1"
+msgstr ""
+
+#. §0: `mul_add`
+#: Game.Levels.TestWorld.L09_test
+msgid "👉 Given the mix of additive and multiplicative structures here, we're probably going to need to obtain a new hypothesis that uses the **distributivity** property. 🔍 Check out the entry for §0 in the **Definitions** tab."
+msgstr ""
+
+#. §0: $1$
+#: Game.Levels.PrimeWorld.L07_prime
+msgid "If the product of a list of primes is §0, then the list is empty."
+msgstr ""
+
+#. §0: `use`
+#: Game.Levels.TestWorld.L13_test
+msgid "# **Level 13**\n"
+"Let's get more practice with the §0 tactic."
+msgstr ""
+
+#. §0: `«{a}» «{b}» «{c}»`
+#. §1: ```
+#. ⊢ «{a}» = «{b}» → «{a}» + «{c}» = «{b}» + «{c}»
+#. ```
+#. §2: `h : «{a}» = «{b}»`
+#. §3: `intro`
+#. §4: ```
+#. intro h
+#. ```
+#: Game.Levels.TestWorld.L01_test
+msgid "We now have §0 are generic elements of ℤ. Our goal is\n"
+"§1\n"
+"The typical strategy here is to assume that the *antecedent* or *hypothesis* of our if-then goal is true. In order to introduce the hypothesis §2 we also use §3. 👉 Try\n"
+"§4\n"
+""
+msgstr ""
+
+#. §0: `mul_assoc`
+#. §1: `mul_assoc`
+#. §2: `dvd_trans`
+#. §3: ```
+#. dvd_trans: ∀ a b c:Z,(a ∣ b ∧ b ∣ c) → a ∣ c
+#. ```
+#. §4: ```
+#. dvd_trans: ∀ a b c:Z, a ∣ b → b ∣ c → a ∣ c
+#. ```
+#. §5: `adb : a ∣ b`
+#. §6: `bdc : b ∣ c`
+#. §7: `dvd_trans`
+#. §8: ```
+#. obtain adc := dvd_trans a b c (And.intro adb bdc)
+#. ```
+#. §9: `dvd_trans`
+#. §10: ```
+#. obtain adc := dvd_trans a b c adb bdc
+#. ```
+#: Game.Levels.TestWorld.L14_test
+msgid "# **Level 14**\n"
+"We'll need §0 for this level. 🔍 Check out the entry for §1 in the **Definitions** tab.\n"
+"### **💻 A word on currying**\n"
+"You also might have expected the theorem §2 to be worded differently. For example, you might have expected:\n"
+"§3\n"
+"The form given here, namely:\n"
+"§4\n"
+"is logically equivalent and friendlier for programmatic purposes -- this is called **currying**. To clarify the point, suppose §5 and §6. To use §7 in the **first** form, typical usage might look like:\n"
+"§8\n"
+"To use §9 in the **second** form, typical usage might look like:\n"
+"§10\n"
+"The **second** form is easier to apply. This phenomenon becomes even more pronounced if the hypothesis is a longer conjunction."
+msgstr ""
+
+#. §0: `dvd_def`
+#: Game.Levels.TestWorld.L12_test
+msgid "Let's rewrite our goal using §0."
+msgstr ""
+
+#. §0: $a, b ∈ ℤ$
+#. §1: $a$
+#. §2: $b$
+#. §3: $b$
+#. §4: $a$
+#: Game.Levels.OrderWorld.L05_order
+msgid "For all §0, if §1 is not less than §2, then §3 is less than or equal to §4."
+msgstr ""
+
+#: Game.Levels.TestWorld
+msgid "Ring World"
+msgstr ""
+
+#. §0: `a ∈ A`
+#. §1: `∣`
+#. §2: `x ∈ S`
+#. §3: `«{hx}»`
+#. §4: ```
+#. ∃ s : Z, s ∈ S ∧ x = u + -s
+#. ```
+#: Game.Levels.WOPWorld.L01_WOP
+msgid "### **Set membership**\n"
+"Our goal is of the form §0. ***This is just a proposition in disguise!*** Specifically, in **set-builder** notation (like what we're using here) the proposition proceeding the §1 symbol (unicode U+007C i.e. the *vertical bar*) is our **membership proposition**. In this particular setting, this means that to say §2 like in §3 is just sugar for:\n"
+"§4\n"
+"Similarly, this means our goal is an *existential* statement in disguise. We need a witness...\n"
+""
+msgstr ""
+
+#: Game.Levels.GCDWorld
+msgid "# **Welcome to GCD World!**\n"
+"In this world we'll learn about *greatest common divisors*. The **boss fight** at the end of this level is **Bezout's Theorem**."
+msgstr ""
+
+#: Game.Levels.GCDWorld.L06_GCD
+msgid "The set Bez is non-empty : Part 2"
+msgstr ""
+
+#. §0: ```
+#. mem_NUF_mem
+#.   (m : Z)
+#.   (hmS : m ∈ NUF) :
+#.   ∃ p n: Z, Prime p ∧ m = p * n ∧ n ∈ NUF
+#. ```
+#. §1: $m$
+#. §2: `NUF`
+#. §3: $p$
+#. §4: $n$
+#. §5: $m = pn$
+#. §6: $n$
+#. §7: `NUF`
+#: Game.Levels.FTAWorld.L12_FTA
+msgid "As stated:\n"
+"§0\n"
+"If §1 is an element of §2, then there exists a prime §3 and an integer §4 such that §5, and §6 is also an element of §7."
+msgstr ""
+
+#. §0: `«{mnp}»`
+#. §1: `«{hm}»`
+#. §2: `obtain`
+#: Game.Levels.PrimeWorld.L04_prime
+msgid "Let's combine the hypotheses §0 and §1 and destructure the result with the §2 tactic."
+msgstr ""
+
+#. §0: `rw[dvd_def]`
+#. §1: `1 ∣ a`
+#: Game.Levels.TestWorld.L13_test
+msgid "### 💡 Pro-tip\n"
+"We do **not** need to §0. Lean knows that §1 is an existential. We need only suppy a witness."
+msgstr ""
+
+#: Game.Levels.GCDWorld.L01_GCD
+msgid "Next up: an important boss."
+msgstr ""
+
+#: Game.Levels.OrderWorld.L04_order
+msgid "# **Level 4**\n"
+"This exercise is pretty short, but it'll feature in a lot of proofs by contradiction."
+msgstr ""
+
+#. §0: `add_on_left`
+#. §1: `add_on_right`
+#: Game.Levels.TestWorld.L02_test
+msgid "# **Level 2**\n"
+"Try to apply what you've learned to prove §0 This should be *very* similar to how we proved §1.\n"
+"### **Theorems**\n"
+"🔍 Check out the **Theorems** tab in the right-pane (currently highlighted). These are the theorems that we'll prove as we progress through the game. Theorems cannot be used until they are proven. Once a theorem is proven, then it is 🔓 unlocked and can be used in future levels."
+msgstr ""
+
+#. §0: ```
+#. div_alg_dvd (a b: Z) :
+#.   0 < b → b ∣ a →
+#.   ∃ q r : Z, a = b * q + r ∧ 0 ≤ r ∧ r < b
+#. ```
+#. §1: $a,b$
+#. §2: $0 < b$
+#. §3: $b ∣ a$
+#. §4: $q,r ∈ ℤ$
+#. §5: $a = bq + r$
+#. §6: $0 ≤ r < b$
+#: Game.Levels.DivisionWorld.L04_division
+msgid "As stated:\n"
+"§0\n"
+"For all integers §1, if §2 and §3, then there exists §4 such that §5 and §6."
+msgstr ""
+
+#. §0: `⊢ False`
+#. §1: `«{F}» : 1 = 0`
+#. §2: `pos_nonempty`
+#. §3: ```
+#. obtain h : ∃ x : Z, x ∈ Zplus := pos_nonempty
+#. ```
+#: Game.Levels.OrderWorld.L03_order
+msgid "See how the goal is now §0? And we have a new hypothesis §1. Let's bring the axiom §2 into play. 🔍 Check out the entry in the **Definitions** tab. We'll need to be verbose this time and use:\n"
+"§3\n"
+"otherwise Lean will lodge the complaint that *typeclass instance problem is stuck*.\n"
+""
+msgstr ""
+
+#. §0: `Set`
+#. §1: `mem`
+#. §2: ```
+#. structure Set (α : Type) where
+#.   mem : α → Prop
+#. ```
+#: Game.Levels.WOPWorld.L01_WOP
+msgid "§0 is a *structure* with a single field §1 (codifying membership). Here's what it looks like in Lean.\n"
+"§2"
+msgstr ""
+
+#. §0: ```
+#. h' : «{b}» + «{a}» + -«{a}» = 0 + -«{a}»
+#. ```
+#. §1: `obtain`
+#. §2: `add_on_right`
+#. §3: `add_on_right`
+#. §4: ```
+#. add_on_right : ∀ a b c : Z, a=b → a+c=b+c
+#. ```
+#. §5: `add_on_right`
+#. §6: ```
+#. obtain h' := add_on_right («{b}» + «{a}») 0 (-«{a}») «{h}»
+#. ```
+#: Game.Levels.TestWorld.L06_test
+msgid "Let's *obtain* the new hypothesis\n"
+"§0\n"
+"Naturally, we'll use the §1 tactic and the freshly minted §2 theorem. 🔍 Check the entry for §3 in the **Theorems** tab. Recall that:\n"
+"§4\n"
+"This means that, as a *function*, §5 takes *four* arguments in order:\n"
+"* The first is the **left-hand side** of the hypothesis;\n"
+"* The second is the **right-hand side** of the hypothesis;\n"
+"* The third is the integer to be added on the right;\n"
+"* and the fourth is the hypothesis itself.\n"
+"\n"
+"👉 Accordingly, try:\n"
+"§6\n"
+""
+msgstr ""
+
+#. §0: ```
+#. ⊢ -«{a}» + -«{b}» = -(«{a}» + «{b}»)
+#. ```
+#. §1: `apply`
+#. §2: `apply`
+#. §3: `⊢ Q`
+#. §4: ```
+#. h : P → Q
+#. ```
+#. §5: `apply h`
+#. §6: `⊢ P`
+#. §7: `apply h`
+#. §8: `Q`
+#. §9: `P`
+#. §10: `h : P → Q`
+#: Game.Levels.TestWorld.L08_test
+msgid "Our goal is\n"
+"§0\n"
+"💡 **Does this look like the conclusion of a theorem that we've recently proven?** If so, the §1 tactic might be good to use here.\n"
+"### ❯ The §2 tactic\n"
+"In general, if the goal is §3 and we know that\n"
+"§4\n"
+"either as a hypothesis or known theorem, then §5 turns our new goal into §6. In other words, §7 is the Lean way of saying *in order to prove §8, it suffices to prove §9 since we know §10*. 🔍 Check out the details in the **Tactics** tab."
+msgstr ""
+
+#: Game.Levels.OrderWorld.L11_order
+msgid "💪**Challenge:** we can be done in no more than three tactic calls from here."
+msgstr ""
+
+#: Game.Levels.absWorld.L01_abs
+msgid "Integers divide their absolute value"
+msgstr ""
+
+#. §0: `b ∣ a`
+#: Game.Levels.DivisionWorld.L05_division
+msgid "💡 We already know this statement is true if §0. Let's get that case out of the way..."
+msgstr ""
+
+#. §0: `Rem a b`
+#. §1: `constructor`
+#: Game.Levels.DivisionWorld.L01_division
+msgid "To belong to the set §0 is a proposition, specifically a conjunction. 👉 In that case, it makes sense to try §1."
+msgstr ""
+
+#: Game.Levels.OrderWorld.L05_order
+msgid "∀ a : Z, - -a = a"
+msgstr ""
+
+#. §0: `«{altb}» : «{a}» < «{b}»`
+#: Game.Levels.OrderWorld.L09_order
+msgid "We're now in the case where §0."
+msgstr ""
+
+#. §0: $a,b,c ∈ ℤ$
+#. §1: $a$
+#. §2: $b < c$
+#. §3: $ab < ac$
+#: Game.Levels.OrderWorld.L10_order
+msgid "For all §0, if §1 is positive and §2, then §3."
+msgstr ""
+
+#. §0: `POW_strict`
+#: Game.Levels.WOPWorld.L05_WOP
+msgid "# **Level 5**\n"
+"We'd like to improve the last theorem §0. This exercise will help.\n"
+"\n"
+"💪 **Challenge:** try to complete this level using 5 tactic calls or less."
+msgstr ""
+
+#. §0: ```
+#. divisor_lt_rem
+#.   (a b r: Z) :
+#.   0 < b → r ∈ Rem a b → b ≤ r →
+#.     ∃ r' : Z, r' ∈ Rem a b ∧ r' < r
+#. ```
+#. §1: $a,b,r ∈ ℤ$
+#. §2: $0 < b ≤ r$
+#. §3: $r ∈ \\{s ∈ ℤ ∣ 0 ≤ s ∧ ∃ q ∈ ℤ, s = a - bq \\}$
+#. §4: $r - b ∈ \\{s ∈ ℤ ∣ 0 ≤ s ∧ ∃ q ∈ ℤ, s = a - bq \\}$
+#: Game.Levels.DivisionWorld.L03_division
+msgid "As stated:\n"
+"§0\n"
+"For all §1, if §2 and §3, then §4"
+msgstr ""
+
+#. §0: $ℤ⁺$
+#. §1: $0$
+#: Game.Levels.OrderWorld.L06_order
+msgid "An integer belongs to §0 if and only if §1 is less than that integer."
+msgstr ""
+
+#: Game.Levels.FTAWorld.L07_FTA
+msgid "Rearranging a list"
+msgstr ""
+
+#. §0: $a,b,r ∈ ℤ$
+#. §1: $0 < b ≤ r$
+#. §2: $r ∈ \\{s ∈ ℤ ∣ 0 ≤ s ∧ ∃ q ∈ ℤ, s = a - bq \\}$
+#. §3: $r' ∈ ℤ$
+#. §4: $r' ∈ \\{s ∈ ℤ ∣ 0 ≤ s ∧ ∃ q ∈ ℤ, s = a - bq \\}$
+#. §5: $r' < r$
+#: Game.Levels.DivisionWorld.L03_division
+msgid "For all §0, if §1 and §2, then there exists §3 such that §4 and §5."
+msgstr ""
+
+#. §0: `rcases`
+#. §1: `«{hab}»`
+#. §2: ```
+#. «{hab}» : x : Z ∧ «{b}» = «{a}» * x
+#. ```
+#. §3: `rcases`
+#. §4: `rcases`
+#. §5: ```
+#. rcases «{hab}» with ⟨ x, hx ⟩
+#. ```
+#. §6: `\\langle`
+#. §7: `\\rangle`
+#: Game.Levels.TestWorld.L14_test
+msgid "### ❯ §0 : Conjunctions as hypotheses\n"
+"Notice the form of our hypothesis §1. This can be thought of as a sort-of conjunction, specifically:\n"
+"§2\n"
+"It would be good to **destructure** this conjunction into its component parts. The tactic §3 is useful in this regard. The *r* stands for *recursive* meaning that we can destructure current hypotheses with some pattern matching. 🔍 Check out the §4 entry in the **Tactics**. 👉 Let's try\n"
+"§5\n"
+"### **⌨ Typesetting-tip**\n"
+"💡 In order to get the *angled brackets*, use §6 and §7.\n"
+""
+msgstr ""
+
+#: Game.Levels.WOPWorld.L09_WOP
+msgid "# **Level 9**\n"
+"This lemma is just setup for the main boss at the end of the world."
+msgstr ""
+
+#. §0: `obtain`
+#: Game.Levels.TestWorld.L07_test
+msgid "# **Level 7**\n"
+"This level is more of a side quest. We'll need it for the mini-boss in a couple levels. It'll also give us more practice using the §0 tactic."
+msgstr ""
+
+#. §0: ```
+#. prime_ne_zero : ∀ p : Z, Prime p → p ≠ 0
+#. ```
+#: Game.Levels.PrimeWorld.L01_prime
+msgid "As stated:\n"
+"§0\n"
+"Primes are nonzero."
+msgstr ""
+
+#. §0: ```
+#. prime_dvd_prime : ∀ p q : Z, Prime p → Prime q → p ∣ q → p = q
+#. ```
+#. §1: $p,q ∈ ℤ$
+#. §2: $p ∣ q$
+#. §3: $p = q$
+#: Game.Levels.FTAWorld.L03_FTA
+msgid "As stated:\n"
+"§0\n"
+"If §1 are primes such that §2, then §3."
+msgstr ""
+
+#: Game.Levels.FTAWorld.L05_FTA
+msgid "Primes dividing list products"
+msgstr ""
+
+#. §0: `simp`
+#. §1: ```
+#. h : (a + b) + (c + -a)
+#. ```
+#. §2: `simp at h`
+#. §3: `simp`
+#. §4: `@[simp]`
+#. §5: `simp`
+#. §6: `@[simp]`
+#. §7: `simp[rules] ...`
+#: Game.Levels.OrderWorld.L01_order
+msgid "### **⚠ A word of caution ⚠**\n"
+"The tactic §0 is **not** a full auto-simplifier. For example, if\n"
+"§1\n"
+"then §2 does nothing. The tactic §3 is *very* basic, and because of this only certain theorems and definitions have been tagged with §4. In almost all cases, those theorems and definitions merely state basic equalities where the right-hand side is canonically simpler than the left.\n"
+"\n"
+"It can be helpful to ask §5 to use non-§6 tagged statements with syntax like  §7. We'll see this in the future."
+msgstr ""
+
+#. §0: $ℤ$
+#. §1: $ℚ$
+#: Game.Levels.WOPWorld
+msgid "# **Welcome to WOP World!**\n"
+"In this world we'll start using the **well ordering principle** of ℤ. This **axiom** says that any non-empty subset of positive integers must contain a smallest element, and it gives §0 its sense of discreteness (separating it from other number systems like §1). The boss at the end of this world is the **division algorithm**. Accordingly, we'll need to learn about\n"
+"* membership propositions for sets\n"
+"* the subset relation for sets\n"
+"* Empty and nonempty sets\n"
+"and how these mathematical concepts are dealt with in Lean."
+msgstr ""
+
+#: Game.Levels.PrimeWorld.L03_prime
+msgid "No prime divides one"
+msgstr ""
+
+#. §0: $a,b,m,q,r ∈ ℤ$
+#. §1: $m$
+#. §2: $ℤ$
+#. §3: $a$
+#. §4: $b$
+#. §5: $a = qm + r$
+#. §6: $r$
+#. §7: $r$
+#. §8: $ℤ$
+#. §9: $a$
+#. §10: $b$
+#: Game.Levels.GCDWorld.L07_GCD
+msgid "Let §0. If §1 is a §2-linear combination of §3 and §4 and §5 where §6 is positive, then §7 is a positive §8-linear combination of §9 and §10."
+msgstr ""
+
+#. §0: $a,b, x ∈ ℤ$
+#. §1: $b$
+#. §2: $y ∈ ℤ$
+#. §3: $ a - bx < a - by $
+#: Game.Levels.WOPWorld.L09_WOP
+msgid "For all §0, if §1 is positive, then there exists §2 such that §3."
+msgstr ""
+
+#. §0: `simp`
+#. §1: `lt_def`
+#. §2: `«{h}»`
+#. §3: `«{a}» + -«{a}» ∈ Z⁺`
+#. §4: `simp`
+#. §5: `@[simp]`
+#. §6: `add_neg_self`
+#. §7: `a + -a ∈ Z⁺`
+#. §8: `0 ∈ Z⁺`
+#: Game.Levels.OrderWorld.L04_order
+msgid "**Here's what happend:**\n"
+"1. §0 used §1 to rewrite §2 as §3\n"
+"2. §4 used the §5 tagged axiom §6 to rewrite §7 as §8."
+msgstr ""
+
+#. §0: `add_neg_self`
+#. §1: ```
+#. «{b}» + «{a}» + -«{a}»
+#. ```
+#. §2: ```
+#. («{b}» + «{a}») + -«{a}»
+#. ```
+#. §3: `add_neg_self`
+#. §4: `a + -a`
+#. §5: `(«{b}» + «{a}») + -«{a}»`
+#: Game.Levels.TestWorld.L06_test
+msgid "We might have tried §0 but it didn't work! Why? Structurally, Lean inteprets\n"
+"§1\n"
+"as\n"
+"§2\n"
+"So §3 fails to find an expression like §4 within §5. How to fix this? 🔍 We might check the **Definitions** tab for something useful..."
+msgstr ""
+
+#: Game.Levels.PrimeWorld.L02_prime
+msgid "Primes are positive."
+msgstr ""
+
+#: Game.Levels.OrderWorld.L12_order
+msgid "🔧 This dichotomy theorem can often shorten trichotomy arguments by a significant margin."
+msgstr ""
+
+#. §0: `define`
+#. §1: ```
+#. define S := { x : Z | 0 ≤ x }
+#. ```
+#. §2: `let`
+#: Game.Levels.WOPWorld.L04_WOP
+msgid "The §0 tactic is for adding definitions to the local context of the main goal. General usage (in this game) is often for sets. That usage might look like:\n"
+"§1\n"
+"This is an alias for §2."
+msgstr ""
+
+#. §0: `rcases`
+#: Game.Levels.TestWorld.L14_test
+msgid "🔧 The tactic §0 will be *very* handy going forward."
+msgstr ""
+
+#. §0: `unfold`
+#. §1: `⊢ [«{p}»].prime`
+#. §2: ```
+#. unfold List.prime
+#. ```
+#. §3: `[«{p}»].prime`
+#: Game.Levels.PrimeWorld.L06_prime
+msgid "It might be helpful to §0 the meaning of §1. 👉 Try:\n"
+"§2\n"
+"This step is **not** necessary; it merely makes the proposition §3 more visible.\n"
+""
+msgstr ""
+
+#: Game.Levels.PrimeWorld.L01_prime
+msgid "Primes are not zero."
+msgstr ""
+
+#: Game.Levels.TestWorld.L13_test
+msgid "Next up: we'll show that *divides* is transitive."
+msgstr ""
+
+#. §0: `hb : 0 < b`
+#. §1: `hb : b ≠ 0`
+#: Game.Levels.DivisionWorld.L06_division
+msgid "# **Level 6**\n"
+"This is the same statement as in the previous exercise, but we weaken the hypotheses. Instead of §0 we merely have §1. **Hint:** no need to reinvent the wheel here."
+msgstr ""
+
+#. §0: $$ ∀ a, b ∈ ℤ^+ , a + b ∈ ℤ^+.$$
+#. §1: ```
+#. add_closure : ∀ a b : Z,
+#.   a ∈ Z⁺ → b ∈ Z⁺ → (a + b) ∈ Z⁺
+#. ```
+#: Game.Levels.OrderWorld.L01_order
+msgid "Positives are closed under addition. In particular,\n"
+"\n"
+"§0\n"
+"\n"
+"This is an **axiom**. Here's how it looks in Lean:\n"
+"§1"
+msgstr ""
+
+#. §0: `unfold`
+#. §1: `≠∅`
+#. §2: `unfold`
+#. §3: `unfold`
+#. §4: `Set.nonempty`
+#. §5: ```
+#. unfold Set.nonempty at S_ne ⊢
+#. ```
+#: Game.Levels.WOPWorld.L02_WOP
+msgid "### ❯ The §0 tactic\n"
+"It might be helpful to *see* the definition for §1. To *unfold* a definition, we use the §2 tactic. 🔍 Check out the entry for §3 in the **Tactics** tab and the entry for §4 in the **Definitions** tab. 👉 In our situation, try:\n"
+"§5\n"
+""
+msgstr ""
+
+#. §0: $S$
+#. §1: $S$
+#: Game.Levels.WOPWorld.L05_WOP
+msgid "If §0 is bounded above, then §1 can be strictly bounded above."
+msgstr ""
+
+#: Game.Levels.FTAWorld.L06_FTA
+msgid "Products of prime lists are positive"
+msgstr ""
+
+#: Game.Levels.PrimeWorld
+msgid "Prime World"
+msgstr ""
+
+#: Game.Levels.PrimeWorld.L03_prime
+msgid "No prime divides one."
+msgstr ""
+
+#. §0: `Perm`
+#. §1: `α`
+#. §2: ```
+#. cons (x : α) {l₁ l₂ : List α} :
+#.   l₁ ~ l₂ → (x :: l₁) ~ (x :: l₂)
+#. ```
+#: Game.Levels.FTAWorld.L07_FTA
+#: Game.Levels.FTAWorld.L07_FTA
+#: Game.Levels.FTAWorld.L07_FTA
+msgid "A constructor for §0 (where §1 is a generic Type):\n"
+"§2"
+msgstr ""
+
+#. §0: `List.head`
+#. §1: `[x,y,z].head`
+#. §2: `x`
+#: Game.Levels.PrimeWorld.L07_prime
+msgid "§0 returns the first element of a non-empty list (e.g §1 returns §2)"
+msgstr ""
+
+#. §0: ```
+#. div_alg_mem_Bez
+#.   (a b m q r: Z)
+#.   (hm : ∃ x y : Z, a * x + b * y = m)
+#.   (eq : a = m * q + r) :
+#.   ∃ x y : Z , a * x + b * y = r
+#. ```
+#. §1: $a,b,m,q,r ∈ ℤ$
+#. §2: $m$
+#. §3: $ℤ$
+#. §4: $a$
+#. §5: $b$
+#. §6: $a = qm + r$
+#. §7: $r$
+#. §8: $ℤ$
+#. §9: $a$
+#. §10: $b$
+#: Game.Levels.GCDWorld.L07_GCD
+msgid "As stated:\n"
+"§0\n"
+"Let §1. If §2 is a §3-linear combination of §4 and §5 and §6, then §7 is also a §8-linear combination of §9 and §10."
+msgstr ""
+
+#. §0: $0$
+#. §1: $ℤ⁺$
+#. §2: ```
+#. non_trivial : (0 : Z) ∉ Zplus
+#. ```
+#. §3: `(0 : Z)`
+#. §4: `Nat`
+#: Game.Levels.OrderWorld.L03_order
+msgid "The additive identity §0 is not an element of §1. This is an **axiom**. Here's what it looks like in Lean:\n"
+"§2\n"
+"We needed to write §3 otherwise Lean defaults to thinking of numbers as belonging to the built-in type §4."
+msgstr ""
+
+#. §0: `apply`
+#. §1: ```
+#. apply h
+#. ```
+#. §2: `thm: P → Q`
+#. §3: `⊢ Q`
+#. §4: ```
+#. apply thm
+#. ```
+#. §5: `P`
+#. §6: `Q`
+#. §7: `P`
+#: Game.Levels.TestWorld.L08_test
+msgid "The §0 tactic is for goal management. Usual usage might look like:\n"
+"§1\n"
+"If it succeeds, then the tactic returns as many subgoals as the number of premises that have not been fixed by type inference or type class resolution.\n"
+"For example, suppose we have a theorem of the form §2 and our goal is §3. Then\n"
+"§4\n"
+"will change the goal to §5. This is logically valid since we know that §6 follows from §7."
+msgstr ""
+
+#. §0: `a b x y d`
+#: Game.Levels.TestWorld.L16_test
+msgid "# **Level 16**\n"
+"Boss fight! The hardest part of this boss is the careful rewriting we'll have to do at the end. **Note:** we've already introduced the variables §0 for you."
+msgstr ""
+
+#: Game.Levels.TestWorld.L14_test
+msgid "Divides is transitive"
+msgstr ""
+
+#. §0: $$∀ a,b,c ∈ ℤ, a(b + c) = ab + ac$$
+#. §1: ```
+#. mul_add : ∀ a b c : Z, a * (b + c) = a * b + a * c
+#. ```
+#: Game.Levels.TestWorld.L09_test
+msgid "Multiplication *distributes* over addition. In particular,\n"
+"\n"
+"§0\n"
+"\n"
+"This is an **axiom**. Here's what it looks like in Lean:\n"
+"§1"
+msgstr ""
+
+#. §0: ```
+#. mul_step_up : ∀ a b x : Z, 0 < b →
+#.   ∃ y : Z, a + -(b * x) < a + -(b * y)
+#. ```
+#. §1: $a b, x ∈ ℤ$
+#. §2: $b$
+#. §3: $y ∈ ℤ$
+#. §4: $ a - bx < a - by $
+#: Game.Levels.WOPWorld.L09_WOP
+msgid "As state:\n"
+"§0\n"
+"For all §1, if §2 is positive, then there exists §3 such that §4."
+msgstr ""
+
+#: Game.Levels.PrimeWorld.L10_prime
+msgid "Enlarging prime lists"
+msgstr ""
+
+#. §0: ```
+#. prime_div : ∀ a : Z, 1 < a →
+#.   ∃ p : Z, Prime p ∧ p ∣ a
+#. ```
+#. §1: $a ∈ ℤ$
+#. §2: $1 < a$
+#. §3: $p$
+#. §4: $p ∣ a$
+#: Game.Levels.PrimeWorld.L05_prime
+msgid "As stated:\n"
+"§0\n"
+"For all §1, if §2, then there exists a prime §3 such that §4."
+msgstr ""
+
+#. §0: $a < b$
+#. §1: $b + -a ∈ ℤ⁺$
+#. §2: ```
+#. instance : LT Z :=
+#.   ⟨ fun a b => b + -a ∈ Zplus ⟩
+#. 
+#. lt_def : ∀ a b : Z, a < b ↔ (b + -a) ∈ Zplus
+#. ```
+#: Game.Levels.OrderWorld.L01_order
+msgid "The relation §0 means that §1. This is a **definition**. Here's how it looks in Lean:\n"
+"§2"
+msgstr ""
+
+#: GameServer.RpcHandlers
+msgid "intermediate goal solved! 🎉"
+msgstr ""
+
+#. §0: `A`
+#. §1: `B`
+#. §2: `p`
+#. §3: `q`
+#. §4: `A ⊆ B`
+#. §5: `∀ x, x ∈ A → x ∈ B`
+#. §6: `A ≠∅ `
+#. §7: `∃ x, x ∈ A`
+#. §8: `A =∅ `
+#. §9: `¬ (∃ x, x ∈ A)`
+#: Game.Levels.WOPWorld.L02_WOP
+msgid "### **💡 Pro-tip**\n"
+"If §0 and §1 are sets whose membership propositions are §2 and §3 (resp.), then\n"
+"* §4 means §5\n"
+"* §6 means §7\n"
+"* §8 means §9"
+msgstr ""
+
+#: Game.Levels.TestWorld.L02_test
+msgid "Similarly, we can add on the left across an equality of integers."
+msgstr ""
+
+#. §0: `l`
+#. §1: `(head :: tail)`
+#. §2: ```
+#. tail_ih : tail.prime → p ∣ tail.prod → p ∈ tail
+#. ```
+#: Game.Levels.FTAWorld.L05_FTA
+msgid "We're now in the **inductive step**. In the present case, this means we assume that §0 is of the form §1. What's more, we have the **inductive hypothesis**\n"
+"§2\n"
+""
+msgstr ""
+
+#. §0: $m$
+#. §1: $m$
+#: Game.Levels.PrimeWorld.L04_prime
+msgid "If §0 is composite, then §1 has a proper non-trivial divisor."
+msgstr ""
+
+#. §0: ```
+#. «{h}» : «{b}» + «{a}» = 0
+#. ```
+#. §1: `rw`
+#. §2: `«{h}»`
+#: Game.Levels.TestWorld.L06_test
+msgid "### **🕵 For secret reasons ...**\n"
+"... it would be better if\n"
+"§0\n"
+"👉 Use §1 to get §2 in this form. We'll explain later."
+msgstr ""
+
+#. §0: $l$
+#. §1: $L$
+#. §2: $L$
+#. §3: $l$
+#: Game.Levels.FTAWorld.L07_FTA
+msgid "If §0 is the member of a list §1, then §2 is a permutation of a list with §3 as the head."
+msgstr ""
+
+#: Game.Levels.absWorld.L05_abs
+msgid "Absolute values of positives"
+msgstr ""
+
+#. §0: `obtain`
+#. §1: ```
+#. obtain ⟨patt⟩ : prop := proof
+#. ```
+#. §2: `⟨patt⟩`
+#. §3: `proof`
+#. §4: `prop`
+#. §5: `:= proof`
+#. §6: ```
+#. obtain : prop
+#. ```
+#. §7: `prop`
+#. §8: `prop`
+#. §9: ```
+#. obtain h : prop := proof
+#. ```
+#. §10: `h`
+#. §11: `prop`
+#. §12: `h`
+#. §13: `proof`
+#. §14: `prop`
+#. §15: `prop`
+#. §16: `proof`
+#. §17: ```
+#. obtain h := proof
+#. ```
+#. §18: `obtain h := proof`
+#. §19: `obtain h : prop := proof`
+#: Game.Levels.TestWorld.L05_test
+msgid "The §0 tactic allows you to introduce hypotheses as long as they are proven. The general usage is:\n"
+"§1\n"
+"In the above §2 is a pattern, and §3 is the proof of that §4. We'll learn more about patterns later. If §5 is omitted as in\n"
+"§6\n"
+"then goal is split in two. The **Active Goal** is to prove §7; the second goal is the original with the obtained §8 added as an assumption.\n"
+"\n"
+"## **Basic Usage**\n"
+"For now, basic usage looks like the following:\n"
+"§9\n"
+"In the above §10 is the name we give to the new assumption; §11 is the proposition we want §12 to bind to; and §13 is the proof that §14. Oftentimes, §15 can be omitted (being implied from §16). In that case, usage is even more basic and looks like the following:\n"
+"§17\n"
+"### **💡 Pro-tip**\n"
+"If Lean complains that\n"
+"\n"
+"*typeclass instance problem is stuck*\n"
+"\n"
+"when using §18, try using the more verbose §19 instead."
+msgstr ""
+
+#. §0: ```
+#. intro «{a}» «{b}» «{c}» «{h}»
+#. ```
+#. §1: `intro`
+#. §2: `rewrite`
+#. §3: `«{a}» = «{b}»`
+#. §4: `rewrite`
+#. §5: ```
+#. rewrite[«{h}»]
+#. ```
+#. §6: `«{a}»`
+#. §7: `«{b}»`
+#: Game.Levels.TestWorld.L01_test
+msgid "Truth be told, we could have done this all in one line with\n"
+"§0\n"
+"⏮ You can go back and try this out now! Just navigate to the **Retry** button on the first prompt. You'll return right back to this spot after trying out the more efficient use of §1.\n"
+"### ❯ The §2 tactic\n"
+"Now, we now want to subtitute §3 into the goal. We'll use the §4 tactic to do so. 🔍 Check the documentation in the **Tactics** tab. 👉 Specifically, try\n"
+"§5\n"
+"This will replace all instances of §6 with §7 in the goal."
+msgstr ""
+
+#. §0: `a ∈ a :: as`
+#. §1: ```
+#. Mem.head {α : Type u} {a : α} (as : List α) :
+#.   List.Mem a (a :: as)
+#. ```
+#. §2: `Mem.head`
+#. §3: ```
+#. theorem silly (α : Type) : ∀ x y z : α, x ∈ [x,y,z] := by
+#.   intro x y z
+#.   exact Mem.head [y,z]
+#. ```
+#. §4: `exact`
+#. §5: `x ∈ [x,y,z]`
+#. §6: `Mem.head [y,z]`
+#. §7: `_ ∈ _ :: [y,z]`
+#. §8: `{a : α}`
+#. §9: `x ∈ x :: [x,y]`
+#. §10: `a = x`
+#: Game.Levels.PrimeWorld.L07_prime
+msgid "The head of a list is a member: §0. Here's what it looks like in Lean:\n"
+"§1\n"
+"The arguments in curly braces are **implicit**. This means those arguments will be inferred from context. Here's an example of how §2 can be used:\n"
+"§3\n"
+"**Here's what's happening:**\n"
+"* The §4 tactic tells Lean to expect a proof of §5;\n"
+"* At the same time §6 has the type §7 where the underscores correspond to the implicit argument §8.\n"
+"* Lean unifies this type with the goal §9 inferring that §10.\n"
+"* Finally, Lean fills the implicit argument and clears the goal."
+msgstr ""
+
+#. §0: `«{hp}»`
+#. §1: `Prime`
+#. §2: `unfold`
+#. §3: ```
+#. unfold Prime at «{hp}»
+#. ```
+#: Game.Levels.PrimeWorld.L01_prime
+msgid "Notice that §0 is somewhat *opaque*. If we wish to make the definition of §1 more apparent, we can use the §2 tactic. 🔍 Check out the new entry in the **Tactics** tab. 👉 Specifically, try\n"
+"§3\n"
+""
+msgstr ""
+
+#: Game.Levels.TestWorld.L07_test
+msgid "Simple Cancellation"
+msgstr ""
+
+#. §0: `simp`
+#. §1: `simp`
+#. §2: ```
+#. neg_zero : (-0 : Z) = 0
+#. ```
+#. §3: `a < b`
+#. §4: `b + -a ∈ Zplus`
+#. §5: `lt_def`
+#. §6: `mem_Zplus`
+#. §7: `b + -a ∈ Zplus`
+#. §8: `0 < b + -a`
+#. §9: `a ∈ Zplus`
+#. §10: `lt_def`
+#. §11: `0 < a`
+#. §12: `a + -0 ∈ Zplus`
+#. §13: `mem_Zplus`
+#. §14: `a ∈ Zplus`
+#. §15: `0 < a`
+#: Game.Levels.OrderWorld.L06_order
+msgid "# **Level 6**\n"
+"Another if-and-only-if to practice on. Also...\n"
+"### **⟳ §0 updated**\n"
+"The §1 tactic knows the following:\n"
+"§2\n"
+"This can be helpful in this exercise.\n"
+"\n"
+"### **🤔 But why?**\n"
+"This level may seem a little silly, but it's surprisingly helpful. Reason being: we know that §3 is **definitionally equivalent** to §4 via §5. It's good to have a theorem like §6 around in the event that we want to intentionally interpret §7 as saying §8. This is especially true for propositions like §9. In order to use §10 to interpret this as saying §11 we'd have to wrangle it into the form §12. The theorem §13 allows us to interpret §14 as §15 more gracefully."
+msgstr ""
+
+#. §0: ```
+#. gcd_exists
+#.   (a b : Z)
+#.   (hab : ¬ (a = 0 ∧ b = 0) ) :
+#.   ∃ g : Z, g ∣ a ∧ g ∣ b ∧
+#.     (∀ d : Z, (d ∣ a → d ∣ b → d ≤ g))
+#. ```
+#. §1: $a,b ∈ ℤ$
+#. §2: $a$
+#. §3: $b$
+#. §4: $g ∈ ℤ$
+#. §5: $g ∣ a$
+#. §6: $g ∣ b$
+#. §7: $∀ d ∈ ℤ$
+#. §8: $d ∣ a$
+#. §9: $d ∣ b$
+#. §10: $d ≤ g$
+#. §11: $g$
+#: Game.Levels.GCDWorld.L02_GCD
+msgid "As stated:\n"
+"§0\n"
+"For all §1, if at least one of §2 or §3 is non-zero, then there exists §4 such that §5, §6, and §7, if §8 and §9, then §10. We call §11 a **greatest common divisor**."
+msgstr ""
+
+#. §0: `symm`
+#. §1: `symm`
+#: Game.Levels.TestWorld.L09_test
+msgid "# **Level 9**\n"
+"Our first mini-boss!\n"
+"\n"
+"This statement is one that most folks are familiar with, but perhaps have never formally proven. We might find the §0 tactic helpful in this level. 🔍 Check out the entry for §1 in the **Tactics** tab."
+msgstr ""
+
+#. §0: $p ∈ ℤ$
+#. §1: $p$
+#: Game.Levels.FTAWorld.L05_FTA
+msgid "If §0 is a prime that divides the product of all members of a list of primes, then §1 is a member of that list."
+msgstr ""
+
+#: Game.Levels.FTAWorld.L02_FTA
+msgid "# **Level 2**\n"
+"***Mini boss fight!*** The result of this level is sometimes referred to as the **Fundamental Lemma**."
+msgstr ""
+
+#. §0: `le_def`
+#: Game.Levels.OrderWorld.L02_order
+msgid "# **Level 2**\n"
+"Welcome to Level 2! Now we'll show that the *less than or equal to* relation is transitive when coupled with the *less than* relation. 🔍 Check out the definition §0 before getting started."
+msgstr ""
+
+#. §0: ```
+#. factor_of_prime_dvd
+#.   (m p : Z)
+#.   (lt : 1 < m)
+#.   (hm : ¬ Prime m)
+#.   (hp : Prime p)
+#.   (hmp :  p ∣ m) :
+#.     ∃ n : Z, m = p * n ∧ 1 < n ∧ n < m
+#. ```
+#. §1: $m,p ∈ ℤ$
+#. §2: $1 < m$
+#. §3: $m$
+#. §4: $p$
+#. §5: $p ∣ m$
+#. §6: $q$
+#. §7: $m = pq$
+#. §8: $1 < q$
+#. §9: $q < p$
+#. §10: $m$
+#. §11: $p$
+#: Game.Levels.PrimeWorld.L09_prime
+msgid "As stated:\n"
+"§0\n"
+"For all §1, if §2, §3 is not prime, §4 is prime, and §5, then there exists an integer §6 such that §7 and §8 and §9. In other words, if §10 isn't prime and §11 is a prime factor, then the other factor is proper."
+msgstr ""
+
+#. §0: ```
+#. add_on_left : ∀ a b c : Z, a = b → c + a = c + b
+#. ```
+#. §1: $a,b,c ∈ ℤ$
+#. §2: $a = b$
+#. §3: $c + a = c + b.$
+#: Game.Levels.TestWorld.L02_test
+msgid "As stated:\n"
+"§0\n"
+"Addition on the left of an equality. For all §1, if §2, then §3"
+msgstr ""
+
+#: Game.Levels.TestWorld.L16_test
+msgid "The divides relation and linear combinations"
+msgstr ""
+
+#. §0: $∀ a ∈ ℤ$
+#. §1: $-a ∈ ℤ$
+#. §2: $a + -a = 0$
+#. §3: ```
+#. add_neg_self : ∀ a : Z, a + -a = 0
+#. ```
+#: Game.Levels.TestWorld.L06_test
+msgid "The existence of additive inverses. In particular, §0, there is an element §1 such that §2. This is an **axiom**. Here's what it looks like in Lean:\n"
+"§3"
+msgstr ""
+
+#. §0: $ℤ⁺$
+#: Game.Levels.DivisionWorld.L02_division
+msgid "# **Level 2**\n"
+"This is another helper lemma. Can you anticipate why we might be interested in conditions where our set of remainders is definitely contained in §0? 👀"
+msgstr ""
+
+#. §0: `cases`
+#. §1: `List.Mem`
+#. §2: `List.Mem`
+#. §3: `«{hs}»: «{s}» ∈ [«{p}»]`
+#. §4: `⊢ Prime «{s}»`
+#. §5: `«{s}»`
+#. §6: `«{s}»`
+#. §7: ```
+#. cases «{hs}»
+#. ```
+#. §8: `h`
+#. §9: `cases h`
+#. §10: `cases`
+#: Game.Levels.PrimeWorld.L06_prime
+msgid "### ❯ The §0 tactic\n"
+"🔍 Check out the entry for §1 in the **Definitions** tab. Note: the membership proposition §2 is inductively constructed. In our situation, we know §3 and we wish to show §4. This means there are two cases to consider: either §5 is the **head** of the list, or §6 belongs in the **tail** of the list. To break down into these inductive *cases*, try:\n"
+"§7\n"
+"More generally, if §8 is a inductive proposition, then §9 will split the main goal into subgoals according to the constructors of that inductive type. Each subgoal will be a general instance of that specific constructor. 🔍 Check out the entry for §10 in the **Tactics** tab."
+msgstr ""
+
+#. §0: ```
+#. rw[lt_def]
+#. simp
+#. ```
+#. §1: ```
+#. simp[lt_def]
+#. ```
+#. §2: `simp`
+#: Game.Levels.OrderWorld.L06_order
+msgid "### **💡 Pro-tip**\n"
+"You may have written\n"
+"§0\n"
+"But this could have been dealt with in one fell swoop:\n"
+"§1\n"
+"In fact, this level can be beaten with one line! We'll get some more practice with §2 in the next level."
+msgstr ""
+
+#. §0: $a,b,c ∈ ℤ$
+#. §1: $a - b < c$
+#. §2: $a - c < b$
+#: Game.Levels.OrderWorld.L07_order
+#: Game.Levels.GCDWorld.L03_GCD
+msgid "For all §0, if §1, then §2."
+msgstr ""
+
+#: Game.Levels.OrderWorld.L02_order
+msgid "Less-than-or-equal-to is transitive"
+msgstr ""
+
+#. §0: `prime_dvd_mul`
+#: Game.Levels.FTAWorld.L05_FTA
+msgid "# **Level 5**\n"
+"This exercise is an important generalization of §0 ... and we'll use **induction**.\n"
+"### 🤔 Wait a minute...\n"
+"***I thought we were WOP-folk around here!?*** Yes, this is still largely the case. But there are instances (like in this level) where we need to argue inductively on the **number of items in a list** -- a quantity codified with ℕ, the natural numbers. We could unify our construction of ℤ with that of ℕ and eventually use WOP for such arguments, but this would divert too much of our attention from our main goal."
+msgstr ""
+
+#: Game.Levels.PrimeWorld.L04_prime
+msgid "Composites"
+msgstr ""
+
+#. §0: `add_closure`
+#. §1: `«{h}»`
+#. §2: ```
+#. «{h}» : «{c}» + (-«{b}» + «{b}» + -«{a}») ∈ Z⁺
+#. ```
+#: Game.Levels.OrderWorld.L01_order
+msgid "***Yes!*** We've used §0 in a very efficient way. Try to get the assumption §1 into the following form:\n"
+"§2\n"
+""
+msgstr ""
+
+#: Game.Levels.PrimeWorld.L09_prime
+msgid "# **Level 9**\n"
+"This level is harder, but doesn't involve lists either."
+msgstr ""
+
+#. §0: ```
+#. Bezout_min_dvd (a b m: Z)
+#.   (hmB : m ∈ Bez a b)
+#.   (hmin: ∀ s ∈ Bez a b, m ≤ s) :
+#.   m ∣ a ∧ m ∣ b
+#. ```
+#. §1: $a, b ∈ ℤ$
+#. §2: $m$
+#. §3: $a$
+#. §4: $b$
+#. §5: $m$
+#. §6: $a$
+#. §7: $m$
+#. §8: $b$
+#: Game.Levels.GCDWorld.L09_GCD
+msgid "As stated:\n"
+"§0\n"
+"For all §1, if §2 is a minimal positive linear combination of §3 and §4, then §5 divides §6 and §7 divides §8."
+msgstr ""
+
+#. §0: ```
+#. rw[thm_name] at «{h'}»
+#. ```
+#: Game.Levels.TestWorld.L05_test
+msgid "We now want to simplify our new hypothesis using a known theorem. 💡 **Remember:** we can apply rewrites to hypotheses with the syntax like\n"
+"§0\n"
+""
+msgstr ""
+
+#. §0: ```
+#. add_eq_self : ∀ a b : Z, a + b = a → b = 0
+#. ```
+#. §1: $a, b ∈ ℤ$
+#. §2: $a + b = a$
+#. §3: $b = 0$
+#: Game.Levels.TestWorld.L07_test
+msgid "As stated:\n"
+"§0\n"
+"For all §1, we have that §2 implies that §3."
+msgstr ""
+
+#: Game.Levels.TestWorld.L07_test
+msgid "A simple additive cancellation rule."
+msgstr ""
+
+#. §0: $a,b,p ∈ ℤ$
+#. §1: $p$
+#. §2: $p ∣ ab$
+#. §3: $p ∣ a$
+#. §4: $p ∣ b$
+#: Game.Levels.FTAWorld.L02_FTA
+msgid "For all §0, if §1 is prime and §2, then §3 or §4."
+msgstr ""
+
+#: Game.Levels.OrderWorld.L10_order
+msgid "# **Level 10**\n"
+"Nothing super new here, just a useful theorem to explicitly have going forward. Have some rest at this site of grace."
+msgstr ""
+
+#. §0: $1$
+#: Game.Levels.TestWorld.L12_test
+msgid "Next up: we'll show that §0 is a universal divisor."
+msgstr ""
+
+#. §0: ```
+#. dvd_linear (a b x y d : Z) : d ∣ a → d ∣ b → d ∣ a * x + b * y
+#. ```
+#. §1: $d$
+#. §2: $a$
+#. §3: $b$
+#. §4: $d$
+#. §5: $a$
+#. §6: $b$
+#: Game.Levels.TestWorld.L16_test
+msgid "As stated:\n"
+"§0\n"
+"If an integer §1 divides a pair of integers, say §2 and §3, then §4 divides any linear combination of §5 and §6."
+msgstr ""
+
+#. §0: ```
+#. Bez_symm
+#.   (a b : Z) :
+#.   (Bez a b ⊆ Bez b a) ∧ (Bez b a ⊆ Bez a b)
+#. ```
+#. §1: $a$
+#. §2: $b$
+#. §3: $b$
+#. §4: $a$
+#: Game.Levels.GCDWorld.L04_GCD
+msgid "As stated:\n"
+"§0\n"
+"The set of positive linear combinations of §1 and §2 is equal to the set of positive linear combinations of §3 and §4."
+msgstr ""
+
+#. §0: `simpa`
+#. §1: ```
+#. simp
+#. rw[← lt_def]
+#. exact «{cltd}»
+#. ```
+#. §2: `simpa`
+#. §3: `simpa`
+#. §4: ```
+#. simpa[lt_def] using «{cltd}»
+#. ```
+#. §5: `«{d}» + -«{c}»`
+#. §6: `@[simp]`
+#. §7: `add_neg_self`
+#. §8: `zero_add`
+#. §9: `«{cltd}»`
+#. §10: `lt_def`
+#. §11: `«{cltd}» : «{d}» + -«{c}» ∈ Z⁺`
+#. §12: `«{cltd}»`
+#: Game.Levels.OrderWorld.L09_order
+msgid "### ❯ The §0 tactic\n"
+"We're nearly at our goal -- the rest is busy work. We could use\n"
+"§1\n"
+"Or we can try the §2 tactic. 🔍 Check the entry for §3 in the **Tactics** tab. 👉 In our situation, we can clear the goal at this point with\n"
+"§4\n"
+"Here's how it works in this case:\n"
+"* the goal is first simplified to §5 using tagged §6 lemmas (namely §7 and §8);\n"
+"* the hypothesis §9 is simplified using §10 thereby turning it into §11;\n"
+"* finally it attempts to close the goal using §12 (which succeeds).\n"
+""
+msgstr ""
+
+#: Game.Levels.DivisionWorld
+msgid "Division World"
+msgstr ""
+
+#: Game.Levels.WOPWorld.L02_WOP
+msgid "# **Level 2**\n"
+"In this level, we'll see how to show sets are subsets of others and how to show *non-emptiness*."
+msgstr ""
+
+#. §0: ```
+#. composite (m : Z):
+#.   1 < m → ¬ Prime m →
+#.     ∃ n : Z, 1 < n ∧ n ∣ m ∧ n < m
+#. ```
+#. §1: $m$
+#. §2: $1$
+#. §3: $m$
+#. §4: $m$
+#. §5: $m$
+#: Game.Levels.PrimeWorld.L04_prime
+msgid "As stated:\n"
+"§0\n"
+"If §1 is greater than §2 and not prime, then we say that §3 is **composite**. If §4 is composite, then §5 has a proper non-trivial divisor."
+msgstr ""
+
+#: Game.Levels.PrimeWorld.L10_prime
+msgid "# **Level 10**\n"
+"Back to lists! This one isn't so bad though."
+msgstr ""
+
+#. §0: `head`
+#. §1: `hp`
+#. §2: `Mem.head`
+#. §3: `Mem.head`
+#: Game.Levels.PrimeWorld.L07_prime
+msgid "We're getting there, but now we need to know that §0 is, in fact, prime. You'll need to use the hypothesis §1 as well as the definition for §2. 🔍 Check out the entry for §3 in **Definitions** tab."
+msgstr ""
+
+#. §0: `L : List Z`
+#. §1: `List.prime L`
+#. §2: `L`
+#. §3: `Prime`
+#. §4: ```
+#. def List.prime (S : List Z) := ∀ s ∈ S, Prime s
+#. ```
+#. §5: `l: List Z`
+#. §6: `l.prime`
+#. §7: `List.prime l`
+#: Game.Levels.PrimeWorld.L06_prime
+msgid "If §0 then §1 is the proposition that every element of §2 is a §3. Here's what it looks like in Lean\n"
+"§4\n"
+"If §5, then §6 is equivalent to §7."
+msgstr ""
+
+#. §0: `l`
+#. §1: `⊢ p ∈ []`
+#. §2: `False`
+#: Game.Levels.FTAWorld.L05_FTA
+msgid "... the first of which is the **base** case. In the present case, this means we assume that §0 is the empty list. In other words, our goal is §1 -- this is §2. So we should look for a contradiction."
+msgstr ""
+
+#: Game.Levels.absWorld.L03_abs
+msgid "Absolute values are non-negative"
+msgstr ""
+
+#: Game.Levels.PrimeWorld.L08_prime
+msgid "Primes are magnifiers"
+msgstr ""
+
+#. §0: ```
+#. trichotomy : ∀ a : Z,
+#.     ( a ∈ Zplus ∧ a ≠ 0 ∧ (-a) ∉ Zplus ) ∨
+#.     ( a ∉ Zplus ∧ a = 0 ∧ (-a) ∉ Zplus ) ∨
+#.     ( a ∉ Zplus ∧ a ≠ 0 ∧ (-a) ∈ Zplus )
+#. ```
+#: Game.Levels.OrderWorld.L05_order
+msgid "For all a ∈ ℤ, precisely one of the following must hold:\n"
+"* a ∈ ℤ⁺ and a ≠ 0 and -a ∉ ℤ⁺\n"
+"* a ∉ ℤ⁺ and a = 0 and -a ∉ ℤ⁺\n"
+"* a ∉ ℤ⁺ and a ≠ 0 and -a ∈ ℤ⁺.\n"
+"This is an **axiom**. Here's what it looks like in Lean:\n"
+"§0"
+msgstr ""
+
+#. §0: `simp`
+#: Game.Levels.OrderWorld.L07_order
+msgid "### **💡 Pro-tip**\n"
+"We'll continue to update §0 as needed throughout the game."
+msgstr ""
+
+#. §0: ```
+#. bdd_divisors
+#.   (a b : Z)
+#.   ( hab : ¬ (a = 0 ∧ b = 0) ) :
+#.   ∃ u : Z, ∀ x : Z, x ∈ {d : Z | d ∣ a ∧ d ∣ b} → x ≤ u
+#. ```
+#. §1: $a,b ∈ ℤ$
+#. §2: $d ∈ ℤ$
+#. §3: $d ∣ a $
+#. §4: $d ∣ b$
+#. §5: $d$
+#. §6: $a$
+#. §7: $b$
+#. §8: $a$
+#. §9: $b$
+#. §10: $a$
+#. §11: $b$
+#: Game.Levels.GCDWorld.L01_GCD
+msgid "As stated:\n"
+"§0\n"
+"Let §1. If §2 such that §3 and §4, we call §5 a **common divisor** of §6 and §7. If at least one of §8 or §9 is non-zero, then the set of common divisors of §10 and §11 is bounded above."
+msgstr ""
+
+#. §0: `L : List Z`
+#. §1: `L`
+#. §2: `[]`
+#. §3: `L.head`
+#. §4: `L`
+#. §5: `[x,y,z].head`
+#. §6: `x`
+#. §7: `L.tail`
+#. §8: `head`
+#. §9: `[x,y,z].tail`
+#. §10: `[y,z]`
+#. §11: `List.nil`
+#. §12: `[]`
+#. §13: `List.cons (head : Z) (tail : List Z) : List Z`
+#. §14: `head`
+#. §15: `tail`
+#. §16: `head :: tail`
+#. §17: `x :: [y,z]`
+#. §18: `[x,y,z]`
+#: Game.Levels.PrimeWorld.L06_prime
+msgid "If §0, then §1 contains an ordered sequence of integers.\n"
+"* The empty list is written §2\n"
+"* §3 returns the first element of §4 (e.g §5 returns §6)\n"
+"* §7 returns the list created after dropping the §8 (e.g.§9 returns §10)\n"
+"\n"
+"Lists are constructed inductively from a given head and a tail.\n"
+"\n"
+"### **Constructors**\n"
+"* §11 : the empty list, usually written §12\n"
+"* §13 :  the list whose first element is §14 and §15 is the rest of the list, usually written §16. For example, §17 is the same as §18."
+msgstr ""
+
+#. §0: ```
+#. flip_ne_pos
+#.   (S : Set Z)
+#.   (u : Z)
+#.   (S_ne : S ≠∅)
+#.   (umax : ∀ x ∈ S, x < u) :
+#.       {y : Z | ∃ s ∈ S, y = u + -s} ≠∅
+#.     ∧ {y : Z | ∃ s ∈ S, y = u + -s} ⊆ Zplus
+#. 
+#. ```
+#. §1: $S ⊆ ℤ$
+#. §2: $u ∈ ℤ$
+#. §3: $$ \\{ y ∈ ℤ ∣ ∃ s ∈ S, y = u + -s \\}$$
+#. §4: $ℤ⁺$
+#: Game.Levels.WOPWorld.L02_WOP
+msgid "As stated:\n"
+"§0\n"
+"Suppose §1 is nonempty and strictly bounded above by §2. Then the flipped set\n"
+"\n"
+"§3\n"
+"\n"
+"is nonempty and contained in §4"
+msgstr ""
+
+#. §0: `⊢ False`
+#. §1: `head ∣ 1`
+#. §2: `obtain`
+#. §3: ```
+#. obtain F : head ∣ 1
+#. ```
+#: Game.Levels.PrimeWorld.L07_prime
+msgid "Lo and behold, our goal is §0. So we should try to find a contradiction amongst ඞ our hypotheses. Try to obtain the hypothesis §1. 👉 **Remember:** you can use §2 to open a subgoal like:\n"
+"§3\n"
+""
+msgstr ""
+
+#. §0: `s ∈ tail`
+#. §1: `s ∈ (head :: tail)`
+#. §2: `Mem.tail`
+#: Game.Levels.FTAWorld.L04_FTA
+msgid "Almost there. We'll need to show that if §0 then §1. This is part of the **Definition** of list membership. 🔍 Check out the entry for §2."
+msgstr ""
+
+#. §0: `rw[dvd_def]...`
+#. §1: `a ∣ b`
+#. §2: `rcases`
+#: Game.Levels.TestWorld.L14_test
+msgid "### **💡 Pro-tip**\n"
+"We did **not** have to use the line §0. Everything works just as well if that line is removed, in other words we could have immediately started destructuring §1 with §2. ⏮ Go back and give it a try.\n"
+"\n"
+"At any rate, we wish to prove an existential now. Do we have a potential *witness*?"
+msgstr ""
+
+#. §0: `⊢ P ∧ Q`
+#. §1: ```
+#. constructor
+#. ```
+#. §2: `⊢ P`
+#. §3: `⊢ Q`
+#: Game.Levels.OrderWorld.L05_order
+msgid "If the goal is of the form §0,\n"
+"§1\n"
+"will make two goals: the Active Goal will become §2 while Goal 2 becomes §3."
+msgstr ""
+
+#. §0: $ℤ$
+#. §1: $ℤ$
+#: Game.Levels.OrderWorld.L08_order
+msgid "The the additive identity of §0 is less than multiplicative identity of §1."
+msgstr ""
+
+#. §0: `by_contra!`
+#. §1: `by_contra!`
+#. §2: ```
+#. by_contra! F
+#. ```
+#: Game.Levels.OrderWorld.L11_order
+msgid "\n"
+"### ❯ The §0 tactic\n"
+"This might be a good place to try a proof by contradiction. The newly unlocked §1 tactic can make your life slightly easier here. 🔍 Check out the entry in the **Tactics** tab. 👉 Try\n"
+"§2\n"
+""
+msgstr ""
+
+#. §0: ```
+#. div_alg_pos
+#.   (a b : Z)
+#.   (hb : 0 < b) :
+#.   ∃ q r : Z, a = b * q + r ∧ 0 ≤ r ∧ r < b
+#. ```
+#. §1: $a,b$
+#. §2: $0 < b$
+#. §3: $q,r ∈ ℤ$
+#. §4: $a = bq + r$
+#. §5: $0 ≤ r < b$
+#: Game.Levels.DivisionWorld.L05_division
+msgid "As stated:\n"
+"§0\n"
+"For all integers §1, if §2, then there exists §3 such that §4 and §5."
+msgstr ""
+
+#. §0: `abs`
+#: Game.Levels.absWorld.L02_abs
+msgid "# **Level 2**\n"
+"This level is a natural companion to the previous level and ought to give us more practice with the §0 definition."
+msgstr ""
+
+#. §0: `And.intro`
+#. §1: `h₁`
+#. §2: `h₂`
+#. §3: `h : h₁ ∧ h₂`
+#. §4: `∧`
+#. §5: `And.intro`
+#. §6: `And.intro`
+#. §7: ```
+#. obtain h := And.intro h₁ h₂
+#. ```
+#. §8: `h : h₁ ∧ h₂`
+#. §9: `∧`
+#. §10: `And.intro`
+#: Game.Levels.WOPWorld.L07_WOP
+msgid "# **Level 7**\n"
+"Here we prove that there is **n**o **i**nteger **b**etween **z**ero and **o**ne.\n"
+"### 🔧 The §0 constructor\n"
+"Suppose we have two assumptions §1 and §2 but we really need the assumption §3. The *constructor* for the §4 connective is §5. 🔍 Check out the entry for §6 in the **Definitions** tab. For example:\n"
+"§7\n"
+"generates the hypothesis §8. In general, if we need to glue a couple assumptions together with §9, then §10 is the tool. This may be helpful in this exercise."
+msgstr ""
+
+#. §0: ```
+#. mem_perm_cons
+#.   {u : Type}
+#.   (l : u) :
+#.   ∀ L : List u, l ∈ L → ∃ Lt : List u, L ~ (l :: Lt)
+#. ```
+#. §1: $l$
+#. §2: $L$
+#. §3: $L$
+#. §4: $l$
+#: Game.Levels.FTAWorld.L07_FTA
+msgid "As stated:\n"
+"§0\n"
+"If §1 is the member of a list §2, then §3 is a permutation of a list with §4 as the head."
+msgstr ""
+
+#: Game.Levels.TestWorld.L08_test
+msgid "Negatives distribute over sums."
+msgstr ""
+
+#. §0: ```
+#. prime_tail : ∀ l : List Z, List.prime l → List.prime l.tail
+#. ```
+#. §1: $l$
+#. §2: $l$
+#: Game.Levels.FTAWorld.L04_FTA
+msgid "As stated:\n"
+"§0\n"
+"If §1 is a list of primes, then the **tail** of §2 is also a list of primes."
+msgstr ""
+
+#. §0: ```
+#. Bezout
+#.   (a b : Z) :
+#.   ∃ x y : Z, a * x + b * y = (gcd a b).g
+#. ```
+#. §1: $a, b ∈ ℤ$
+#. §2: $\\gcd(a,b)$
+#. §3: $a$
+#. §4: $b$
+#: Game.Levels.GCDWorld.L10_GCD
+msgid "As stated:\n"
+"§0\n"
+"For all §1, there §2 is a linear combination of §3 and §4."
+msgstr ""
+
+#. §0: `«{a}» + -«{a}»`
+#: Game.Levels.TestWorld.L06_test
+msgid "***Yes!*** This is exactly what we need. We've got the term §0 scoped now. What's next?"
+msgstr ""
+
+#. §0: `rw[dvd_def]`
+#: Game.Levels.TestWorld.L15_test
+msgid "It's nice to be able to §0 once or twice to see the definition. But from here on out, we shouldn't bother."
+msgstr ""
+
+#. §0: `L : List Z`
+#. §1: `L.Mem a`
+#. §2: `List.Mem a L`
+#. §3: `a ∈ L`
+#. §4: `a`
+#. §5: `L`
+#. §6: `Mem.head`
+#. §7: `Mem.tail`
+#: Game.Levels.PrimeWorld.L06_prime
+msgid "List membership is constructed inductively. If §0, then §1 or §2 , usually just written §3, means that §4 is a member of the list §5.\n"
+"### **Constructors**\n"
+"* §6 : the head of a list is a member.\n"
+"* §7 : a member of the tail of a list is a member of the list."
+msgstr ""
+
+#: Game.Levels.DivisionWorld.L04_division
+msgid "The baby division algorithm"
+msgstr ""
+
+#. §0: `0 < n`
+#: Game.Levels.PrimeWorld.L09_prime
+msgid "It's helpful to obtain the hypothesis that §0 **before** separating the conjunction in the goal."
+msgstr ""
+
+#: Game.Levels.WOPWorld.L08_WOP
+msgid "# **Level 8**\n"
+"Boss fight! This one is important."
+msgstr ""
+
+#: Game.Levels.OrderWorld.L04_order
+msgid "Less-than is anti-reflexive."
+msgstr ""
+
+#: Game
+msgid "FTA Game"
+msgstr ""
+
+#. §0: $a ∈ ℤ$
+#. §1: $a$
+#. §2: $0 < |a|$
+#: Game.Levels.absWorld.L04_abs
+msgid "For all §0, if §1 is nonzero, then §2."
+msgstr ""
+
+#. §0: `«{a}» = «{b}»`
+#. §1: `«{b}»`
+#. §2: `«{a}»`
+#: Game.Levels.TestWorld.L03_test
+msgid "💡 **Important:** Notice how this substituted §0 in the *backwards* direction? In other words, it replaced all §1s with §2s in the goal. This is an important feature we'll use a lot going forward."
+msgstr ""
+
+#. §0: ```
+#. perm_prime
+#.   (P Q : List Z)
+#.   (hP : P.prime)
+#.   (h  : P ~ Q) :
+#.   Q.prime
+#. ```
+#: Game.Levels.FTAWorld.L10_FTA
+msgid "As stated:\n"
+"§0\n"
+"If two lists are permutations of each other and the first list is a list of primes, then the second list is a list of primes as well."
+msgstr ""
+
+#: Game.Levels.FTAWorld.L10_FTA
+msgid "Permutations of prime lists"
+msgstr ""
+
+#. §0: $a, b ∈ ℤ$
+#. §1: $m$
+#. §2: $a$
+#. §3: $b$
+#. §4: $m$
+#. §5: $a$
+#. §6: $m$
+#. §7: $b$
+#: Game.Levels.GCDWorld.L09_GCD
+msgid "For all §0, if §1 is a minimal positive linear combination of §2 and §3, then §4 divides §5 and §6 divides §7."
+msgstr ""
+
+#. §0: `⊢ [«{p}»].prod = «{p}»`
+#. §1: `List.prod`
+#. §2: `List.prod`
+#. §3: `rw`
+#. §4: ```
+#. rw[List.prod]
+#. ```
+#: Game.Levels.PrimeWorld.L06_prime
+msgid "Our goal is now §0. 🔍 Check out the entry for §1 in the **Definitions** tab. The defintion of §2 is recursive. This means we can use §3 to successively apply the recursion rules. 👉 Try\n"
+"§4\n"
+""
+msgstr ""
+
+#: Game.Levels.OrderWorld.L12_order
+msgid "Dichotomy"
+msgstr ""
+
+#. §0: `S_ne`
+#. §1: `S_ne`
+#. §2: `S_ne`
+#. §3: `rcases`
+#: Game.Levels.WOPWorld.L02_WOP
+msgid "See the change in the hypothesis §0? 💡 We should emphasize that this *unfolding* step is **not** necessary -- it merely makes the definition of §1 more visible. For example, we can (and should) destructure the hypothesis §2 using §3. We could do that **without** unfolding as well."
+msgstr ""
+
+#. §0: ```
+#. tails_not_perm {u : Type}
+#.   (p : u)
+#.   (P Q Pt Qt : List u)
+#.   (np : ¬ P ~ Q)
+#.   (hPt : P ~ (p :: Pt))
+#.   (hQt : Q ~ (p :: Qt)) :
+#.   ¬ Pt ~ Qt
+#. ```
+#: Game.Levels.FTAWorld.L09_FTA
+msgid "As stated:\n"
+"§0\n"
+"If two lists are not permutations of each other but they share the same head, then their tails are not permutations of each other."
+msgstr ""
+
+#: Game.Levels.OrderWorld.L07_order
+msgid "Subtraction swap across less-than"
+msgstr ""
+
+#. §0: ```
+#. dvd_mul : ∀ a b c : Z, a ∣ b → a ∣ b * c
+#. ```
+#. §1: $a,b,c ∈ ℤ$
+#. §2: $a ∣ b$
+#. §3: $a ∣ b · c$
+#: Game.Levels.TestWorld.L15_test
+msgid "As stated:\n"
+"§0\n"
+"If an integer divides a factor of a product, then that integer divides the product as well. In particular, for all §1, if §2, then §3."
+msgstr ""
+
+#. §0: $a$
+#. §1: $|a|$
+#: Game.Levels.absWorld.L03_abs
+msgid "For every integer §0, §1 is nonnegative."
+msgstr ""
+
+#: Game.Levels.TestWorld.L16_test
+msgid "We now need to carefully rewrite."
+msgstr ""
+
+#. §0: `a ∈ l → a ∈ b :: l`
+#. §1: `α`
+#. §2: ```
+#. Mem.tail {α : Type u} {a : α} (b : α) {as : List α} :
+#.   List.Mem a as → List.Mem a (b :: as)
+#. ```
+#. §3: `Mem.tail`
+#. §4: ```
+#. example (α : Type) : ∀ x y z : α, y ∈ x :: [y,z] := by
+#.   intro x y z
+#.   obtain h : y ∈ [y,z] := Mem.head [z]
+#.   exact Mem.tail x h
+#. ```
+#. §5: `h`
+#. §6: `y ∈ [y,z] = [x,y,z].tail`
+#. §7: `exact`
+#. §8: `y ∈ [x,y,z]`
+#. §9: `Mem.tail x`
+#. §10: `{_ : α} ∈ {_ : List α} → {_ : α} ∈ x :: {_ : List α}`
+#. §11: `h : y ∈ [y,z]`
+#. §12: `Mem.tail x`
+#: Game.Levels.FTAWorld.L04_FTA
+msgid "A member of the tail of a list is a member of the list: §0. Here's what it looks like in Lean (where §1 is an arbitrary Type):\n"
+"§2\n"
+"The arguments in curly braces are **implicit**. This means those arguments will be inferred from context. Here's an example of how §3 can be used:\n"
+"§4\n"
+"**Here's what's happening:**\n"
+"* First, we obtain §5, the proposition that §6.\n"
+"* The §7 tactic tells Lean to expect a proof of §8;\n"
+"* At the same time, §9 has the  type §10\n"
+"* The hypothesis §11 helps to unify §12 with the goal;\n"
+"* Finally, Lean fills the implicit arguments and clears the goal."
+msgstr ""
+
+#. §0: ```
+#. one_ne_zero : (1 : Z) ≠ 0
+#. ```
+#. §1: $1 ∈ ℤ$
+#. §2: $0 ∈ ℤ$
+#: Game.Levels.OrderWorld.L03_order
+msgid "As stated:\n"
+"§0\n"
+"The multiplicative identity §1 is not equal to the additive identity §2."
+msgstr ""
+
+#. §0: `unfold id`
+#. §1: `id`
+#. §2: `h`
+#. §3: `unfold id at h`
+#: Game.Levels.WOPWorld.L02_WOP
+msgid "The §0 tactic unfolds all occurrences of a definition §1 in the current goal. Unfolding can be directed at a hypothesis §2 with §3."
+msgstr ""
+
+#: Game.Levels.TestWorld.L11_test
+msgid "The product of the negative of an integer and another integer is also equal to the negative product of those integers."
+msgstr ""
+
+#. §0: `Perm.symm`
+#: Game.Levels.FTAWorld.L09_FTA
+msgid "Almost there. It might be helpful to know that the permutation relation is symmetric and that Lean knows this. 🔍 Check out the entry for §0 in the **Definitions** tab."
+msgstr ""
+
+#: Game.Levels.WOPWorld.L07_WOP
+msgid "No integer between zero and one"
+msgstr ""
+
+#. §0: `«{aleb}»`
+#: Game.Levels.OrderWorld.L09_order
+msgid "Let's try to break §0 into cases."
+msgstr ""
+
+#. §0: `«{ha}»`
+#. §1: `abs a`
+#. §2: ```
+#. simp[abs]
+#. ```
+#. §3: `simp`
+#. §4: `abs`
+#: Game.Levels.absWorld.L01_abs
+msgid "We'd like to use hypothesis §0 to simplify the term §1 in the goal. 👉 We might try\n"
+"§2\n"
+"This tells the §3 tactic to use the definition of §4 to unfold the goal.\n"
+""
+msgstr ""
+
+#. §0: $p ∈ ℤ$
+#. §1: $p$
+#. §2: $1 < p$
+#. §3: $a,b ∈ ℤ$
+#. §4: $a$
+#. §5: $b$
+#. §6: $p = ab$
+#. §7: $a = 1$
+#. §8: $b =1$
+#. §9: ```
+#. def Prime (p : Z) : Prop :=
+#.   1 < p ∧ (∀ a b : Z,
+#.     0 < a → 0 < b → p = a * b → a = 1 ∨ b = 1
+#.     )
+#. ```
+#: Game.Levels.PrimeWorld.L01_prime
+msgid "Let §0. We say that §1 is **prime** to mean that the following hold:\n"
+"* §2\n"
+"* for all §3, if §4 and §5 are positive such that §6, then §7 or §8.\n"
+"\n"
+"This is a **definition**. Here's what it look like in Lean:\n"
+"§9"
+msgstr ""
+
+#: Game.Levels.WOPWorld.L10_WOP
+msgid "For all a,b ∈ ℤ, if 0 < b, then there exists q ∈ ℤ such that 0 ≤ a - bq."
+msgstr ""
+
+#. §0: $a$
+#. §1: $a$
+#. §2: $|a|$
+#: Game.Levels.absWorld.L01_abs
+#: Game.Levels.absWorld.L02_abs
+msgid "For every integer §0, §1 divides §2."
+msgstr ""
+
+#. §0: `simpa [rules, ⋯] using e`
+#. §1: `e`
+#. §2: `e`
+#. §3: `simpa [rules, ⋯]`
+#. §4: `this`
+#. §5: `assumption`
+#: Game.Levels.OrderWorld.L09_order
+msgid "This is a \"finishing\" tactic modification of simp. General usage looks like:\n"
+"* §0 will simplify the goal and the type of §1 using rules, then try to close the goal using §2.\n"
+"* §3 will simplify the goal and the type of a hypothesis §4 if present in the context, then try to close the goal using the §5 tactic which, in turn, tries to solve the main goal by using a hypothesis of a compatible type."
+msgstr ""
+
+#. §0: `List`
+#: Game.Levels.PrimeWorld.L06_prime
+msgid "We need a §0 to witness the existential goal."
+msgstr ""
+
+#: Game.Levels.FTAWorld.L02_FTA
+msgid "Primes dividing products"
+msgstr ""
+
+#. §0: `«{a}» = «{b}»`
+#. §1: `«{a}» < «{b}»`
+#: Game.Levels.OrderWorld.L02_order
+msgid "We've cleared the case when §0. We're now in the case when §1. 💪 **Challenge:** try to clear this in one line."
+msgstr ""
+
+#. §0: `P ↔ Q`
+#. §1: ```
+#. (P → Q) ∧ (Q → P)
+#. ```
+#. §2: `constructor`
+#. §3: `⊢ G₁ ∧ G₂`
+#. §4: `G₁`
+#. §5: `G₂`
+#. §6: `constructor`
+#. §7: `a b : Z`
+#. §8: ```
+#. constructor
+#. ```
+#: Game.Levels.OrderWorld.L05_order
+msgid "# **Level 5**\n"
+"Here's our first **if and only if** statement. Remember: §0 means\n"
+"§1\n"
+"So our goal in this level is a **conjunction**.\n"
+"### ❯ The §2 tactic\n"
+"If we have a goal of the form §3, then we typically just split our work into two goals -- first we prove §4, then we prove §5. The tactic that implements this strategy is §6. 🔍 Check out the entry in the **Tactics** tab. Note: we've already introduced §7 this time. 👉 Try:\n"
+"§8\n"
+"to get started."
+msgstr ""
+
+#. §0: `⊢ ¬ a < 0`
+#: Game.Levels.absWorld.L05_abs
+msgid "Now our **Active Goal** is §0."
+msgstr ""
+
+#: Game.Levels.WOPWorld.L05_WOP
+msgid "Strictly bounded vs bounded"
+msgstr ""
+
+#. §0: ```
+#. Bezout_ne (a b : Z)
+#.   (ha : a ≠ 0) :
+#.   Bez a b ≠∅
+#. ```
+#. §1: $a,b ∈ ℤ$
+#. §2: $a$
+#. §3: $b$
+#. §4: $$ \\{d ∈ ℤ : 0 < d ∧ ∃ m,n ∈ ℤ, ma + nb = d\\} $$
+#: Game.Levels.GCDWorld.L05_GCD
+#: Game.Levels.GCDWorld.L06_GCD
+msgid "As stated:\n"
+"§0\n"
+"For all §1 , if at least one of §2 or §3 is nonzero,then the set\n"
+"\n"
+"§4\n"
+"\n"
+"is nonempty."
+msgstr ""
+
+#. §0: ```
+#. prime_list_step
+#.   (p : Z)
+#.   (Q : List Z)
+#.   (hp : Prime p)
+#.   (hQ : Q.prime) :
+#.     ∃ M : List Z, M.prime ∧ M.prod = p * Q.prod
+#. ```
+#: Game.Levels.PrimeWorld.L10_prime
+msgid "As stated:\n"
+"§0"
+msgstr ""
+
+#. §0: `gcd a b`
+#. §1: `GCD a b`
+#. §2: ```
+#. structure GCD (a b : Z) where
+#.   (g : Z)
+#.   (left : g ∣ a )
+#.   (right : g ∣ b)
+#.   (le : ¬ (a = 0 ∧ b = 0) →
+#.     ∀ d : Z, (d ∣ a →  d ∣ b → d ≤ g ))
+#. ```
+#. §3: `gcd a b`
+#. §4: `(gcd a b).g`
+#. §5: `(gcd a b).left`
+#. §6: `g ∣ a`
+#. §7: `(gcd a b).right`
+#. §8: `g ∣ b`
+#. §9: `(gcd a b).le`
+#. §10: `¬ (a = 0 ∧ b = 0) → ∀ d : Z, d ∣ a → d ∣ b → d ≤ g)`
+#. §11: `(gcd 0 0).g := 0`
+#. §12: `gcd a b`
+#. §13: `gcd_exists`
+#. §14: ```
+#. noncomputable def gcd (a b : Z) : GCD a b := by
+#.   by_cases h : a = 0 ∧ b = 0
+#.   refine
+#.   { g := (0 : Z)
+#.     left := by
+#.       rw[dvd_def]
+#.       use 1
+#.       simp
+#.       exact h.left
+#.     right := by
+#.       rw[dvd_def]
+#.       use 1
+#.       simp
+#.       exact h.right
+#.     le := by
+#.       intro F
+#.       contradiction
+#.     }
+#.   obtain gcd_exists := gcd_exists a b h
+#.   -- choose G to satisfy the predicate
+#.   let G : Z := Classical.choose gcd_exists
+#.   -- obtain spec for G
+#.   obtain G_spec := Classical.choose_spec gcd_exists
+#.   refine
+#.   { g := G
+#.     left := by
+#.       exact G_spec.left
+#.     right := by
+#.       exact G_spec.right.left
+#.     le := by
+#.       intro h'
+#.       exact G_spec.right.right
+#.     }
+#. ```
+#: Game.Levels.GCDWorld.L03_GCD
+msgid "The definition of §0 is a **proof** of the structure §1 which has the following form:\n"
+"§2\n"
+"This means that §3 has four fields, specifically:\n"
+"* §4 refers to the greatest common divisior itself\n"
+"* §5 is the proposition that §6\n"
+"* §7 is the proposition that §8\n"
+"* §9 is the proposition that §10.\n"
+"\n"
+"By convention, we define §11. For transparency, here is the proof of §12 -- the hardest part is §13 which we've proven together and used here.\n"
+"§14"
+msgstr ""
+
+#: Game.Levels.FTAWorld.L12_FTA
+msgid "This was a sort-of **inductive step**. And now for the final boss..."
+msgstr ""
+
+#: Game.Levels.WOPWorld.L01_WOP
+msgid "Set membership"
+msgstr ""
+
+#. §0: ```
+#. intro ⟨patt⟩ ⟨patt⟩ ...
+#. ```
+#. §1: `⟨patt⟩`
+#. §2: `rcases`
+#. §3: ```
+#. theorem silly : ∀ P Q : Prop, (P ∧ Q) → P :=  by
+#.   intro P Q ⟨h1,h2⟩
+#. ```
+#. §4: `P Q : Prop`
+#. §5: `h1 : P`
+#. §6: `h2 : Q`
+#. §7: `⊢ ∀ x, P x → Q x`
+#. §8: ```
+#. intro x h
+#. ```
+#. §9: `x`
+#. §10: `h : P x`
+#. §11: `⊢ Q x`
+#: Game.Levels.TestWorld.L01_test
+msgid "Introduces one or more hypotheses optionally naming them and or pattern-matching them. Usual usage might look like\n"
+"§0\n"
+"where §1 is either an identifier or a pattern to destructure conjunctions (like in §2). For example:\n"
+"§3\n"
+"The proof state contains the **Objects** §4 and the **Assumptions** §5 and §6. We'll learn more about patterns later.\n"
+"### **Basic usage**\n"
+"If we have a goal of the form §7, then\n"
+"§8\n"
+"will make §9 an **Object** and §10 an active **Assumption** while the new goal will be §11."
+msgstr ""
+
+#. §0: `List`
+#. §1: ```
+#. cases «{l}»
+#. ```
+#: Game.Levels.FTAWorld.L04_FTA
+msgid "**Remember:** §0 is an inductive type. 👉 Try\n"
+"§1\n"
+""
+msgstr ""
+
+#. §0: $a,b,c ∈ ℤ$
+#. §1: $a = b$
+#. §2: $a + c = b + c$
+#: Game.Levels.TestWorld.L01_test
+msgid "We can add on the right across an equality of integers. More specifically, for all §0 if §1, then §2. Here's how this statement looks in Lean:"
+msgstr ""
+
+#. §0: `add_zero`
+#: Game.Levels.TestWorld.L05_test
+msgid "The additive identity codified in §0 is unique."
+msgstr ""
+
+#. §0: `by_contra F`
+#. §1: `trichotomy`
+#: Game.Levels.OrderWorld.L08_order
+msgid "### **💡 Pro-tip**\n"
+"If your first line was §0, you might ⏮ go back and try again using the §1 axiom early on. That turns out to be a little faster."
+msgstr ""
+
+#. §0: `use`
+#. §1: `⊢ ∃ c, a = a * c`
+#. §2: `c = 1`
+#. §3: `use`
+#. §4: ```
+#. use 1
+#. ```
+#: Game.Levels.TestWorld.L12_test
+msgid "### ❯ The §0 tactic\n"
+"Our goal is an **existential** statement. In order to reckon with the existential directly, we need to offer a *witness* to the predicate that follows. In our case, our goal is §1. The element that witnesses this existential is §2. 🔍 Check out the §3 tactic in the **Tactics** tab. 👉 Specifically, try\n"
+"§4\n"
+""
+msgstr ""
+
+#. §0: $a ∈ ℤ$
+#. §1: $|a| = -a$
+#. §2: $a <0$
+#. §3: $|a| = a$
+#. §4: `abs a`
+#. §5: $|a|$
+#. §6: ```
+#. noncomputable def abs (a : Z) : Z := by
+#.   classical
+#.   by_cases h : a < 0
+#.   · exact -a
+#.   · exact a
+#. ```
+#: Game.Levels.absWorld.L01_abs
+msgid "The absolute value of an integer. If §0, then §1 if §2; otherwise §3. In Lean, we write §4 for §5. Here's what it looks like in Lean:\n"
+"§6"
+msgstr ""
+
+#: Game.Levels.DivisionWorld.L04_division
+msgid "# **Level 4**\n"
+"A warm-up for the final showdown."
+msgstr ""
+
+#. §0: $S ⊆ ℤ$
+#. §1: $S ⊆ ℤ⁺$
+#. §2: $S ≠ ∅$
+#. §3: $m ∈ S$
+#. §4: $∀ x ∈ S, m ≤ x$
+#. §5: ```
+#. ∀ S : Set Z,
+#.   (S ≠∅ ) → (S ⊆ Zplus) →
+#.     ∃ m, m ∈ S ∧ ∀ x, x ∈ S → m ≤ x
+#. ```
+#: Game.Levels.WOPWorld.L04_WOP
+msgid "This is the **W**ell **O**rdering **P**rinciple. It says: for every §0, if §1 and §2, then there exists §3 such that §4. In other words, every non-empty subset of positive integers contains a smallest element.\n"
+"\n"
+"This is an **axiom**. Here's what it looks like in Lean:\n"
+"§5"
+msgstr ""
+
+#. §0: `NUF`
+#: Game.Levels.FTAWorld.L11_FTA
+msgid "A member of the set §0 must be greater than one."
+msgstr ""
+
+#. §0: `simp`
+#. §1: `simp`
+#. §2: `«{a}» + 0 = «{a}»`
+#. §3: `«{a}» + -«{a}» = 0`
+#. §4: `@[simp]`
+#. §5: `simp`
+#. §6: `simp`
+#. §7: ```
+#. simp at «{h}»
+#. ```
+#: Game.Levels.OrderWorld.L01_order
+msgid "\n"
+"### ❯ The tactic §0\n"
+"Let's try the new tactic §1. Certain simple theorems and axioms (like §2 and §3) have been *tagged* with a special marker, namely §4. This means that the §5 tactic will try to repeatedly use those theorems to rewrite the target expression until it is unchanged along with some other basic facts. 🔍 Check out the entry for §6 in the **Tactics** tab. 👉 Here, let's try using\n"
+"§7\n"
+"The main idea here is to relieve us of a bit of tedium when possible."
+msgstr ""
+
+#: Game.Levels.WOPWorld.L03_WOP
+msgid "Minimums and maximums"
+msgstr ""
+
+#: Game.Levels.OrderWorld.L15_order
+msgid "# **Level 15**\n"
+"Wait... another boss fight!? This one is more **Rick, the door techniciain** than **Malenia, Blade of Miquella** though."
+msgstr ""
+
+#. §0: `«{s}»`
+#. §1: `[«{p}»]`
+#. §2: `«{s}»`
+#: Game.Levels.PrimeWorld.L06_prime
+msgid "We're now in the case where we want to show that if §0 belongs to the **tail** of the list §1, then §2 is prime. But the tail of this list is empty. One of our hypotheses is contradictory..."
+msgstr ""
+
+#: Game.Levels.PrimeWorld.L04_prime
+msgid "Now our current **Active Goal** is the left-hand side of our original conjunction."
+msgstr ""
+
+#: Game.Levels.TestWorld.L10_test
+#: Game.Levels.TestWorld.L11_test
+#: Game.Levels.OrderWorld.L11_order
+#: Game.Levels.absWorld.L02_abs
+#: Game.Levels.absWorld.L03_abs
+#: Game.Levels.absWorld.L04_abs
+#: Game.Levels.WOPWorld.L03_WOP
+#: Game.Levels.WOPWorld.L05_WOP
+#: Game.Levels.WOPWorld.L06_WOP
+#: Game.Levels.DivisionWorld.L01_division
+#: Game.Levels.DivisionWorld.L02_division
+#: Game.Levels.DivisionWorld.L03_division
+#: Game.Levels.DivisionWorld.L04_division
+#: Game.Levels.PrimeWorld.L01_prime
+#: Game.Levels.PrimeWorld.L02_prime
+#: Game.Levels.PrimeWorld.L03_prime
+#: Game.Levels.PrimeWorld.L04_prime
+#: Game.Levels.PrimeWorld.L05_prime
+#: Game.Levels.PrimeWorld.L06_prime
+#: Game.Levels.PrimeWorld.L07_prime
+#: Game.Levels.PrimeWorld.L08_prime
+#: Game.Levels.PrimeWorld.L09_prime
+#: Game.Levels.PrimeWorld.L10_prime
+#: Game.Levels.GCDWorld.L03_GCD
+#: Game.Levels.GCDWorld.L06_GCD
+#: Game.Levels.GCDWorld.L07_GCD
+#: Game.Levels.GCDWorld.L07_GCD
+#: Game.Levels.GCDWorld.L09_GCD
+#: Game.Levels.FTAWorld.L01_FTA
+#: Game.Levels.FTAWorld.L02_FTA
+#: Game.Levels.FTAWorld.L03_FTA
+#: Game.Levels.FTAWorld.L04_FTA
+#: Game.Levels.FTAWorld.L05_FTA
+#: Game.Levels.FTAWorld.L06_FTA
+#: Game.Levels.FTAWorld.L07_FTA
+#: Game.Levels.FTAWorld.L08_FTA
+#: Game.Levels.FTAWorld.L09_FTA
+#: Game.Levels.FTAWorld.L10_FTA
+msgid ""
+msgstr ""
+
+#. §0: $a, p ∈ ℤ$
+#. §1: $p$
+#. §2: $p$
+#. §3: $a$
+#. §4: $\\gcd(a,p) = 1$
+#: Game.Levels.FTAWorld.L01_FTA
+msgid "For all §0, if §1 is prime and §2 does not divide §3, then §4."
+msgstr ""
+
+#. §0: `«{tri}»`
+#. §1: `rcases`
+#: Game.Levels.OrderWorld.L05_order
+msgid "The hypothesis §0 is a three-part disjunction whose individual parts are themselves three-part conjunctions. Use §1 to destructure this hypothesis appropriately."
+msgstr ""
+
+#. §0: ```
+#. fta_exists
+#.   (a : Z)
+#.   (lt_a : 1 < a) :
+#.     ∃ P : List Z,
+#.     List.prime P ∧ List.prod P = a
+#. ```
+#. §1: $1$
+#: Game.Levels.PrimeWorld.L11_prime
+msgid "As stated:\n"
+"§0\n"
+"Every integer greater than §1 factors into a product of primes."
+msgstr ""
+
+#. §0: `rewrite`
+#. §1: `rfl`
+#. §2: `rw`
+#: Game.Levels.TestWorld.L02_test
+msgid "If you used §0 and then §1, ⏮ go back and try just §2. Let's try a similar statement but with multiplication."
+msgstr ""
+
+#: Game.Levels.GCDWorld.L05_GCD
+msgid "The set Bez is non-empty : Part 1"
+msgstr ""
+
+#: Game.Levels.PrimeWorld.L01_prime
+#: Game.Levels.PrimeWorld.L02_prime
+msgid "Primes are positive"
+msgstr ""
+
+#: Game.Levels.FTAWorld.L04_FTA
+msgid "Prime lists have prime tails"
+msgstr ""
+
+#: Game.Levels.FTAWorld.L09_FTA
+msgid "# **Level 9**\n"
+"This exercise is short, but a little tricky."
+msgstr ""
+
+#: Game.Levels.PrimeWorld.L06_prime
+msgid "Let's make some introductions."
+msgstr ""
+
+#. §0: `add_on_right`
+#: Game.Levels.TestWorld.L01_test
+msgid "# **Level 1**\n"
+"Welcome to Level 1! We'll start with a gentle introduction to Lean syntax and proofs by **tactics**. Our first goal is to prove the theorem §0 in the middle pane.\n"
+"### **The UI**\n"
+"The middle-pane will generally contain information about our current *proof state*. This includes current **Objects** and **Assumptions** (in the left column) as well as our current **Active Goal** (in the right column). The left-pane (this pane) contains general 💡tips💡,  👉hints👉 (things to explicitly try), and other info as we move through the levels."
+msgstr ""
+
+#. §0: $a$
+#. §1: $b$
+#. §2: $a$
+#. §3: $b$
+#: Game.Levels.GCDWorld.L01_GCD
+msgid "As long as one of §0 or §1 is non-zero, then the set of common divisors of §2 and §3 is bounded above."
+msgstr ""
+
+#. §0: $ℤ$
+#. §1: $a, b ∈ ℤ$
+#. §2: $a ∣ b$
+#. §3: $c ∈ ℤ$
+#. §4: $b = ac$
+#. §5: ```
+#. dvd_def : ∀ a b : Z, a ∣ b ↔ ∃ c : Z, b = a * c
+#. ```
+#: Game.Levels.TestWorld.L12_test
+msgid "The **divides** relation is defined on §0 as follows: for §1,  §2 means there exists §3 such that §4.\n"
+"\n"
+"This is a **definition**. Here's what it looks like in Lean:\n"
+"§5"
+msgstr ""
+
+#. §0: `«{hl}»`
+#. §1: `cases`
+#. §2: `rcases`
+#: Game.Levels.FTAWorld.L07_FTA
+msgid "At this point we want to break down §0 into cases. We can do this with either §1 or §2."
+msgstr ""
+
+#. §0: `constructor`
+#. §1: `refine`
+#. §2: `refine`
+#. §3: `exact`
+#. §4: `constructor`
+#. §5: `refine`
+#. §6: ```
+#. refine ⟨«{gda}»,«{gdb}»,?_⟩
+#. ```
+#. §7: `«{g}» ∣ «{a}»`
+#. §8: `«{gda}»`
+#. §9: `«{g}» ∣ «{b}»`
+#. §10: `«{gdb}»`
+#: Game.Levels.GCDWorld.L02_GCD
+msgid "Our goal is a three-part conjunction. So we could use the §0 tactic but we'd have to use it twice (eventually). Instead, we could use...\n"
+"### ❯ The §1 tactic\n"
+"The §2 tactic behaves as a sort of mix between §3 and §4 (at least, in this case). 🔍 Check out the entry for §5 in the **Tactics** tab. 👉 In this specific situation, try:\n"
+"§6\n"
+"This will focus our goal on the right-hand side of the conjunction in the goal (since we already know §7 from §8 and §9 from §10).\n"
+""
+msgstr ""
+
+#. §0: `use`
+#. §1: `⊢ ∃ x, p x`
+#. §2: `y`
+#. §3: ```
+#. use y
+#. ```
+#. §4: `⊢ p y`
+#: Game.Levels.TestWorld.L12_test
+msgid "The §0 tactic use *use*ful (hehe) for existential goals. Specifically, if the goal is of the form §1, then assuming §2 is a known object in the tactic state we get that\n"
+"§3\n"
+"Will change the goal to §4."
+msgstr ""
+
+#. §0: `induction`
+#. §1: `induction`
+#. §2: `«{l}»`
+#. §3: ```
+#. induction l
+#. ```
+#: Game.Levels.FTAWorld.L05_FTA
+msgid "### ❯ The §0 tactic\n"
+"We'll use induction here. 🔍 Check out the entry for the tactic §1 in the **Tactics** tab. Specifically, we should induct on the number of elements in §2. 👉 To do so, try\n"
+"§3\n"
+"This ought to split the main goal into cases...\n"
+""
+msgstr ""
+
+#. §0: `by_contra!`
+#. §1: `by_contra`
+#. §2: `simp`
+#. §3: `by_contra! F`
+#. §4: ```
+#. by_contra F
+#. simp at F
+#. ```
+#: Game.Levels.OrderWorld.L11_order
+msgid "The §0 tactic is the same as §1 but it attempts to apply §2 on the introduced hypothesis. So §3 is the same as\n"
+"§4"
+msgstr ""
+
+#. §0: ```
+#. simp[Prime] at «{mnp}»
+#. ```
+#. §1: `Prime`
+#: Game.Levels.PrimeWorld.L04_prime
+msgid "👉 Try\n"
+"§0\n"
+"This will unfold the definition §1 and push the negation through the definition.\n"
+""
+msgstr ""
+
+#. §0: `POW_strict`
+#. §1: `umax`
+#. §2: `≤`
+#. §3: `<`
+#: Game.Levels.WOPWorld.L06_WOP
+msgid "# **Level 6**\n"
+"This version of §0 allows for the §1 hypothesis to be based on §2 and not the stricter §3."
+msgstr ""
+
+#: Game.Levels.absWorld.L05_abs
+msgid "🙌 ***Congrats!*** You've beaten Absolute Value World!"
+msgstr ""
+
+#: Game.Levels.PrimeWorld.L03_prime
+msgid "# **Level 3**"
+msgstr ""
+
+#. §0: `rfl`
+#. §1: `⊢ «{b}» + «{c}» = «{b}» + «{c}»`
+#. §2: ```
+#. rfl
+#. ```
+#: Game.Levels.TestWorld.L01_test
+msgid "### ❯ The §0 tactic\n"
+"Our goal is now §1. This is true by **reflexitivity**! 👉 Try the tactic\n"
+"§2\n"
+"This will check if our current goal is of this type and clear it!"
+msgstr ""
+
+#: Game.Levels.GCDWorld.L09_GCD
+msgid "# **Level 9**\n"
+"Once again, don't work too hard here."
+msgstr ""
+
+#. §0: `(0 : Z)`
+#. §1: ```
+#. theorem one_pos : 0 < 1 := by
+#. ```
+#. §2: `0`
+#. §3: `Nat`
+#. §4: `(0 :Z)`
+#. §5: `Z`
+#. §6: `(1 : Z)`
+#. §7: `(0 : Z)`
+#. §8: `Z`
+#: Game.Levels.OrderWorld.L08_order
+msgid "# **Level 8**\n"
+"### **🤔 What's the deal with §0?**\n"
+"We might wonder why the statement of this level isn't merely:\n"
+"§1\n"
+"Here's what's going on\n"
+"  - Unless there's enough context to tell it otherwise, Lean will cast digits like §2 to be of the type §3, Lean's built-in ℕatural number type. So when we write §4 we are telling Lean that we are explicitly talking about the *additive identity* of the Ring §5 which we've constructred from scratch.\n"
+"  - But then why not write §6 as well? Once Lean sees §7, it knows to implicitly cast other numbers in the statement to §8 as well."
+msgstr ""
+
+#. §0: `«{aeqb}»`
+#: Game.Levels.OrderWorld.L09_order
+msgid "Rewrite the goal with §0."
+msgstr ""
+
+#. §0: `⊆`
+#. §1: `Set.subset`
+#. §2: ```
+#. unfold Set.subset
+#. ```
+#: Game.Levels.WOPWorld.L02_WOP
+msgid "It might similarly be helpful to see the precise definition for §0. 🔍 Check out the entry for §1 in the **Definitions** tab. 👉 In our situation, try\n"
+"§2\n"
+""
+msgstr ""
+
+#: Game.Levels.GCDWorld.L02_GCD
+msgid "Greatest common divisors exist"
+msgstr ""
+
+#. §0: ```
+#. dvd_refl : ∀ a : Z, a ∣ a
+#. ```
+#. §1: $a ∈ ℤ$
+#. §2: $a ∣ a$
+#: Game.Levels.TestWorld.L12_test
+msgid "As stated:\n"
+"§0\n"
+"The divides relation is *reflexive*. In particular, for all §1, §2."
+msgstr ""
+
+#: Game.Levels.FTAWorld.L11_FTA
+msgid "Members of NUF are greater than 1"
+msgstr ""
+
+#: Game.Levels.TestWorld.L08_test
+msgid "Our first mini-boss is next."
+msgstr ""
+
+#. §0: `«{hs}»`
+#. §1: `s`
+#: Game.Levels.FTAWorld.L04_FTA
+msgid "**Note:** the hypothesis §0 reports that §1 belongs to the tail of an empty list. This seems contradictory."
+msgstr ""
+
+#: Game.Levels.OrderWorld.L04_order
+msgid "No integer is less than itself."
+msgstr ""
+
+#. §0: ```
+#. theorem prod_perm_eq_self
+#.   (P Q : List Z)
+#.   (h : P ~ Q) :
+#.   P.prod = Q.prod
+#. ```
+#: Game.Levels.FTAWorld.L08_FTA
+msgid "As stated:\n"
+"§0\n"
+"If two lists of integers are permutations of each other, then they have the same product."
+msgstr ""
+
+#. §0: `obtain`
+#. §1: `∃ «{x}» : Z, «{x}» ∈ Zplus`
+#. §2: `obtain`
+#. §3: `rcases`
+#. §4: ```
+#. obtain ⟨«{x}», «{x_pos}»⟩ : ∃ x : Z, x ∈ Zplus := pos_nonempty
+#. ```
+#: Game.Levels.OrderWorld.L03_order
+msgid "### **💡 Pro-tip**\n"
+"We could have been more economical and used the pattern-matching capabilities of §0 to destructure the statement §1. Indeed, §2 uses §3 as a last step. ⏮ **Go back and try**:\n"
+"§4\n"
+"This kills two birds with one stone."
+msgstr ""
+
+#. §0: ```
+#. gcd_prime_one : ∀ a p : Z, Prime p → ¬ p ∣ a → (gcd a p).g = 1
+#. ```
+#. §1: $a, p ∈ ℤ$
+#. §2: $p$
+#. §3: $p$
+#. §4: $a$
+#. §5: $\\gcd(a,p) = 1$
+#: Game.Levels.FTAWorld.L01_FTA
+msgid "As stated:\n"
+"§0\n"
+"For all §1, if §2 is prime and §3 does not divide §4, then §5."
+msgstr ""
+
+#: Game.Levels.PrimeWorld.L06_prime
+msgid "Primes are products of primes"
+msgstr ""
+
+#. §0: `symm`
+#. §1: `t ~ u`
+#. §2: `~`
+#. §3: `@[symm]`
+#. §4: `u ~ t`
+#. §5: `symm`
+#. §6: `h`
+#. §7: `symm at h`
+#: Game.Levels.TestWorld.L09_test
+msgid "The tactic §0 applies to a goal whose target has the form §1 where §2 is a symmetric relation, that is, a relation which has a symmetry lemma tagged with the attribute §3 (like equality). It replaces the target with §4.\n"
+"\n"
+"To apply §5 to a hypothesis §6, write §7."
+msgstr ""
+
+#. §0: `intro`
+#. §1: `intro`
+#. §2: `a b c`
+#. §3: `h : a = b`
+#. §4: `intro`
+#. §5: ```
+#. intro a
+#. ```
+#: Game.Levels.TestWorld.L01_test
+msgid "### ❯ The §0 tactic\n"
+"We need to §1 the variables §2 and the hypothesis §3. 🔍 Check out the entry for §4 in the **Tactics** tab. 👉 Specifically, try\n"
+"§5\n"
+""
+msgstr ""
+
+#. §0: `left`
+#. §1: `right`
+#. §2: `⊢ b = a ∨ b < a`
+#. §3: `«{t2}»`
+#. §4: ```
+#. left
+#. ```
+#. §5: `left`
+#: Game.Levels.OrderWorld.L05_order
+msgid "We cleared the first goal!\n"
+"### ❯ Disjunctions as goals: the §0 & §1 tactics\n"
+"Our Active Goal is a disjunction, namely §2. Given our hypothesis §3 we should be able to easily solve for the left-hand side of that disjunction. 👉 Try the tactic:\n"
+"§4\n"
+"This will target the left component of our goal. 🔍 Check the new entry in the **Tactics** tab for info about §5."
+msgstr ""
+
+#: Game.Levels.FTAWorld.L04_FTA
+msgid "# **Level 4**\n"
+"We'll need a new definition."
+msgstr ""
+
+#. §0: `l`
+#. §1: `head`
+#. §2: `tail`
+#. §3: `l = (head :: tail)`
+#. §4: ```
+#. simp
+#. ```
+#: Game.Levels.PrimeWorld.L07_prime
+msgid "Now we're in the case where we are assuming §0 has a §1 and a §2, specifically §3. 👉 Our goal seems contradictory ... in fact, try\n"
+"§4\n"
+""
+msgstr ""
+
+#. §0: $a,b$
+#. §1: $a ∣ b$
+#. §2: $b$
+#. §3: $a ≤ b$
+#: Game.Levels.WOPWorld.L08_WOP
+msgid "For all integers §0, if §1 and §2 is positive, then §3."
+msgstr ""
+
+#: Game.Levels.FTAWorld.L10_FTA
+msgid "If two lists are permutations of each other and the first list is a list of primes, then the second list is a list of primes as well."
+msgstr ""
+
+#. §0: ```
+#. by_wop S with m ⟨patt⟩ hmin
+#. ```
+#. §1: ```
+#. by_wop! S with m ⟨patt⟩ hmin
+#. ```
+#. §2: `hmem : m ∈ S`
+#. §3: `⟨patt⟩`
+#. §4: `⟨patt⟩`
+#: Game.Levels.DivisionWorld.L05_division
+msgid "The same as\n"
+"§0\n"
+"but\n"
+"§1\n"
+"will **keep** the hypothesis §2 in addition to destructuring that hypothesis with §3. The former version destructures and **consumes** that hypothesis with §4."
+msgstr ""
+
+#. §0: `add_zero`
+#: Game.Levels.TestWorld.L04_test
+msgid "The right additive identity codified by §0 in **Definitions** is also a left additive identity."
+msgstr ""
+
+#. §0: ```
+#. prime_dvd_one : ∀ p : Z,
+#.   Prime p → p ∣ 1 → False
+#. ```
+#: Game.Levels.PrimeWorld.L03_prime
+msgid "As stated:\n"
+"§0\n"
+"No prime divides one."
+msgstr ""
+
+#: Game.Levels.TestWorld.L11_test
+msgid "More Negatives of Products"
+msgstr ""
+
+#. §0: `Rem a b`
+#. §1: $a, b ∈ ℤ$
+#. §2: $s$
+#. §3: $0 ≤ s$
+#. §4: $q ∈ ℤ$
+#. §5: $s = a - bq$
+#. §6: $a/b$
+#. §7: `Rem a b`
+#. §8: `Rem`
+#: Game.Levels.DivisionWorld.L01_division
+msgid "# **Level 1**\n"
+"For ease of use, we define ...\n"
+"### 🔧 The set §0\n"
+"For §1, the set of all integers §2 such that §3 and there exists §4 such that §5 represents all possible **remainders** for §6. In Lean, we've defiend this set as §7. 🔍 Check out the entry for §8 in the **Definitions** tab. We'll be investigating this set in preparation for the **division algorithm**."
+msgstr ""
+
+#: Game.Levels.PrimeWorld.L02_prime
+msgid "# **Level 2**\n"
+"This one isn't so hard either, but it's good to have in the inventory."
+msgstr ""
+
+#. §0: $a, b ∈ ℤ$
+#. §1: $b ≠ 0$
+#. §2: $q,r ∈ ℤ$
+#. §3: $a = bq + r$
+#. §4: $0 ≤ r < |b|$
+#: Game.Levels.DivisionWorld.L06_division
+msgid "For all §0, if §1, then there exists §2 such that §3 and §4."
+msgstr ""
+
+#. §0: `non_trivial`
+#: Game.Levels.OrderWorld.L03_order
+msgid "Excellent! We're almost home. We need to use the §0 axiom."
+msgstr ""
+
+#: Game.Levels.GCDWorld.L09_GCD
+msgid "The minimum of Bez : Part 2"
+msgstr ""
+
+#. §0: `rw`
+#. §1: ```
+#. rw[add_comm a] at h
+#. ```
+#. §2: `h`
+#. §3: `a + x`
+#. §4: `a`
+#. §5: `x : Z`
+#. §6: `a + x`
+#. §7: `x + a`
+#. §8: ```
+#. rw[add_comm _ b] at h
+#. ```
+#. §9: `h`
+#. §10: `x + b`
+#. §11: `b`
+#. §12: `x : Z`
+#. §13: `x + b`
+#. §14: `b + x`
+#: Game.Levels.TestWorld.L07_test
+msgid "### **💡 Pro-tip**\n"
+"The moral of the story in this level: *it can be helpful to guide the contents of the §0 tactic.* In general, we have that\n"
+"§1\n"
+"will search §2 for the first expression of the form §3 where §4 is fixed and §5 can be anything. Once found, it will replace §6 with §7. The *underscore* character often acts as a wildcard in Lean. For example:\n"
+"§8\n"
+"will search §9 for the first expression of the form §10 where §11 is fixed and §12 can be anything. Once found, it will replace §13 with §14."
+msgstr ""
+
+#: Game.Levels.absWorld
+msgid "Absolute Value World"
+msgstr ""
+
+#: Game.Levels.TestWorld.L10_test
+msgid "# **Level 10**\n"
+"There are a couple different ways to go about this one."
+msgstr ""
+
+#: Game.Levels.OrderWorld.L09_order
+msgid "# **Level 9**\n"
+"This level is an exercise in patience. Try to combine rewrites to keep the number of tactic calls down. You can always apply a rewrite, determine the next rewrite from the updated tactic state (if necessary), then ⏮ go back to the previous prompt."
+msgstr ""
+
+#. §0: `obtain`
+#. §1: `obtain`
+#. §2: `⊢`
+#. §3: ```
+#. obtain h : ¬ a < 0
+#. ```
+#. §4: `¬ a < 0`
+#: Game.Levels.absWorld.L05_abs
+msgid "### ❯ The §0 tactic\n"
+"We can use the §1 tactic to open a subgoal where the target §2 is what we are trying to obtain. 👉 Specifically, try:\n"
+"§3\n"
+"This will make the **Active Goal** to prove §4. This message will repeat after you clear that goal."
+msgstr ""
+
+#. §0: `∧`
+#. §1: ```
+#. And.intro : p → q → p ∧ q
+#. ```
+#: Game.Levels.WOPWorld.L07_WOP
+msgid "This is the constructor the §0 operator. Specifically,\n"
+"§1"
+msgstr ""
+
+#. §0: `one_unique`
+#: Game.Levels.TestWorld.L05_test
+msgid "A similar proof can be written to show §0."
+msgstr ""
+
+#: Game.Levels.PrimeWorld.L08_prime
+msgid "# **Level 8**\n"
+"This level is straightforward and will give us a break from lists."
+msgstr ""
+
+#. §0: $a,b ∈ ℤ$
+#. §1: $a ≠ 0$
+#. §2: $a$
+#. §3: $b$
+#: Game.Levels.GCDWorld.L05_GCD
+#: Game.Levels.GCDWorld.L06_GCD
+msgid "For all §0, if §1, then the set of all positive linear combinations of §2 and §3 is nonempty."
+msgstr ""
+
+#: Game.Levels.TestWorld.L02_test
+msgid "Addition on the left"
+msgstr ""
+
+#. §0: ```
+#. zero_unique: ∀ b : Z, (∀ a: Z, a + b = a) → b = 0
+#. ```
+#. §1: $b ∈ ℤ$
+#. §2: $a ∈ ℤ$
+#. §3: $a + b = a$
+#. §4: $b = 0$
+#: Game.Levels.TestWorld.L05_test
+msgid "As stated:\n"
+"§0\n"
+"If §1such that for every §2 we have §3, then §4. In other words, the additive identity is unique."
+msgstr ""
+
+#: Game.Levels.OrderWorld.L05_order
+msgid "∀ a b : Z, -a = -b ↔ a = b"
+msgstr ""
+
+#: Game.Levels.DivisionWorld.L03_division
+msgid "# **Level 3**\n"
+"This level answers the question: what can we conclude if a remainder is at least as large as the divisor?"
+msgstr ""
+
+#. §0: $a,b,c ∈ ℤ$
+#. §1: $$ (ab)c = a(bc) $$
+#. §2: ```
+#. mul_assoc : ∀ a b c : Z, a * b * c = a * (b * c)
+#. ```
+#: Game.Levels.TestWorld.L14_test
+msgid "Multiplication is associative. In particular, for all §0, we have\n"
+"\n"
+"§1\n"
+"\n"
+"This is an **axiom**. Here's what it looks like in Lean:\n"
+"§2"
+msgstr ""
+
+#. §0: `exact`
+#. §1: `rw`
+#. §2: `exact`
+#. §3: `exact`
+#. §4: ```
+#. exact «{h'}»
+#. ```
+#: Game.Levels.TestWorld.L05_test
+msgid "### ❯ The §0 tactic\n"
+"We could use the §1 tactic here. But let's try the §2 tactic instead. 🔍 Check the the §3 entry in the **Tactics** tab for guidance. 👉 Specifically, try\n"
+"§4\n"
+""
+msgstr ""
+
+#. §0: `rw`
+#: Game.Levels.TestWorld.L02_test
+msgid "Now let's try a rewrite with §0."
+msgstr ""
+
+#. §0: $a, b ∈ ℤ$
+#. §1: $\\gcd(a,b)$
+#. §2: $a$
+#. §3: $b$
+#: Game.Levels.GCDWorld.L10_GCD
+msgid "For all §0, there §1 is a linear combination of §2 and §3."
+msgstr ""
+
+#. §0: `mathlib`
+#. §1: `mathlib`
+#: Game
+msgid "# **The FTA Game**\n"
+"\n"
+"Welcome to **The FTA Game**. The object of this game, mathematically speaking, is prove the **F**undamental **T**heorem of **A**rithmetic over ℤ, the integers. But we'll also learn about L∃∀N.\n"
+"\n"
+"### **What is Lean?**\n"
+"\n"
+"Lean (stylized as L∃∀N) is a proof assistant and programming language -- this means that it helps to codify mathematical proofs. As we write proofs of our claims (or theorems) in Lean, a terminal will dynamically report our givens and goals. As goals get cleared, we'll stock an inventory of rigorous, *machine-verified* proofs of theorems that can be subsequently used to prove new goals.\n"
+"\n"
+"In 2017, the mathematical community began the project of creating the Lean library §0 with the goal formalizing (and therefore machine-verifying) as much pure mathematics as possible. This game does **not** import §1 or any of its libraries. ***We start from scratch!*** Specifically, we define ℤ as an ordered Ring satisfying the well-ordering principle.\n"
+"\n"
+"### **How to play?**\n"
+"\n"
+"The world map is in the center pane. Individual world-levels are the pearls encircling the worlds. Once you've cleared a level, you can move onto the next. The same thing is true with worlds. You can replay any level by navigating to it from the world map. **Start** with **Ring Axiom World**."
+msgstr ""
+
+#. §0: `refine e`
+#. §1: `exact e`
+#. §2: `e`
+#. §3: `⊢ P₁ ∧ P₂ ∧ P₃ ∧ P₄`
+#. §4: `constructor`
+#. §5: ```
+#. refine ⟨?_,?_,?_,?_⟩
+#. ```
+#. §6: `h : P₃`
+#. §7: ```
+#. refine ⟨?_,?_,h,?_⟩
+#. ```
+#. §8: `exact h`
+#: Game.Levels.DivisionWorld.L05_division
+#: Game.Levels.PrimeWorld.L04_prime
+#: Game.Levels.GCDWorld.L02_GCD
+msgid "The tactic §0 behaves like §1, except that named (?x) or unnamed (?_) holes in §2 that are not solved by unification with the main goal's target type are converted into new goals, using the hole's name, if any, as the goal case name.\n"
+"\n"
+"For example, this can be helpful for goals like §3. Instead of calling §4 multiple times we could simply use:\n"
+"§5\n"
+"This will generate four subgoals of the corresponding type. If we have an **Assumption** like §6, then we could use:\n"
+"§7\n"
+"This will generate three subgoals of the corresponding type (the would-be third goal has been cleared with §8)."
+msgstr ""
+
+#: Game.Levels.PrimeWorld.L11_prime
+msgid "🙌 Congrats! You beat Prime World!"
+msgstr ""
+
+#. §0: `rcases`
+#. §1: `rcases h with patt`
+#. §2: `patt`
+#. §3: `h`
+#. §4: `h : (a ∧ b ∧ c) ∨ (d ∧ e)`
+#. §5: ```
+#. rcases h with ⟨ha, hb, hc⟩ | ⟨ hd, he⟩
+#. ```
+#. §6: `ha : a`
+#. §7: `hb : b`
+#. §8: `hc : c`
+#. §9: `hd : d`
+#. §10: `he : e`
+#. §11: `_`
+#. §12: `h`
+#. §13: `rcases`
+#. §14: ```
+#. rcases hpf : h with ⟨ ha, hb, hc ⟩
+#. ```
+#. §15: `hpf`
+#. §16: `h`
+#. §17: `⟨ ha, hb, hc⟩`
+#. §18: `hpf`
+#. §19: `⟨ ⟩`
+#. §20: `< >`
+#. §21: `\\langle`
+#. §22: `\\rangle`
+#: Game.Levels.TestWorld.L14_test
+msgid "The tactic §0 is used to destructure hypotheses or expressions. General usage looks like §1 where §2 is a pattern matched against §3. For example, suppose §4. Usual usage might be\n"
+"§5\n"
+"In this case, our goal would be split in two. The first goal would contain the hypotheses §6, §7, and §8. The second goal would contain the hypotheses §9 and §10. If a hypothesis will be irrelevant, we might choose to not explicitly name it by using §11.\n"
+"### **💡 Pro-tip**\n"
+"There are scenarios where we may wish to **keep** the original hypothesis §12 in addition to any destructuring done by §13. Usual usage might be\n"
+"§14\n"
+"What does §15 contain? The formal proof that §16 can be destructured into §17. Typically, we won't need §18.\n"
+"### **⌨ Typesetting-tip**\n"
+"There's a difference between the angled brackets §19 and the relations §20. In order to produce the *angled brackets* use §21 and §22."
+msgstr ""
+
+#. §0: `nibzo`
+#. §1: `by_wop`
+#: Game.Levels.WOPWorld.L07_WOP
+msgid "🔧 The theorem §0 is often the last call in proofs by contradiction. And hopefully we're getting used to WOP proofs and the §1 tactic."
+msgstr ""
+
+#. §0: ```
+#. exact lt_trans a b c altb bltc
+#. ```
+#. §1: `bltc : b < c`
+#. §2: `a < a`
+#. §3: `a ≤ b`
+#. §4: `b < a`
+#: Game.Levels.OrderWorld.L02_order
+msgid "In case you didn't figure it out, here's the line that clears the goal in one line:\n"
+"§0\n"
+"where §1.\n"
+"\n"
+"🔧 This theorem will be *very* handy going forward. It is often used to obtain contradictions like §2 from hypotheses §3 and §4."
+msgstr ""
+
+#. §0: `gcd`
+#. §1: `(gcd a b).g`
+#. §2: $a$
+#. §3: $b$
+#. §4: `gcd`
+#. §5: `(gcd a b).g`
+#. §6: `g`
+#. §7: `(gcd a b).left`
+#. §8: `g ∣ a`
+#. §9: `(gcd a b).right`
+#. §10: `g ∣ b`
+#. §11: `(gcd a b).le`
+#. §12: ```
+#. ¬(a=0 ∧ b=0) → ∀ d:Z, d ∣ a → d ∣ b → d ≤ g
+#. ```
+#. §13: `a = 0 ∧ b = 0`
+#. §14: `(gcd a b).g = 0`
+#. §15: `gcd`
+#: Game.Levels.GCDWorld.L03_GCD
+msgid "# **Level 3**\n"
+"The real purpose of this level is to showcase how we'll use gcds going forward. That being said, the exercise itself is also useful.\n"
+"### 🕮 §0\n"
+"In Lean, we write §1 for the greatest common divisor of §2 and §3. Indeed, the definition of §4 is a **structure** whose fields captures relevant data about greatest common divisors:\n"
+"* §5 is the **integer** §6 representing the greatest common divisor itself\n"
+"* §7 is the **proposition** that §8\n"
+"* §9 is the **proposition** that §10\n"
+"* §11 is the **proposition** that\n"
+"§12\n"
+"If §13, then §14, by definition. 🔍 Check out the entry for §15 in the **Definitions** tab for more details."
+msgstr ""
+
+#: Game.Levels.OrderWorld.L08_order
+msgid "One is positive"
+msgstr ""
+
+#. §0: `abs`
+#. §1: `abs`
+#. §2: `by_cases`
+#: Game.Levels.absWorld.L01_abs
+msgid "# **Level 1**\n"
+"We'll need **absolute values** in this world.\n"
+"### 🕮 §0\n"
+"🔍 Check out the definition for §1 in the **Definitions** tab. Pay close attention to the definition. 💡 Given that definition, it makes sense to work §2 in a particular way here..."
+msgstr ""
+
+#. §0: ```
+#. abs_pos : ∀ a : Z, a ≠ 0 → 0 < abs a
+#. ```
+#. §1: $a ∈ ℤ$
+#. §2: $a$
+#. §3: $0 < |a|$
+#: Game.Levels.absWorld.L04_abs
+msgid "As stated:\n"
+"§0\n"
+"For all §1, if §2 is nonzero, then §3."
+msgstr ""
+
+#. §0: ```
+#. zero_add : ∀ a : Z, 0 + a = a
+#. ```
+#. §1: $$∀ a ∈ ℤ, 0 + a = 0.$$
+#: Game.Levels.TestWorld.L04_test
+msgid "As stated:\n"
+"§0\n"
+"The *right additive identity* guaranteed to exist by **add_zero** is also a *left additive identity*. In other words,\n"
+"\n"
+"§1"
+msgstr ""
+
+#: Game.Levels.WOPWorld.L10_WOP
+msgid "Archimedean Property"
+msgstr ""
+
+#: Game.Levels.GCDWorld.L08_GCD
+msgid "The minimum of Bez : Part 1"
+msgstr ""
+
+#: Game.Levels.GCDWorld.L03_GCD
+#: Game.Levels.FTAWorld.L01_FTA
+msgid "Greatest common divisors are positive"
+msgstr ""
+
+#. §0: `S`
+#. §1: ```
+#. theorem mem_def {α : Type} (S : Set α) (x : α) :
+#.   x ∈ S ↔ S.mem x
+#. ```
+#. §2: `S := {s : Z | 0 < s ∧ s ∣ a}`
+#. §3: `h : d ∈ S`
+#. §4: `simp[S,mem_def] at h`
+#. §5: ```
+#. h : 0 < d ∧ d ∣ a
+#. ```
+#. §6: `h : ¬ d ∈ S`
+#. §7: `simp[S,mem_def]`
+#. §8: ```
+#. h : 0 < d → ¬ (d ∣ a)
+#. ```
+#: Game.Levels.WOPWorld.L01_WOP
+msgid "This is a helper lemma for unfolding membership propositions of explicit sets.\n"
+"If §0 is an explicit set with an explicit membership proposition, this can be exposed with the help of:\n"
+"§1\n"
+"For example, suppose §2 and we have the hypothesis §3. Then §4 will unfold the proposition behind the membership and produce:\n"
+"§5\n"
+"Similarly, if §6, then §7 will produce\n"
+"§8"
+msgstr ""
+
+#. §0: ```
+#. one_pos : (0:Z) < 1
+#. ```
+#. §1: $0 < 1$
+#: Game.Levels.OrderWorld.L08_order
+msgid "As stated:\n"
+"§0\n"
+"The multiplicative identity is positive: §1."
+msgstr ""
+
+#: Game.Levels.WOPWorld.L07_WOP
+msgid "Let's build a relevant set."
+msgstr ""
+
+#: Game.Levels.OrderWorld.L14_order
+msgid "# **Level 14**\n"
+"This is an important consequence of the previous theorem."
+msgstr ""
+
+#: Game.Levels.TestWorld.L04_test
+msgid "The Left Additive Identity"
+msgstr ""
+
+#: Game.Levels.DivisionWorld.L06_division
+msgid "The actual division algorithm"
+msgstr ""
+
+#. §0: ```
+#. intro h
+#. by_contra F
+#. exact lt_self b (le_lt_trans b a b h F)
+#. ```
+#. §1: `simp`
+#. §2: `@[simp]`
+#. §3: `simp`
+#. §4: `¬ a < b`
+#. §5: `b ≤ a`
+#. §6: `simp`
+#. §7: ```
+#. not_le (a b : Z) :  ¬ (a ≤ b) ↔ (b < a)
+#. ```
+#: Game.Levels.OrderWorld.L05_order
+msgid "### **💡 Pro-tip**\n"
+"In case you didn't figure it out, here's how to meet the 💪 **Challenge:**\n"
+"§0\n"
+"### **⟳ §1 updated**\n"
+"This theorem is tagged with §2 so henceforth the tactic §3 will replace targets like §4 with §5. We've also made §6 aware of the companion fact:\n"
+"§7"
+msgstr ""
+
+#. §0: `NUF`
+#. §1: `NUF`
+#: Game.Levels.FTAWorld.L11_FTA
+msgid "# **Level 11**\n"
+"We introduce the set §0 consisting of all those integers that do **N**ot **U**uniquely **F**factor into a product of primes. 🔍 Check out the entry for §1 in the **Definitions** tab."
+msgstr ""
+
+#. §0: $a,b,c ∈ ℤ$
+#. §1: $a ≤ b$
+#. §2: $b < c$
+#. §3: $a < c$
+#: Game.Levels.OrderWorld.L02_order
+#: Game.Levels.OrderWorld.L11_order
+#: Game.Levels.OrderWorld.L15_order
+msgid "For all §0, if §1 and §2, then §3."
+msgstr ""
+
+#. §0: `by_wop`
+#. §1: ```
+#. by_wop S with m ⟨patt⟩ hmin
+#. ```
+#. §2: `S`
+#. §3: `m`
+#. §4: `S`
+#. §5: `⟨patt⟩`
+#. §6: `hmS`
+#. §7: `m ∈ S`
+#. §8: `rcases`
+#. §9: `m ∈ S`
+#. §10: `hmin`
+#. §11: `hmin : ∀ (x : Z), x ∈ S → m ≤ x`
+#. §12: ```
+#. hne : S ≠∅
+#. hpo : S ⊆ Z⁺
+#. m : Z
+#. hms : m ∈ S -- or destructured according to patt
+#. hmin : ∀ (x : Z), x ∈ S → m ≤ x
+#. ```
+#. §13: `⊢ S ⊆ Z⁺`
+#. §14: `hne : S ≠∅`
+#. §15: `⊢ S ≠∅`
+#: Game.Levels.WOPWorld.L04_WOP
+msgid "The tactic §0 splits the main goal into three subgoals. General usage looks like\n"
+"§1\n"
+"where\n"
+"* §2 is a non-empty subset of ℤ⁺ (**the tactic will force you to prove this at the end**)\n"
+"* §3 is the smallest element of §4\n"
+"* §5 is either an identifier, like §6, which identifies the hypothesis that §7, or a *pattern* (like in §8) that can destructure the proposition §9\n"
+"* §10 is the identifier for the hypothesis §11.\n"
+"\n"
+"### Goal 1\n"
+"Keeps the original goal and hypotheses but adds the following hypotheses:\n"
+"§12\n"
+"\n"
+"### Goal 2\n"
+"The new goal is §13 under the original hypotheses and the additional hypothesis §14.\n"
+"\n"
+"### Goal 3\n"
+"The new goal is §15 under the original hypotheses."
+msgstr ""
+
+#. §0: `P`
+#. §1: `Q`
+#. §2: `Perm`
+#: Game.Levels.FTAWorld.L08_FTA
+msgid "The first is simple; we're assumping §0 and §1 are empty lists (this is the **nil** constructor for §2)."
+msgstr ""
+
+#. §0: `⊢ P`
+#. §1: ```
+#. by_contra h₁
+#. ```
+#. §2: `h₁ : ¬ P`
+#. §3: `False`
+#. §4: ```
+#. by_contra
+#. ```
+#. §5: `F✝`
+#: Game.Levels.OrderWorld.L03_order
+msgid "This the tactic used to attempt a *proof by contradiction*. Specifically, if the goal is §0, then\n"
+"§1\n"
+"will introduce a new hypothesis §2 and change the goal to §3. If you use\n"
+"§4\n"
+"then Lean will create an inaccessible hypothesis §5. So it's best to provide a name for the introduced hypothesis."
+msgstr ""
+
+#: Game.Levels.OrderWorld.L01_order
+msgid "🔍 There's a new **Definition** that would be helpful here."
+msgstr ""
+
+#. §0: ```
+#. neg_add : ∀ a b : Z, -a + -b = -(a + b)
+#. ```
+#. §1: $a, b ∈ ℤ$
+#. §2: $-(a + b) = -a + -b$
+#: Game.Levels.TestWorld.L08_test
+#: Game.Levels.TestWorld.L09_test
+msgid "As stated:\n"
+"§0\n"
+"For all §1, we have that §2."
+msgstr ""
+
+#: Game.Levels.absWorld.L04_abs
+msgid "# **Level 4**\n"
+"This will be useful to know going forward."
+msgstr ""
+
+#: Game.Levels.PrimeWorld.L04_prime
+msgid "It seems we have our witness..."
+msgstr ""
+
+#. §0: ```
+#. mem_flip_set
+#.   (S : Set Z)
+#.   (u x : Z) :
+#.   x ∈ S → u + -x ∈ {y : Z | ∃ s ∈ S, y = u + -s}
+#. ```
+#. §1: $S ⊆ ℤ$
+#. §2: $u ∈ ℤ$
+#. §3: $x ∈ S$
+#. §4: $u + -x$
+#. §5: $$ u + -x ∈ \\{y ∈ Z ∣ ∃ s ∈ S, y = u + -s\\} $$
+#: Game.Levels.WOPWorld.L01_WOP
+msgid "As stated:\n"
+"§0\n"
+"Suppose §1, §2, and §3. Then §4 belongs to the inverted set\n"
+"\n"
+"§5"
+msgstr ""
+
+#. §0: $S$
+#. §1: $S$
+#: Game.Levels.WOPWorld.L04_WOP
+msgid "If §0 is a non-empty subset of positive integers that is **strictly** bounded above, then §1 contains a largest element."
+msgstr ""
+
+#: Game.Levels.TestWorld.L05_test
+msgid "Uniqueness of Zero"
+msgstr ""
+
+#. §0: `b ≠ 0`
+#. §1: `Bez a b`
+#: Game.Levels.GCDWorld.L05_GCD
+msgid "But what if §0... is §1 non-empty then?"
+msgstr ""
+
+#. §0: $$∀ a,b ∈ ℤ⁺, ab ∈ ℤ⁺ $$
+#. §1: ```
+#. mul_closure ∀ a b : Z,
+#.   a ∈ Zplus →  b ∈ Zplus
+#.     → (a * b) ∈ Zplus
+#. ```
+#: Game.Levels.OrderWorld.L08_order
+msgid "Positives are closed under multiplication. In particular,\n"
+"\n"
+"§0\n"
+"\n"
+"This is an **axiom**. Here's what it looks like in Lean:\n"
+"§1"
+msgstr ""
+
+#: Game.Levels.OrderWorld.L03_order
+msgid "One is not equal to zero"
+msgstr ""
+
+#. §0: ```
+#. lt_self : ∀ a : Z, a < a → False
+#. ```
+#. §1: $a ∈ ℤ$
+#. §2: $a < a$
+#. §3: `False`
+#: Game.Levels.OrderWorld.L04_order
+msgid "As stated:\n"
+"§0\n"
+"For all §1, the statement §2 is §3."
+msgstr ""
+
+#: Game.Levels.OrderWorld.L10_order
+msgid "Multiplying inequalities by positives"
+msgstr ""
+
+#. §0: `WOP`
+#. §1: `WOP`
+#: Game.Levels.WOPWorld.L04_WOP
+msgid "# **Level 4**\n"
+"This level will feature the **W**ell **O**rdering **P**rinciple, abbreviated §0. This is an **axiom** of ℤ; 🔍 check out the entry in the **Definitions** tab. The mathematical goal of this level is to prove a sort-of *flipped* version of §1 (whence the previous exercises!)."
+msgstr ""
+
+#. §0: `by_pow`
+#. §1: ```
+#. by_pow S with M patt hmax
+#. ```
+#. §2: `S`
+#. §3: `M`
+#. §4: `S`
+#. §5: `patt`
+#. §6: `hMs`
+#. §7: `M ∈ S`
+#. §8: `rcases`
+#. §9: `M ∈ S`
+#. §10: `hmax`
+#. §11: `hmax : ∀ (x : Z), x ∈ S → x ≤ M`
+#. §12: ```
+#. hne : S ≠∅
+#. hbd : ∃ u : Z, ∀ x : Z, x ∈ S → x ≤ u
+#. M : Z
+#. hms : M ∈ S -- or destructured according to patt
+#. hmax: ∀ (x : Z), x ∈ S → x ≤ M
+#. ```
+#. §13: `⊢ ∃ u, ∀ x : Z, x ∈ S → x ≤ u`
+#. §14: `hne : S ≠∅`
+#. §15: `⊢ S ≠∅`
+#: Game.Levels.WOPWorld.L10_WOP
+msgid "The tactic §0 splits the main goal into three subgoals. General usage looks like\n"
+"§1\n"
+"where\n"
+"* §2 is a non-empty subset of ℤ (**the tactic will force you to prove this at the end**)\n"
+"* §3 is the largest element of §4\n"
+"* §5 is either an identifier, like §6, which holds the hypothesis that §7, or a *pattern* (like in §8) that can destructure the proposition §9\n"
+"* §10 is the identifier for the hypothesis §11.\n"
+"\n"
+"### Goal 1\n"
+"Keeps the original goal and hypotheses but adds the following hypotheses:\n"
+"§12\n"
+"\n"
+"### Goal 2\n"
+"The new goal is §13 under the original hypotheses and the additional hypothesis §14.\n"
+"\n"
+"### Goal 3\n"
+"The new goal is §15 under the original hypotheses."
+msgstr ""
+
+#. §0: ```
+#. POW
+#.   (S : Set Z)
+#.   (S_ne : S ≠∅)
+#.   (u : Z)
+#.   (umax : ∀ x ∈ S, x ≤ u) :
+#.     (∃ M ∈ S, ∀ x ∈ S, x ≤ M)
+#. ```
+#. §1: $S$
+#. §2: $S$
+#. §3: $S ⊆ ℤ$
+#. §4: $S ≠ ∅$
+#. §5: $u ∈ ℤ$
+#. §6: $x ∈ S$
+#. §7: $x < u$
+#. §8: $M ∈ S$
+#. §9: $x ∈ S$
+#. §10: $x ≤ M$
+#: Game.Levels.WOPWorld.L06_WOP
+msgid "As stated:\n"
+"§0\n"
+"If §1 is a non-empty subset of positive integers that is bounded above, then §2 contains a largest element. More precisely, for every §3, if §4 and there exists §5 such that for all §6, §7, then there exists §8, such that for all §9, §10."
+msgstr ""
+
+#. §0: `l₁`
+#. §1: `l\\_1`
+#: Game.Levels.FTAWorld.L10_FTA
+msgid "# **Level 10**\n"
+"This one is also intuitively clear, but it'll take a bit of Lean wrangling to see it through.\n"
+"### **⌨ Typesetting Tip**\n"
+"In order to write subscripts like §0 use §1."
+msgstr ""
+
+#. §0: `«{a}» + «{b}»`
+#. §1: `b + a`
+#. §2: ```
+#. rw[add_comm «{a}» «{b}»] at «{h'}»
+#. ```
+#. §3: `«{h'}»`
+#. §4: `«{a}» + «{b}»`
+#. §5: `«{b}» + «{a}»`
+#: Game.Levels.TestWorld.L07_test
+msgid "Notice how §0 became §1. We could have been even more verbose and used\n"
+"§2\n"
+"This tactic would have searched §3 explicitly for expressions of the form §4. The first such expression it finds gets rewritten as §5."
+msgstr ""
+
+#. §0: `Zplus`
+#: Game.Levels.OrderWorld.L01_order
+msgid "In Lean, we write §0 for the set ℤ⁺. This is a non-empty subset of ℤ that satisfies some special properties, namely:\n"
+"* **Non-triviality** : 0 is not an element of ℤ⁺\n"
+"* **Additive closure** : if a,b ∈ ℤ⁺, then a + b ∈ ℤ⁺\n"
+"* **Multiplicative closure** : if a,b ∈ ℤ⁺, then ab ∈ ℤ⁺.\n"
+"* **Trichotomy** : for all a ∈ ℤ, precisely one of the following must hold:\n"
+"  - a ∈ ℤ⁺ and a ≠ 0 and -a ∉ ℤ⁺\n"
+"  - a ∉ ℤ⁺ and a = 0 and -a ∉ ℤ⁺\n"
+"  - a ∉ ℤ⁺ and a ≠ 0 and -a ∈ ℤ⁺.\n"
+"\n"
+"These are **axioms**."
+msgstr ""
+
+#: Game.Levels.FTAWorld.L13_FTA
+msgid "# **Level 13**\n"
+"***Final boss!***"
+msgstr ""
+
+#: Game
+msgid "This game has you prove the Fundamental Theorem of Arithmetic ... from scratch!"
+msgstr ""
+
+#: Game.Levels.OrderWorld.L14_order
+msgid "Left Cancellation"
+msgstr ""
+
+#: Game.Levels.PrimeWorld.L11_prime
+msgid "Prime factorizations exist"
+msgstr ""
+
+#. §0: `obtain`
+#. §1: ```
+#. h' : 0 + «{b}» = 0
+#. ```
+#. §2: `obtain`
+#. §3: `obtain`
+#. §4: `proof`
+#. §5: `«{h}»`
+#. §6: ```
+#. «{h}» : ∀ a : Z, a + «{b}» = a
+#. ```
+#. §7: `«{h}»`
+#. §8: `x`
+#. §9: `«{h}» (x)`
+#. §10: `«{h}» x`
+#. §11: `x + «{b}» = x`
+#. §12: ```
+#. obtain h' := «{h}» 0
+#. ```
+#: Game.Levels.TestWorld.L05_test
+msgid "### ❯ The §0 tactic\n"
+"It would be good to *obtain* the hypothesis:\n"
+"§1\n"
+"and insert it into the proof-state. In order to do so, we'll use the §2 tactic. 🔍 Check out §3 entry in the **Tactics** tab.\n"
+"\n"
+"But how do we supply the §4 of our proposition? Our current hypothesis §5 says\n"
+"§6\n"
+"### **💡 Propositions as functions**\n"
+"We can view §7 as a function where the input is say §8 and the output §9 or more simply §10 is (the proof of) the proposition §11. 👉 Accordingly, try:\n"
+"§12\n"
+""
+msgstr ""
+
+#: Game.Levels.OrderWorld.L13_order
+msgid "No zero divisors"
+msgstr ""
+
+#: Game.Levels.OrderWorld.L14_order
+msgid "🔧 Cancellation will an important tool to use when reckoning with factoring."
+msgstr ""
+
+#: Game.Levels.FTAWorld.L01_FTA
+msgid "# **Level 1**\n"
+"This level combines what we know from **GCD World** and **Prime World**."
+msgstr ""
+
+#. §0: `l = []`
+#. §1: `⊢ [] = []`
+#: Game.Levels.PrimeWorld.L07_prime
+msgid "We're in the case where we are assuming §0. So the goal is §1 ... that one is pretty easy to clear."
+msgstr ""
+
+#: Game.Levels.DivisionWorld.L01_division
+msgid "A necessary and sufficient condition for divides"
+msgstr ""
+
+#. §0: `h`
+#. §1: `cases h`
+#: Game.Levels.PrimeWorld.L06_prime
+msgid "Assuming §0 is an inductive propostion, §1 splits the main goal, producing one goal for each constructor of the inductive type, in which the target is replaced by a general instance of that constructor."
+msgstr ""
+
+#: Game.Levels.FTAWorld.L08_FTA
+msgid "List products are fixed under permutation"
+msgstr ""
+
+#. §0: ```
+#. neg_mul_left : ∀ a b : Z, - (a * b) = -a * b
+#. ```
+#. §1: $∀ a , b ∈ ℤ$
+#. §2: $-(ab) = (-a)b$
+#: Game.Levels.TestWorld.L11_test
+msgid "As stated:\n"
+"§0\n"
+"Negatives can distribute to the left-member of a product. In particular, §1, we have §2."
+msgstr ""
+
+#: Game.Levels.TestWorld.L12_test
+#: Game.Levels.TestWorld.L13_test
+msgid "Divides is reflexive"
+msgstr ""
+
+#: Game.Levels.FTAWorld.L03_FTA
+msgid "# **Level 3**\n"
+"The only way that primes divide eachother is if they are equal."
+msgstr ""
+
+#: GameServer.RpcHandlers
+msgid "level completed! 🎉"
+msgstr ""
+
+#. §0: ```
+#. abs_pos : ∀ a : Z, 0 ≤ abs a
+#. ```
+#. §1: $a ∈ ℤ$
+#. §2: $0 ≤ |a|$
+#: Game.Levels.absWorld.L03_abs
+msgid "As stated:\n"
+"§0\n"
+"For all §1, we have §2."
+msgstr ""
+
+#: Game.Levels.FTAWorld.L12_FTA
+msgid "A smaller member of NUF"
+msgstr ""
+
+#. §0: `Prime`
+#. §1: $p$
+#. §2: $1 < p$
+#. §3: $d ∈ ℤ$
+#. §4: $0 < d$
+#. §5: $d ∣ p$
+#. §6: $d = 1$
+#. §7: $d= p$
+#: Game.Levels.PrimeWorld
+msgid "# **Welcome to Prime World!**\n"
+"In this world we'll learn about primes!\n"
+"### 🕮 §0\n"
+"We say an integer §1 is **prime** to mean that §2 and for all §3, if §4 and §5, then it must be that §6 or §7."
+msgstr ""
+
+#: Game.Levels.WOPWorld.L04_WOP
+msgid "We can clear this goal similarly with one line."
+msgstr ""
+
+#: Game.Levels.FTAWorld.L08_FTA
+msgid "And now the **swap** constructor."
+msgstr ""
+
+#. §0: `x`
+#. §1: `induction x`
+#. §2: `x`
+#: Game.Levels.FTAWorld.L05_FTA
+msgid "Assuming §0 is a variable in the local context with an inductive type, §1 applies induction on §2 to the main goal, producing one goal for each constructor of the inductive type, in which the target is replaced by a general instance of that constructor and an **inductive hypothesis** is added for each **recursive** argument to the constructor."
+msgstr ""
+
+#: Game.Levels.FTAWorld.L06_FTA
+msgid "A product of primes is positive."
+msgstr ""
+
+#: Game.Levels.WOPWorld.L09_WOP
+msgid "Magnifying by multiplication"
+msgstr ""
+
+#. §0: `le_def`
+#. §1: `rw[le_def] at «{a_le_b}»`
+#: Game.Levels.OrderWorld.L02_order
+msgid "🔍 Check out the definition for §0 in the **Definitions** tab. 👉 Try §1 to make the underlying disjunction more visible."
+msgstr ""
+
+#. §0: `[«{p}»]`
+#. §1: `⊢ Prime «{p}»`
+#: Game.Levels.PrimeWorld.L06_prime
+msgid "We're now in the case where we want to show that the **head** of the list §0 is prime. This comes down to simply showing that §1."
+msgstr ""
+
+#. §0: $S$
+#. §1: $u ∈ ℤ$
+#. §2: $m$
+#. §3: $\\{ y ∈ ℤ ∣ ∃ s ∈ S, y = u + -s \\}$
+#. §4: $u + -m$
+#. §5: $S$
+#: Game.Levels.WOPWorld.L03_WOP
+msgid "Let §0 be a non-empty set of integers, and let §1. Suppose §2 is a minimum of the set §3. Then §4 is maximum of §5."
+msgstr ""
+
+#. §0: `⊢ a = abs a`
+#: Game.Levels.absWorld.L05_abs
+msgid "Now we're back to the original goal §0."
+msgstr ""
+
+#. §0: `intro`
+#. §1: `unfold`
+#. §2: `unfold Set.subset`
+#. §3: ```
+#. intro x ⟨ s, ⟨hs,hx⟩ ⟩
+#. ```
+#: Game.Levels.WOPWorld.L02_WOP
+msgid "### **💡 Pro-tip**\n"
+"We should now §0 the appropriate contents. But again, we could do that **without unfolding** as well. To §1 a definition merely makes the definition more visible to the player. ⏮ In fact, we can go back to the §2 line and simply use:\n"
+"§3\n"
+"to completely destructure the hypothesis of the Active Goal.\n"
+""
+msgstr ""
+
+#: Game.Levels.GCDWorld.L10_GCD
+msgid "# **Level 10**\n"
+"**Boss Fight!** We prove Bezout's theorem in this level."
+msgstr ""
+
+#. §0: `rw[add_comm]`
+#. §1: `rw[add_zero]`
+#. §2: ```
+#. rw[add_comm,add_zero]
+#. ```
+#: Game.Levels.TestWorld.L04_test
+msgid "### **💡 Pro-tip**\n"
+"Instead of using §0 and §1 separately, we could have done them (sequentially) in one line with\n"
+"§2\n"
+"Sometimes it's hard to see ahead like that though; that being said, you can always ⏮ go back to a rewrite and add to it. This can shorten the number of prompts we need."
+msgstr ""
+
+#. §0: `«{a}»`
+#. §1: ```
+#. ⊢ ∀ b c : Z, a = b → a + c = b + c
+#. ```
+#. §2: `b c`
+#. §3: ```
+#. intro b c
+#. ```
+#: Game.Levels.TestWorld.L01_test
+msgid "This has introduced §0 as an arbitrary element in ℤ. 💡 Notice also how our goal has changed to\n"
+"§1\n"
+"We should introduce the variables §2. We can do both at the same time! 👉 Try\n"
+"§3\n"
+""
+msgstr ""
+
+#. §0: ```
+#. dvd_le : ∀ a b : Z, a ∣ b → 0 < b → a ≤ b
+#. ```
+#. §1: $a,b$
+#. §2: $a ∣ b$
+#. §3: $b$
+#. §4: $a ≤ b$
+#: Game.Levels.WOPWorld.L08_WOP
+msgid "As stated:\n"
+"§0\n"
+"For all integers §1, if §2 and §3 is positive, then §4."
+msgstr ""
+
+#: Game.Levels.FTAWorld
+msgid "FTA World"
+msgstr ""
+
+#: Game.Levels.WOPWorld.L09_WOP
+msgid "We'll generalize this lemma in the next level."
+msgstr ""
+
+#. §0: `simp`
+#. §1: `-«{b}» + «{b}»`
+#. §2: `0`
+#. §3: ```
+#. «{c}» + (0 + -«{a}»)
+#. ```
+#. §4: `0 + -«{a}» = -«{a}»`
+#. §5: `@[simp]`
+#. §6: `zero_add`
+#. §7: `«{h}»`
+#: Game.Levels.OrderWorld.L01_order
+msgid "In this case §0 rewrote §1 as §2 to get\n"
+"§3\n"
+"then it rewrote §4 (using the §5 tagged theorem §6) to get §7 in its current form. We're almost there..."
+msgstr ""
+
+#. §0: $S$
+#. §1: $S$
+#: Game.Levels.WOPWorld.L06_WOP
+msgid "If §0 is a non-empty subset of positive integers that is bounded above, then §1 contains a largest element."
+msgstr ""
+
+#. §0: `by_cases`
+#. §1: `P ∨ Q`
+#. §2: `P`
+#. §3: `¬ P`
+#. §4: `Q`
+#. §5: `by_cases`
+#. §6: `by_cases`
+#. §7: ```
+#.   by_cases aplus : a ∈ Zplus
+#.   ```
+#. §8: `∈`
+#. §9: `\\in`
+#: Game.Levels.OrderWorld.L12_order
+msgid "# **Level 12**\n"
+"We'll need a new tactic for this level.\n"
+"### ❯ The §0 tactic\n"
+"  In order to prove a disjunction like §1 it can be handy to breakdown into cases introduced by us. Specifically, if §2 is true, then we're done (this is the first case). If §3 is true, then we should try to prove that §4 is true specifically (this is the second case). In general, we use the §5 tactic to split our goal in this fashion. 🔍 Check out the documentation for §6 in the **Tactics** tab. 👉 In our situation, try:\n"
+"  §7\n"
+"### **⌨ Typesetting-tip**\n"
+"The symbol §8 is typeset with §9."
+msgstr ""
+
+#. §0: ```
+#. «{h'}» : («{a}» + «{b}») + -«{a}»
+#. ```
+#. §1: `«{a}» + «{b}»`
+#. §2: ```
+#. rw[add_comm] at «{h'}»
+#. ```
+#. §3: ```
+#. «{h'}» : -«{a}» + («{a}» + «{b}») = 0
+#. ```
+#. §4: `rw[add_comm] at «{h'}»`
+#. §5: `add_comm`
+#. §6: `«{h'}»`
+#. §7: `add_comm`
+#. §8: `add_comm`
+#. §9: ```
+#. ∀ x y : Z, x + y = y + x
+#. ```
+#. §10: `add_comm «{a}»`
+#. §11: ```
+#. ∀ y : Z, «{a}» + y = y + «{a}»
+#. ```
+#. §12: ```
+#. rw[add_comm a] at «{h'}»
+#. ```
+#: Game.Levels.TestWorld.L07_test
+msgid "That was a natural first step. The next might be tricky. We have\n"
+"§0\n"
+"It might be good to commute the §1 term. If we were to try\n"
+"§2\n"
+"we would obtain\n"
+"§3\n"
+"***But that's not what we wanted!*** This is because §4 applies the theorem §5 to the *first* addition expression encountered in §6. We need to supply a little guidance to §7 in order to commute the specific addition expression we have in mind.\n"
+"\n"
+"The theorem §8 is the proposition:\n"
+"§9\n"
+"This means that §10 is the proposition:\n"
+"§11\n"
+"👉 Accordingly, you might try to\n"
+"§12\n"
+""
+msgstr ""
+
+#. §0: ```
+#. ⊢ «{b}» + -«{b}» + («{d}» + -«{c}») ∈ Z⁺
+#. ```
+#: Game.Levels.OrderWorld.L09_order
+msgid "👉 Now try to rewrite the goal in the following form:\n"
+"§0\n"
+"This will involve quite a few rewrites.\n"
+""
+msgstr ""
+
+#: Game.Levels.OrderWorld.L10_order
+msgid "Easy peasy, lemon squeezy."
+msgstr ""
+
+#. §0: `Bez a b`
+#. §1: `b`
+#: Game.Levels.GCDWorld.L08_GCD
+msgid "Does the minimum of §0 divide §1 too?"
+msgstr ""
+
+#. §0: `simp`
+#: Game.Levels.WOPWorld.L01_WOP
+msgid "👉 The §0 tactic might be handy here."
+msgstr ""
+
+#. §0: `rw`
+#. §1: `apply`
+#: Game.Levels.TestWorld.L08_test
+msgid "# **Level 8**\n"
+"Let's get more practice with the syntax from the previous level. Specifically, let's try to guide the contents of the §0 tactic for the following theorem. We'll also have the opportunity to introduce a new tactic, §1, along the way."
+msgstr ""
+
+#. §0: `flip_pos_nonempty`
+#. §1: `⊢ T ⊆ Z⁺`
+#. §2: ```
+#. exact (flip_ne_pos S u S_ne umax).right
+#. ```
+#: Game.Levels.WOPWorld.L04_WOP
+msgid "The theorem §0 should be handy from here on out. The consequent of this theorem is a **conjunction**. 💡 The right-hand side of that conjunction is the current goal. 👉 Accordingly, we can clear the goal §1 with:\n"
+"§2\n"
+""
+msgstr ""
+
+#. §0: ```
+#. le_lt_trans : ∀ a b c : Z,
+#.   a ≤ b → b < c → a < c
+#. ```
+#. §1: $a,b,c ∈ Z$
+#. §2: $a ≤ b$
+#. §3: $b < c$
+#. §4: $a < c$
+#: Game.Levels.OrderWorld.L02_order
+#: Game.Levels.OrderWorld.L11_order
+#: Game.Levels.OrderWorld.L14_order
+#: Game.Levels.OrderWorld.L15_order
+msgid "As stated:\n"
+"§0\n"
+"For all §1, if §2 and §3, then §4."
+msgstr ""
+
+#: Game.Levels.FTAWorld.L08_FTA
+#: Game.Levels.FTAWorld.L09_FTA
+msgid "If two lists of integers are permutations of each other, then they have the same product."
+msgstr ""
+
+#. §0: $m,p ∈ ℤ$
+#. §1: $1 < m$
+#. §2: $p$
+#. §3: $m$
+#. §4: $pq = m$
+#. §5: $q$
+#. §6: $m$
+#. §7: $1$
+#. §8: $m$
+#: Game.Levels.PrimeWorld.L09_prime
+msgid "For all §0, if §1 and §2 is prime factor of §3, say §4, then §5 is a proper factor of §6 (greater than §7 but less than §8)."
+msgstr ""
+
+#: Game.Levels.WOPWorld.L10_WOP
+msgid "🙌 ***Congrats!*** You've cleared WOP World!"
+msgstr ""
+
+#. §0: `List Z`
+#. §1: ```
+#. def List.prod : List Z → Z
+#. | []             => (1:Z) --The product of the empty list is : 1.
+#. | (head :: tail) => head * tail.prod
+#. ```
+#. §2: `l : List Z`
+#. §3: `l.prod`
+#. §4: `List.prod l`
+#: Game.Levels.PrimeWorld.L06_prime
+msgid "The product of a §0. This is a custom definition for the FTA game. This definition is recursive. Here's what it looks like in Lean:\n"
+"§1\n"
+"If §2, then §3 is equivalent to §4."
+msgstr ""
+
+#. §0: $m$
+#. §1: $1$
+#. §2: $m$
+#: Game.Levels.PrimeWorld.L04_prime
+msgid "# **Level 4**\n"
+"If §0 is greater than §1 and not prime, then we say that §2 is **composite**. This exercise provides a useful necessary (and sufficient) condition for compositeness."
+msgstr ""
+
+#: Game.Levels.TestWorld.L01_test
+msgid "Addition on the right"
+msgstr ""
+
+#. §0: `«{T}»`
+#. §1: `S`
+#. §2: `WOP`
+#. §3: `by_wop`
+#. §4: `WOP`
+#. §5: `by_wop`
+#. §6: `by_wop`
+#. §7: ```
+#. by_wop «{T}» with m ⟨ patt ⟩ hmin
+#. ```
+#. §8: `⟨ patt ⟩`
+#. §9: `rcases`
+#. §10: `m ∈ «{T}»`
+#: Game.Levels.WOPWorld.L04_WOP
+msgid "**Why define this set to begin with?** The set §0 is guaranteed to have a smallest element by the well-ordering principle. From this smallest element, we hope to construct a largest element of §1. But how do we use §2?\n"
+"### ❯ The §3 tactic\n"
+"Although you can use the **axiom** §4 directly, it's a little easier to us the custom tactic §5. 🔍 Check out the entry for §6 in the **Tactics** tab. 👉 Our usage should look like\n"
+"§7\n"
+"where §8 destructures as in §9 the proposition §10."
+msgstr ""
+
+#. §0: `⊢ P ∨ Q`
+#. §1: `left`
+#. §2: `⊢ P`
+#: Game.Levels.OrderWorld.L05_order
+#: Game.Levels.OrderWorld.L05_order
+msgid "If our goal is of the form §0, the tactic §1 will make our goal §2."
+msgstr ""
+
+#. §0: `«{x}» : Z`
+#. §1: `«{hx}» : «{b}» = «{a}» * «{x}»`
+#. §2: `«{hbc}»`
+#: Game.Levels.TestWorld.L14_test
+msgid "**Note:** we now have that §0 in **Objects** and §1 in **Assumptions**. 👉 Now try to desctructure the hypothesis §2."
+msgstr ""
+
+#. §0: $a,b ∈ ℤ$
+#. §1: $b ∣ a$
+#. §2: $0$
+#. §3: $\\{ s ∈ Z ∣ 0 ≤ s ∧ ∃ q ∈ ℤ, s = a - bq \\}$
+#: Game.Levels.DivisionWorld.L01_division
+msgid "For all §0, if §1, then §2 is an element of the set\n"
+"§3."
+msgstr ""
+
+#. §0: `intro`
+#. §1: `rewrite`
+#. §2: `rfl`
+#. §3: `rw`
+#. §4: `rewrite`
+#. §5: `rfl`
+#. §6: `rewrite[h]`
+#. §7: `rw[h]`
+#: Game.Levels.TestWorld.L01_test
+msgid "We've proven our first theorem! And we've learned about the tactics §0, §1 and §2.\n"
+"\n"
+"### **💡 Pro-tip**\n"
+"In practice, we **almost always** use the variant §3 instead of §4 since the former will automatically try to clear the goal with §5 and thereby save us a line. So instead of §6 we could have used §7 and cleared the goal. ⏮ Go back and give it a try!"
+msgstr ""
