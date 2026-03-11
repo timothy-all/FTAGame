@@ -1,7 +1,7 @@
 msgid ""
 msgstr "Project-Id-Version: Game v4.23.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-10\n"
+"POT-Creation-Date: 2026-03-11\n"
 "Last-Translator: \n"
 "Language-Team: none\n"
 "Language: en\n"
@@ -968,24 +968,6 @@ msgstr ""
 msgid "🔧 This exercise will keep us from redundantly, superfluously, and repeatedly repeating ourselves over and over and over again."
 msgstr ""
 
-#. §0: `h : 0 ∈ Z⁺`
-#. §1: ```
-#. exact non_trivial h
-#. ```
-#. §2: `hnp : ¬ P`
-#. §3: `hp : P`
-#. §4: `hnp hp`
-#. §5: `False`
-#. §6: `by_contra`
-#: Game.Levels.OrderWorld.L03_order
-msgid "### **💡 Pro-tip**\n"
-"Once we have the hypothesis §0, we could have cleared the goal with one line:\n"
-"§1\n"
-"In general, if §2 is a known theorem or hypothesis and §3 is a known theorem or hypothesis, then §4 is a proof of §5.\n"
-"\n"
-"🔧 The §6 tactic will be very handy going forward."
-msgstr ""
-
 #. §0: ```
 #. add_neg_lt_swap : ∀ a b c : Z,
 #.   a + -b < c → a + -c < b
@@ -1043,10 +1025,6 @@ msgstr ""
 
 #: Game.Levels.PrimeWorld.L07_prime
 msgid "The empty list is a prime list"
-msgstr ""
-
-#: Game.Levels.TestWorld.L03_test
-msgid "We can also multiply on the right across an equality of integers."
 msgstr ""
 
 #. §0: ```
@@ -1658,6 +1636,18 @@ msgstr ""
 
 #: Game.Levels.GCDWorld.L10_GCD
 msgid "Bezout's Theorem"
+msgstr ""
+
+#. §0: `hnp : ¬ P`
+#. §1: `hp : P`
+#. §2: `hnp hp`
+#. §3: `False`
+#. §4: `by_contra`
+#: Game.Levels.OrderWorld.L03_order
+msgid "### **💡 Pro-tip**\n"
+"In general, if §0 is a known theorem or hypothesis and §1 is a known theorem or hypothesis, then §2 is a proof of §3.\n"
+"\n"
+"🔧 The §4 tactic will be very handy going forward."
 msgstr ""
 
 #. §0: $ℤ$
@@ -3318,6 +3308,10 @@ msgstr ""
 msgid "A simple additive cancellation rule."
 msgstr ""
 
+#: Game.Levels.TestWorld.L03_test
+msgid "We can also multiply on the left across an equality of integers."
+msgstr ""
+
 #. §0: $a,b,p ∈ ℤ$
 #. §1: $p$
 #. §2: $p ∣ ab$
@@ -4773,6 +4767,16 @@ msgid "The same as\n"
 "will **keep** the hypothesis §2 in addition to destructuring that hypothesis with §3. The former version destructures and **consumes** that hypothesis with §4."
 msgstr ""
 
+#. §0: `non_trivial`
+#. §1: ```
+#. exact non_trivial «{x_pos}»
+#. ```
+#: Game.Levels.OrderWorld.L03_order
+msgid "Excellent! We're almost home. We need to use the §0 axiom. 👉 Try:\n"
+"§1\n"
+""
+msgstr ""
+
 #. §0: `add_zero`
 #: Game.Levels.TestWorld.L04_test
 msgid "The right additive identity codified by §0 in **Definitions** is also a left additive identity."
@@ -4820,11 +4824,6 @@ msgstr ""
 #. §4: $0 ≤ r < |b|$
 #: Game.Levels.DivisionWorld.L06_division
 msgid "For all §0, if §1, then there exists §2 such that §3 and §4."
-msgstr ""
-
-#. §0: `non_trivial`
-#: Game.Levels.OrderWorld.L03_order
-msgid "Excellent! We're almost home. We need to use the §0 axiom."
 msgstr ""
 
 #: Game.Levels.GCDWorld.L09_GCD
