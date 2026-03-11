@@ -23,7 +23,7 @@ $$ ∀ a,b,c ∈ ℤ, if a = b, then ca = cb.$$
 -/
 TheoremDoc mul_on_left as "Rng : mul_on_left"
 
-/-- We can also multiply on the right across an equality of integers.-/
+/-- We can also multiply on the left across an equality of integers.-/
 Statement mul_on_left : ∀ a b c : Z, a = b → c * a  = c * b := by
   intro a b c h
   Hint "### **← Backwards substitution**

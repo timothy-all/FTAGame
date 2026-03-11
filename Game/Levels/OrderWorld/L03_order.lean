@@ -87,15 +87,15 @@ Statement one_ne_zero : (1 : Z) ≠ 0 := by
   rw[← mul_one x] at x_pos
   rw[F] at x_pos
   rw[mul_zero] at x_pos
-  Hint "Excellent! We're almost home. We need to use the `non_trivial` axiom."
+  Hint "Excellent! We're almost home. We need to use the `non_trivial` axiom. 👉 Try:
+  ```
+  exact non_trivial {x_pos}
+  ```
+  "
   exact non_trivial x_pos
 
 Conclusion "
 ### **💡 Pro-tip**
-Once we have the hypothesis `h : 0 ∈ Z⁺`, we could have cleared the goal with one line:
-```
-exact non_trivial h
-```
 In general, if `hnp : ¬ P` is a known theorem or hypothesis and `hp : P` is a known theorem or hypothesis, then `hnp hp` is a proof of `False`.
 
 🔧 The `by_contra` tactic will be very handy going forward.
