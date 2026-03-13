@@ -123,7 +123,7 @@ Statement not_lt (a b : Z) : ¬(a < b) ↔ b ≤ a := by
   obtain tri := trichotomy (b + -a)
   Hint "The hypothesis `{tri}` is a three-part disjunction whose individual parts are themselves three-part conjunctions. Use `rcases` to destructure this hypothesis appropriately."
   rcases tri with ⟨t1,_,_⟩ | ⟨_,t2,_⟩ | ⟨ _,_,t3⟩
-  Hint "### 💡 Pro-tip
+  Hint "### **💡 Pro-tip**
   Even better, we could have done this in one line using the pattern matching ability of `obtain`:
   ```
   obtain ⟨t1,_,_⟩ | ⟨_,t2,_⟩ | ⟨_,_,t3⟩ := trichotomy (b + -a)
